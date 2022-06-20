@@ -3,8 +3,8 @@ import "./Index.css"
 
 const Hero = () => {
    return (
-      <section class="hero">
-         <div class="container">
+      <section className="hero">
+         <div className="container">
             <h1>
                WE ARE <br />A VETERAN <br />
                SERVING VETERANS

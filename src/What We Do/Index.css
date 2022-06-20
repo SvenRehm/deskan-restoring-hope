@@ -5,43 +5,54 @@
 }
 
 .container2 {
-   height: 100%;
    display: grid;
-   grid-template-columns: repeat(12, 1fr);
-
+   grid-gap: 2em;
+   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+   justify-items: center;
+   align-items: center;
    width: 1160px;
    margin: 0 auto;
 }
-h2 {
-   grid-row: 1;
+.whatwedo h2 {
    font-size: 2.2em;
 
-   grid-column: 1/15;
+   text-align: center;
    color: var(--main-accent-color);
    margin-bottom: 2.2em;
 }
 
 .card {
-   grid-row: 2;
-   grid-column: 1;
+   height: 100%;
    width: 320px;
+   border: solid 1px rgba(109, 109, 109, 0.342);
 }
-.card h2 {
-   margin: 1.4em 0;
+
+.card-content h2 {
+   text-align: left;
+   margin-bottom: 0;
    font-size: 1.25em;
    color: var(--main-black-color);
-   padding: 0 2em;
+   padding: 1.4em 1.4em 0.9em 1.4em;
 }
+
 .card p {
    font-size: 1em;
    color: var(--main-grey-color);
    line-height: 1.5;
-   padding: 0 2em;
+   padding: 0.6em 2em 0.5em 2em;
 }
 .card a {
+   padding: 1em;
+   margin: 1.4em auto;
+}
+.card-readmore {
+   padding: 1em 0;
+   width: 100%;
    text-align: center;
 }
 img {
+   z-index: 20;
+   display: block;
    width: 100%;
    height: 215px;
    object-fit: cover;

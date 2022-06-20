@@ -1,16 +1,17 @@
 import React from "react"
 import "./Index.css"
 import image from "../Images/woman sitting in front of closed door.jpg"
-const Card = () => {
+const Card = ({ img, title, text, link }) => {
    return (
       <section className="card">
-         <img src={image} alt="i" />
-         <h2>Veterans Services</h2>
-         <p>
-            Veterans have disproportionate rates of mental illness, particularly
-            posttraumatic stress disorder (PTSD).
-         </p>
-         <a href="/">Learn More</a>
+         <img src={img} alt="i" />
+         <div className="card-content">
+            <h2>{title}</h2>
+            <p>{text}</p>
+            <div className="card-readmore">
+               <a href={link}>Learn More</a>
+            </div>
+         </div>
       </section>
    )
 }
