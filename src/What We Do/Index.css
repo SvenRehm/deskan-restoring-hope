@@ -1,0 +1,48 @@
+.whatwedo {
+   padding: 3em 0;
+   width: 100%;
+   background-color: var(--very-light-accent);
+}
+
+.container2 {
+   height: 100%;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+
+   width: 1160px;
+   margin: 0 auto;
+}
+h2 {
+   grid-row: 1;
+   font-size: 2.2em;
+
+   grid-column: 1/15;
+   color: var(--main-accent-color);
+   margin-bottom: 2.2em;
+}
+
+.card {
+   grid-row: 2;
+   grid-column: 1;
+   width: 320px;
+}
+.card h2 {
+   margin: 1.4em 0;
+   font-size: 1.25em;
+   color: var(--main-black-color);
+   padding: 0 2em;
+}
+.card p {
+   font-size: 1em;
+   color: var(--main-grey-color);
+   line-height: 1.5;
+   padding: 0 2em;
+}
+.card a {
+   text-align: center;
+}
+img {
+   width: 100%;
+   height: 215px;
+   object-fit: cover;
+}

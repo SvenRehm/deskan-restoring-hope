@@ -3,10 +3,10 @@
    top: 0;
    width: 100%;
    display: flex;
-   justify-content: center;
-   background-color: var(--main-black-color);
+   align-items: center;
    z-index: 2;
    height: 90px;
+   /* background-color: var(--main-black-color); */
 }
 ul {
    display: flex;
@@ -17,20 +17,22 @@ ul {
    width: 1160px;
    margin: 0 auto;
 }
+.alllinks {
+   display: flex;
+}
 
 li a {
    display: inline-block;
-
    text-transform: uppercase;
    letter-spacing: 1px;
    text-decoration: none;
    color: var(--main-white-color);
    font-size: 0.9em;
-
-   padding: 0.9em 1.3em;
+   padding: 0.9em 1.4em;
 }
 
 .logo {
+   margin-left: auto;
    background-color: var(--main-black-color);
    padding: 0;
 }

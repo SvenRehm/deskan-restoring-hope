@@ -6,34 +6,37 @@ const Navigation = () => {
    return (
       <div className="nav-container">
          <ul>
-            <li>
-               <a className="logo" href="/">
-                  {<Logo />}
-               </a>
-            </li>
-
-            <li>
-               <a className="active" href="/">
-                  Home
-               </a>
-            </li>
-            <li>
-               <a href="/">Ways to Help</a>
-            </li>
-            <li>
-               <a href="/">Programms</a>
-            </li>
-            <li>
-               <a href="/">Resources</a>
-            </li>
-            <li>
-               <a href="/">Contact</a>
-            </li>
-            <li>
-               <a className="donate-button" href="/">
-                  Donate
-               </a>
-            </li>
+            <div className="Logos">
+               <li>
+                  <a className="logo" href="/">
+                     {<Logo />}
+                  </a>
+               </li>
+            </div>
+            <div className="alllinks">
+               <li>
+                  <a className="active" href="/">
+                     Home
+                  </a>
+               </li>
+               <li>
+                  <a href="/">Ways to Help</a>
+               </li>
+               <li>
+                  <a href="/">Programms</a>
+               </li>
+               <li>
+                  <a href="/">Resources</a>
+               </li>
+               <li>
+                  <a href="/">Contact</a>
+               </li>
+               <li>
+                  <a className="donate-button" href="/">
+                     Donate
+                  </a>
+               </li>
+            </div>
          </ul>
       </div>
    )

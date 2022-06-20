@@ -1,0 +1,52 @@
+.hero {
+   width: 100vw;
+   height: 95vh;
+
+   background-image: url(/src/Images/womenvets.jpg);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-color: rgba(0, 0, 0, 0.49);
+   background-blend-mode: multiply;
+}
+
+.hero h1 {
+   grid-row: 7/8;
+   grid-column: 1/8;
+   color: var(--main-white-color);
+   font-size: 2.5em;
+   line-height: 1.2;
+}
+.hero h2 {
+   font-weight: 300;
+   grid-row: 8/8;
+   grid-column: 1/8;
+   font-size: 1.9em;
+   margin-top: 0.9em;
+   color: var(--main-white-color);
+}
+.button {
+   text-transform: uppercase;
+   text-decoration: none;
+   letter-spacing: 1px;
+   font-size: 0.9em;
+
+   background-color: var(--main-accent-color);
+   color: var(--main-white-color);
+   grid-column: 1/8;
+   grid-row: 10/10;
+   height: 40px;
+   width: 150px;
+   border: none;
+}
+.button:hover {
+   background-color: var(--main-white-color);
+   color: var(--main-accent-color);
+   cursor: pointer;
+}
+.donate {
+   margin-left: 0;
+}
+.involved {
+   grid-column: 3/8;
+}

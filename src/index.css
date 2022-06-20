@@ -24,4 +24,13 @@ body {
    --main-accent-color: #5927e5;
    --main-grey-color: #4d4d4d;
    --dark-accent-color: #350044;
+   --very-light-accent: #f9f5ff;
+}
+.container {
+   height: 100%;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: repeat(12, 1fr);
+   width: 1160px;
+   margin: 0 auto;
 }
