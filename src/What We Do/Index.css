@@ -10,18 +10,18 @@
    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
    justify-items: center;
    align-items: center;
-   width: 1160px;
+   max-width: 1160px;
    margin: 0 auto;
 }
 .whatwedo h2 {
    font-size: 2.2em;
-
    text-align: center;
    color: var(--main-accent-color);
    margin-bottom: 2.2em;
 }
 
 .card {
+   position: relative;
    height: 100%;
    width: 320px;
    border: solid 1px rgba(109, 109, 109, 0.342);
@@ -39,18 +39,20 @@
    font-size: 1em;
    color: var(--main-grey-color);
    line-height: 1.5;
-   padding: 0.6em 2em 0.5em 2em;
+   padding: 0.6em 2em 4.5em 2em;
 }
 .card a {
    padding: 1em;
    margin: 1.4em auto;
 }
 .card-readmore {
+   position: absolute;
+   bottom: 15px;
    padding: 1em 0;
    width: 100%;
    text-align: center;
 }
-img {
+.card img {
    z-index: 20;
    display: block;
    width: 100%;

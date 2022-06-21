@@ -1,0 +1,27 @@
+.sponsors {
+   width: 100%;
+   background-color: var(--ligh-grey);
+}
+.sponsoricon {
+   width: 120px;
+   height: 120px;
+
+   margin: 0 0 0 0.3em;
+   background-color: white;
+   overflow: hidden;
+}
+.sponsoricon img {
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+}
+
+.sponsors ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   list-style: none;
+   padding: 3em 0;
+   width: 1160px;
+   margin: 0 auto;
+}

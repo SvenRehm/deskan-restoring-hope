@@ -8,7 +8,7 @@
    height: 90px;
    /* background-color: var(--main-black-color); */
 }
-ul {
+.nav-container ul {
    display: flex;
    align-items: center;
    justify-content: space-between;

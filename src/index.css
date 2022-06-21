@@ -11,19 +11,15 @@ body {
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    background-color: rgb(41, 41, 41);
+}
 
-   height: 2000px;
-}
-.container {
-   max-width: 1160px;
-   margin: 0 auto;
-}
 :root {
    --main-white-color: #fffaf2;
    --main-black-color: #111111;
    --main-accent-color: #5927e5;
-   --main-grey-color: #4d4d4d;
    --dark-accent-color: #350044;
+   --main-grey-color: #4d4d4d;
+   --ligh-grey: #e8e8e8;
    --very-light-accent: #f9f5ff;
 }
 .container {
@@ -31,6 +27,6 @@ body {
    display: grid;
    grid-template-columns: repeat(12, 1fr);
    grid-template-rows: repeat(12, 1fr);
-   width: 1160px;
+   max-width: 1160px;
    margin: 0 auto;
 }
