@@ -1,20 +1,29 @@
 import "./App.css"
 import Navigation from "./Navigation/Navigation"
-import Hero from "./Hero/Hero"
-import WhatWeDo from "./What We Do/WhatWeDo"
-import Info from "./Info/Info"
-import HomeAboutUs from "./Home-AboutUs/HomeAboutUs"
-import SponsorsAndPartners from "./SponsorsAndPartners/SponsorsAndPartners"
+
+import Footer from "./Footer/Footer"
+import Home from "./Routes/Home/Home"
+import About from "./Routes/About/About"
+import { Routes, Route } from "react-router-dom"
+
 function App() {
    return (
       <div className="App">
          <>
             <Navigation />
-            <Hero />
-            <WhatWeDo />
-            <Info />
-            <HomeAboutUs />
-            <SponsorsAndPartners />
+            <Routes>
+               <Route path="/" element={<Home />} />
+               <Route path="about" element={<About />} />
+               <Route
+                  path="*"
+                  element={
+                     <main style={{ padding: "1rem" }}>
+                        <p>There's nothing here!</p>
+                     </main>
+                  }
+               />
+            </Routes>
+            <Footer />
          </>
       </div>
    )

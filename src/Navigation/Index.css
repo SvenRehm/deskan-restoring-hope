@@ -4,11 +4,15 @@
    width: 100%;
    display: flex;
    align-items: center;
-   z-index: 2;
+   z-index: 500;
    height: 90px;
+   transition: all 400ms ease-in;
    /* background-color: var(--main-black-color); */
 }
-.nav-container ul {
+.nav-container.show-nav {
+   background-color: var(--main-black-color);
+}
+.nav-container .main-navigation {
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -19,9 +23,10 @@
 }
 .alllinks {
    display: flex;
+   position: relative;
 }
 
-li a {
+.alllinks > li a {
    display: inline-block;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -29,22 +34,28 @@ li a {
    color: var(--main-white-color);
    font-size: 0.9em;
    padding: 0.9em 1.4em;
+
+   transition: all 300ms linear;
 }
 
 .logo {
    margin-left: auto;
-   background-color: var(--main-black-color);
+
    padding: 0;
 }
 .logo:hover {
-   background-color: var(--main-black-color);
+   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+   background-color: transparent;
+   /* transform: scale(1); */
 }
 
-li a:hover {
+.alllinks > li a:hover {
    color: var(--main-black-color);
    background-color: var(--main-white-color);
+   box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
 }
-li a.active {
+
+.alllinks > li a.isActive {
    color: var(--main-black-color);
    background-color: var(--main-white-color);
 }
@@ -56,4 +67,33 @@ li a.active {
 .donate-button:hover {
    background-color: var(--main-white-color);
    color: var(--main-accent-color);
+}
+
+.dropdown {
+   position: absolute;
+   max-width: 350px;
+   background-color: var(--main-white-color);
+   list-style: none;
+   left: 5.73em;
+   top: 2.75em;
+}
+.dropdown > li a {
+   width: 100%;
+   display: inline-block;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-decoration: none;
+   color: var(--main-black-color);
+   font-size: 0.9em;
+   padding: 0.9em 1.4em;
+   transition: all 300ms linear;
+}
+.alllinks .dropdown-hover a {
+   color: var(--main-black-color);
+   background-color: var(--main-white-color);
+}
+
+.dropdown > li a:hover {
+   color: var(--main-black-color);
+   background-color: #a382ff;
 }

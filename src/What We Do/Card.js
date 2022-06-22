@@ -1,6 +1,6 @@
 import React from "react"
 import "./Index.css"
-import image from "../Images/woman sitting in front of closed door.jpg"
+
 const Card = ({ img, title, text, link }) => {
    return (
       <section className="card">
