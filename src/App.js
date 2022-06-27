@@ -12,8 +12,8 @@ function App() {
          <>
             <Navigation />
             <Routes>
-               <Route path="/" element={<Home />} />
-               <Route path="about" element={<About />} />
+               <Route path="/deskan-restoring-hope/" element={<Home />} />
+               <Route path="/deskan-restoring-hope/about" element={<About />} />
                <Route
                   path="*"
                   element={

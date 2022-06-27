@@ -45,7 +45,7 @@ const Navigation = () => {
          <ul className="main-navigation">
             <div className="Logos">
                <li>
-                  <NavLink className="logo" to="/">
+                  <NavLink className="logo" to="/deskan-restoring-hope/">
                      {<Logo />}
                   </NavLink>
                </li>
@@ -72,7 +72,7 @@ const Navigation = () => {
                   onMouseEnter={onMouseEnterTwo}
                   onMouseLeave={onMouseLeaveTwo}
                >
-                  <a href="/">Programms</a>
+                  <a href="/deskan-restoring-hope/">Programms</a>
                </li>
                {dropdownProgramm && (
                   <Dropdown
@@ -87,7 +87,7 @@ const Navigation = () => {
                   onMouseEnter={onMouseEnterThree}
                   onMouseLeave={onMouseLeaveThree}
                >
-                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/deskan-restoring-hope/">About</NavLink>
                </li>
                {dropdownAbout && (
                   <Dropdown
@@ -105,7 +105,7 @@ const Navigation = () => {
                            color: isActive ? "#111111" : "",
                         }
                      }}
-                     to="/"
+                     to="/deskan-restoring-hope/"
                   >
                      Resources
                   </NavLink>
@@ -118,7 +118,7 @@ const Navigation = () => {
                            color: isActive ? "#111111" : "",
                         }
                      }}
-                     to="/about"
+                     to="/deskan-restoring-hope/about"
                   >
                      Contact
                   </NavLink>
