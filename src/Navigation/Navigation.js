@@ -56,7 +56,9 @@ const Navigation = () => {
                   onMouseEnter={onMouseEnter}
                   onMouseLeave={onMouseLeave}
                >
-                  <NavLink to="">Ways to Help</NavLink>
+                  <a href="/" onClick={(event) => event.preventDefault()}>
+                     Ways to Help
+                  </a>
                </li>
                {dropdown && (
                   <Dropdown
@@ -72,7 +74,9 @@ const Navigation = () => {
                   onMouseEnter={onMouseEnterTwo}
                   onMouseLeave={onMouseLeaveTwo}
                >
-                  <a href="/deskan-restoring-hope/">Programms</a>
+                  <a href="/" onClick={(event) => event.preventDefault()}>
+                     Programms
+                  </a>
                </li>
                {dropdownProgramm && (
                   <Dropdown
@@ -87,7 +91,9 @@ const Navigation = () => {
                   onMouseEnter={onMouseEnterThree}
                   onMouseLeave={onMouseLeaveThree}
                >
-                  <NavLink to="/deskan-restoring-hope/">About</NavLink>
+                  <a href="/" onClick={(event) => event.preventDefault()}>
+                     About
+                  </a>
                </li>
                {dropdownAbout && (
                   <Dropdown

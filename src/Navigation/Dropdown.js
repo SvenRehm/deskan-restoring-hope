@@ -1,6 +1,6 @@
 import React from "react"
 import "./Index.css"
-
+import { Link } from "react-router-dom"
 // import { NavLink } from "react-router-dom"
 const Dropdown = ({
    dropdownContent,
@@ -15,7 +15,7 @@ const Dropdown = ({
             onMouseLeave={onMouseLeave}
             key={item.id}
          >
-            <a href={item.path}>{item.title}</a>
+            <Link to={item.path}>{item.title}</Link>
          </li>
       )
    })
