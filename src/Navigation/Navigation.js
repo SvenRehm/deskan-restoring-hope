@@ -6,21 +6,37 @@ import Dropdown from "./Dropdown"
 import { NavLink } from "react-router-dom"
 
 import { WaysToHelpContent } from "./WaysToHelpContent"
+import { ProgrammsContent } from "./ProgrammsContent"
+import { AboutContent } from "./AboutContent"
 const Navigation = () => {
    const [navbar, setNavbar] = useState(false)
    const [dropdown, setDropdown] = useState(false)
+   const [dropdownProgramm, setDropdownProgramm] = useState(false)
+   const [dropdownAbout, setDropdownAbout] = useState(false)
    const showNavbarBackground = () => {
       window.scrollY >= 100 ? setNavbar(true) : setNavbar(false)
    }
 
    window.addEventListener("scroll", showNavbarBackground)
 
-   const onMouseEnter = (e) => {
-      console.log(e.target)
+   const onMouseEnter = () => {
       setDropdown(true)
    }
    const onMouseLeave = () => {
       setDropdown(false)
+   }
+
+   const onMouseEnterTwo = () => {
+      setDropdownProgramm(true)
+   }
+   const onMouseLeaveTwo = () => {
+      setDropdownProgramm(false)
+   }
+   const onMouseEnterThree = () => {
+      setDropdownAbout(true)
+   }
+   const onMouseLeaveThree = () => {
+      setDropdownAbout(false)
    }
    // <Link to="/invoices">Invoices</Link>
    // <Link to="/expenses">Expenses</Link>
@@ -35,6 +51,52 @@ const Navigation = () => {
                </li>
             </div>
             <div className="alllinks">
+               <li
+                  className={dropdown ? "dropdown-hover" : ""}
+                  onMouseEnter={onMouseEnter}
+                  onMouseLeave={onMouseLeave}
+               >
+                  <NavLink to="">Ways to Help</NavLink>
+               </li>
+               {dropdown && (
+                  <Dropdown
+                     dropdownClass={"dropdown"}
+                     onMouseEnter={onMouseEnter}
+                     onMouseLeave={onMouseLeave}
+                     dropdownContent={WaysToHelpContent}
+                  ></Dropdown>
+               )}
+
+               <li
+                  className={dropdownProgramm ? "dropdown-hover" : ""}
+                  onMouseEnter={onMouseEnterTwo}
+                  onMouseLeave={onMouseLeaveTwo}
+               >
+                  <a href="/">Programms</a>
+               </li>
+               {dropdownProgramm && (
+                  <Dropdown
+                     dropdownClass={"dropdown2"}
+                     onMouseEnter={onMouseEnterTwo}
+                     onMouseLeave={onMouseLeaveTwo}
+                     dropdownContent={ProgrammsContent}
+                  ></Dropdown>
+               )}
+               <li
+                  className={dropdownAbout ? "dropdown-hover" : ""}
+                  onMouseEnter={onMouseEnterThree}
+                  onMouseLeave={onMouseLeaveThree}
+               >
+                  <NavLink to="/">About</NavLink>
+               </li>
+               {dropdownAbout && (
+                  <Dropdown
+                     dropdownClass={"dropdown3"}
+                     onMouseEnter={onMouseEnterThree}
+                     onMouseLeave={onMouseLeaveThree}
+                     dropdownContent={AboutContent}
+                  ></Dropdown>
+               )}
                <li>
                   <NavLink
                      style={({ isActive }) => {
@@ -45,29 +107,8 @@ const Navigation = () => {
                      }}
                      to="/"
                   >
-                     Home
+                     Resources
                   </NavLink>
-               </li>
-               <li
-                  className={dropdown ? "dropdown-hover" : ""}
-                  onMouseEnter={onMouseEnter}
-                  onMouseLeave={onMouseLeave}
-               >
-                  <NavLink to="">Ways to Help</NavLink>
-               </li>
-               {dropdown && (
-                  <Dropdown
-                     onMouseEnter={onMouseEnter}
-                     onMouseLeave={onMouseLeave}
-                     dropdownContent={WaysToHelpContent}
-                  ></Dropdown>
-               )}
-
-               <li>
-                  <a href="/">Programms</a>
-               </li>
-               <li>
-                  <a href="/">Resources</a>
                </li>
                <li>
                   <NavLink

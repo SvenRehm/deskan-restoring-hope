@@ -2,9 +2,12 @@ import React from "react"
 import "./Index.css"
 
 // import { NavLink } from "react-router-dom"
-const Dropdown = ({ dropdownContent, onMouseEnter, onMouseLeave }) => {
-   //    const [dropdown, setDropdown] = useState(false)
-   console.log(dropdownContent)
+const Dropdown = ({
+   dropdownContent,
+   onMouseEnter,
+   onMouseLeave,
+   dropdownClass,
+}) => {
    const allDropdownItems = dropdownContent.map((item) => {
       return (
          <li
@@ -16,7 +19,7 @@ const Dropdown = ({ dropdownContent, onMouseEnter, onMouseLeave }) => {
          </li>
       )
    })
-   return <ul className="dropdown">{allDropdownItems}</ul>
+   return <ul className={dropdownClass}>{allDropdownItems}</ul>
 }
 
 export default Dropdown
