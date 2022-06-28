@@ -41,14 +41,23 @@
    margin: 0em auto;
    padding: 4em 0 10em 0;
 }
+.blog-grid h2 {
+   grid-column: 1/8;
+   font-size: 2em;
+   margin: 0 0 1em 0;
+   line-height: 1.5;
+}
 .blog-grid h3 {
+   font-size: 1.2em;
+   font-weight: 500;
    grid-column: 1/8;
    margin: 0 0 3em 0;
    line-height: 1.5;
 }
 .blog-grid p {
    grid-column: 1/7;
-   line-height: 1.5;
+   line-height: 1.6;
+   font-size: 1.1em;
 }
 .blog-grid img {
    grid-column: 8/13;
