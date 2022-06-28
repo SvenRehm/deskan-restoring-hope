@@ -105,12 +105,12 @@ const Navigation = () => {
                )}
                <li>
                   <NavLink
-                     style={({ isActive }) => {
-                        return {
-                           backgroundColor: isActive ? "#fffbf6" : "",
-                           color: isActive ? "#111111" : "",
-                        }
-                     }}
+                     // style={({ isActive }) => {
+                     //    return {
+                     //       backgroundColor: isActive ? "#fffbf6" : "",
+                     //       color: isActive ? "#111111" : "",
+                     //    }
+                     // }}
                      to="/deskan-restoring-hope/"
                   >
                      Resources
@@ -118,12 +118,12 @@ const Navigation = () => {
                </li>
                <li>
                   <NavLink
-                     style={({ isActive }) => {
-                        return {
-                           backgroundColor: isActive ? "#fffbf6" : "",
-                           color: isActive ? "#111111" : "",
-                        }
-                     }}
+                     // style={({ isActive }) => {
+                     //    return {
+                     //       backgroundColor: isActive ? "#fffbf6" : "",
+                     //       color: isActive ? "#111111" : "",
+                     //    }
+                     // }}
                      to="/deskan-restoring-hope/about"
                   >
                      Contact

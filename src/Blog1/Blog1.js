@@ -10,6 +10,7 @@ import { WaysToHelpContent } from "../Navigation/WaysToHelpContent"
 import { ProgrammsContent } from "../Navigation/ProgrammsContent"
 import { AboutContent } from "../Navigation/AboutContent"
 import heroImg from "../Images/helmet.jpg"
+import Happy from "../Images/Happy dad.jpg"
 
 const allArrays = [...WaysToHelpContent, ...ProgrammsContent, ...AboutContent]
 
@@ -40,7 +41,7 @@ const Blog1 = () => {
                <p dangerouslySetInnerHTML={{ __html: invoice[0].paragraph }}>
                   {/* {invoice[0].paragraph} */}
                </p>
-               <img src={heroImg} alt="blogimage" />
+               <img src={Happy} alt="blogimage" />
             </div>
          </section>
          <GetInvolved />

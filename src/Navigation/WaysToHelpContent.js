@@ -19,7 +19,7 @@ export const WaysToHelpContent = [
       title: "Join a committee",
       path: "/deskan-restoring-hope/committee",
       header: "Deskan Committees",
-      dest: "Volunteer with Us",
+      desc: "Volunteer with Us",
       paragraph: `<li>EDUCATION COMMITTEE: The Education Committee is responsible for planning and coordinating book drives, scholarships, college preparation programs, mentorship programs, tutoring programs, computer donations, school supply donations, food drives, clothes drive and other activities deemed necessary to enhance students’ ability to learn and therefore, improve their chances of becoming viable citizens in society.
       <li/>
       EVENT COMMITTEE: Our Event Committee responsibilities include, but are not limited to planning and coordination of various events and/or coordinate with the other committees and/or organizations. They will solicit volunteers to assist with carrying out their duties to ensure successful Events.
@@ -37,7 +37,7 @@ export const WaysToHelpContent = [
       title: "Become a sponsor",
       path: "/deskan-restoring-hope/sponsors",
       header: "Become a Sponsor",
-      dest: "We collaborate with organizations, churches, medical centers, businesses, sponsors, corporations and other service providers to help our communities, won't you please consider and become a partner or sponsor with us.",
+      desc: "We collaborate with organizations, churches, medical centers, businesses, sponsors, corporations and other service providers to help our communities, won't you please consider and become a partner or sponsor with us.",
       paragraph: `Since we are a non-profit organization, we deeply rely on sponsorship from sponsors like you. Sponsors are one of the vital arms in our organization. Your sponsorship can save the lives of many and help assure the success of Deskan in helping the needy both here and abroad.
       Please contact us for more information about becoming a partner or sponsoring.`,
    },
@@ -46,7 +46,7 @@ export const WaysToHelpContent = [
       title: "Be a partner",
       path: "/deskan-restoring-hope/partners",
       header: "Become a Partner",
-      dest: "We collaborate with organizations, churches, medical centers, businesses, sponsors, corporations and other service providers to help our communities, won't you please consider and become a partner or sponsor with us.",
+      desc: "We collaborate with organizations, churches, medical centers, businesses, sponsors, corporations and other service providers to help our communities, won't you please consider and become a partner or sponsor with us.",
       paragraph: `As a non-profit organization, we are always looking for partners to join us, whether it’s a long or short term collaboration partnership, we would love for your business, or organization to become partners with us.
 
    Partnership is about sharing, whether in resources or a common need, partnerships are essential to the success of our organization, it can be innovative, and boost efficiency to make a significant difference in the lives of the needy.
@@ -59,8 +59,8 @@ export const WaysToHelpContent = [
       id: 6,
       title: "Thank You",
       path: "/deskan-restoring-hope/thank-you",
-      header: "",
-      dest: "",
+      header: "Thank You All",
+      desc: "no description",
       paragraph: `Deskan Institute wishes to thank all our supporters, volunteers Board Members and well-wishers for your unbending support to our Organization.
 
    Our Missions would not succeed without your help. Over the past twenty-seven years, you have devoted your time, talents and resources to our Missions, without fail.
