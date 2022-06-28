@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deskan-restoring-hope/static/css/main.be3a2279.css",
+    "main.css": "/deskan-restoring-hope/static/css/main.893d14f1.css",
     "main.js": "/deskan-restoring-hope/static/js/main.e9a2a2ed.js",
     "static/js/787.122a7876.chunk.js": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js",
     "static/media/closet.jpg": "/deskan-restoring-hope/static/media/closet.fe0aa180a0c04543e932.jpg",
@@ -20,12 +20,12 @@
     "static/media/4.png": "/deskan-restoring-hope/static/media/4.9c5b18a8351e4c03bf36.png",
     "index.html": "/deskan-restoring-hope/index.html",
     "static/media/logo.svg": "/deskan-restoring-hope/static/media/logo.91dda6d972526251bacf29ac174c4d9f.svg",
-    "main.be3a2279.css.map": "/deskan-restoring-hope/static/css/main.be3a2279.css.map",
+    "main.893d14f1.css.map": "/deskan-restoring-hope/static/css/main.893d14f1.css.map",
     "main.e9a2a2ed.js.map": "/deskan-restoring-hope/static/js/main.e9a2a2ed.js.map",
     "787.122a7876.chunk.js.map": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be3a2279.css",
+    "static/css/main.893d14f1.css",
     "static/js/main.e9a2a2ed.js"
   ]
 }
