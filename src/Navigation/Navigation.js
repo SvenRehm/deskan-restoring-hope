@@ -130,9 +130,12 @@ const Navigation = () => {
                   </NavLink>
                </li>
                <li>
-                  <a className="donate-button" href="/">
+                  <NavLink
+                     className="donate-button"
+                     to="/deskan-restoring-hope/donate"
+                  >
                      Donate
-                  </a>
+                  </NavLink>
                </li>
             </div>
          </ul>

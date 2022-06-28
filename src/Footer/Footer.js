@@ -1,12 +1,12 @@
 import React from "react"
 import "./Index.css"
-
+import { Link } from "react-router-dom"
 const Footer = () => {
    return (
       <section className="footer-wrapper">
          <div className="footer">
             <ul className="footer-contact">
-               <li>CONTACT US</li>
+               <li>Contact Us</li>
                <li> Melbournes, FL. 32940</li>
                <li>321-775-3458</li> <li>404-234-2702</li>
                <li>Fax: 321-775-3082</li>
@@ -14,6 +14,47 @@ const Footer = () => {
                <li>DeskanInstitute@Gmail.com</li>
                <li>charlys424@bellsouth.net</li>
             </ul>
+            <ul className="footer-nav">
+               <li>Navigation</li>
+               <li>
+                  <Link to="/deskan-restoring-hope/">Home</Link>
+               </li>
+               <li>
+                  <Link to="/deskan-restoring-hope/committee">
+                     Ways to Help
+                  </Link>
+               </li>
+               <li>
+                  <Link to="/deskan-restoring-hope/veterans">Programms </Link>
+               </li>
+               <li>
+                  <Link to="/deskan-restoring-hope/about-us">About </Link>
+               </li>
+               <li>
+                  <Link to="">Resources</Link>
+               </li>
+               <li>
+                  <Link to="">Contact</Link>
+               </li>
+               <li>
+                  <Link
+                     className="donate-button"
+                     to="/deskan-restoring-hope/donate"
+                  >
+                     Donate
+                  </Link>
+               </li>
+            </ul>
+            {/* <ul className="footer-info">
+               <li>Information</li>
+               <li> Home</li>
+               <li>321-775-3458</li> <li>404-234-2702</li>
+               <li>Fax: 321-775-3082</li>
+               <li>liverpj@bellsouth.net </li>
+               <li>DeskanInstitute@Gmail.com</li>
+               <li>charlys424@bellsouth.net</li>
+            </ul> */}
+            <h4>Copyright 2019. Deskan Restouring Hope, Inc.</h4>
          </div>
       </section>
    )

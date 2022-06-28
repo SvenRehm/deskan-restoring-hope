@@ -1,0 +1,29 @@
+.blog-hero {
+   height: 35vh;
+   width: 100%;
+   display: grid;
+
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   /* max-width: 1160px;
+   margin: 0 auto;  */
+}
+.blog-hero img {
+   grid-column: 1/13;
+   grid-row: 1/3;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   overflow: hidden;
+   filter: brightness(80%);
+}
+.blog-hero h1 {
+   z-index: 2;
+   color: var(--main-white-color);
+   font-size: 3em;
+   grid-row: 1/3;
+   grid-column: 1/13;
+   justify-self: center;
+   align-self: center;
+   margin-top: 2em;
+}
