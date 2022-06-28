@@ -24,6 +24,6 @@ export const ProgrammsContent = [
    {
       id: 7,
       title: "Restoring Hope",
-      path: "/deskan-restoring-hope/restoring-hope",
+      path: "/deskan-restoring-hope/restore-hope",
    },
 ]

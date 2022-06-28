@@ -13,25 +13,32 @@ import heroImg from "../Images/helmet.jpg"
 const allArrays = [...WaysToHelpContent, ...ProgrammsContent, ...AboutContent]
 
 function filterArrayWithParams(param) {
+   console.log(param)
    return allArrays.filter((item) => item.path.includes(param))
 }
 
 const Blog1 = () => {
    let params = useParams()
    let invoice = filterArrayWithParams(params.blogId)
-   console.log(invoice.header)
+   console.log(invoice)
    return (
       <section className="blog">
          <div className="blog-hero">
             <img src={heroImg} alt="i" />
-            <h1>{invoice[0].header}</h1>
+            <h1>{invoice[0].title}</h1>
          </div>
 
          <div className="blog-grid">
             {/* {params.blogId} */}
+            <h2>{invoice[0].header}</h2>
+            <h3 dangerouslySetInnerHTML={{ __html: invoice[0].desc }}>
+               {/* {invoice[0].desc} */}
+            </h3>
 
-            <h3>{invoice[0].desc}</h3>
-            <p>{invoice[0].paragraph}</p>
+            <p dangerouslySetInnerHTML={{ __html: invoice[0].paragraph }}>
+               {/* {invoice[0].paragraph} */}
+            </p>
+            <img src={heroImg} alt="blogimage" />
          </div>
       </section>
    )

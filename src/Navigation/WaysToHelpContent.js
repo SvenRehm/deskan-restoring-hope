@@ -5,7 +5,7 @@ export const WaysToHelpContent = [
       path: "/deskan-restoring-hope/volunteer",
       header: "Become a Volunteer",
       desc: "DESKAN welcomes your partnership in our global mission. Together we really can make a difference in people’s lives. Please join us in praying for peace and healing in our wounded world. “To whom much is given much is required.” .",
-      paragraph: `One of the best things you can do for your self is to do something for others. And one of the best ways to accomplish that is to volunteer.
+      paragraph: `One of the best things you can do for your self is to do something for others.And one of the best ways to accomplish that is to volunteer.
       Volunteering has been shown to have positive effects on the volunteer, including increased self-esteem and reduce stress. These effects are especially strong when the volunteer has a personal relationship with those he or she is helping. Even if you only have a small amount of time to give, chances are you can find a way to make a real contribution.
       
       Whether it’s stuffing envelopes, reading to a child or just sitting quietly with someone who is ill and alone, your efforts can make an enormous difference to someone else, as well as to yourself. In volunteering, you learn more about other people, which evokes feelings of connection and sympathy for another’s situation.
