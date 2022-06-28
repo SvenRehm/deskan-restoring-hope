@@ -30,7 +30,7 @@
 }
 .footer-contact li:first-child,
 .footer-nav li:first-child,
-.footer-info li:first-child {
+.footer-social li:first-child {
    font-weight: 800;
    text-transform: uppercase;
    margin-bottom: 2em;
@@ -44,7 +44,11 @@
 .footer-nav {
    grid-column: 4/6;
 }
-.footer-nav li a {
+.footer-social {
+   grid-column: 6/8;
+}
+.footer-nav li a,
+.footer-social li a {
    width: 90%;
    display: inline-block;
    text-decoration: none;
@@ -53,7 +57,8 @@
    /* margin: 0 0 0.5em 0; */
 }
 
-.footer-nav li a:hover {
+.footer-nav li a:hover,
+.footer-social li a:hover {
    color: var(--main-black-color);
    background-color: var(--main-white-color);
    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
@@ -77,3 +82,45 @@
    background-color: var(--main-white-color);
    color: var(--main-accent-color);
 }
+
+.footer .newsletter {
+   margin: 3em 0 1em 0;
+   grid-column: 8/13;
+}
+.footer .newsletter h3 {
+   color: var(--main-white-color);
+   font-size: 1em;
+   font-weight: 800;
+   text-transform: uppercase;
+   margin-bottom: 0.2em;
+}
+.footer .newsletter p {
+   color: var(--main-white-color);
+   font-size: 1em;
+   margin-bottom: 2em;
+}
+.footer .newsletter input {
+   max-width: 200px;
+   height: 40px;
+   font-size: 1.3em;
+}
+.footer .newsletter button {
+   margin-left: 1em;
+   text-transform: uppercase;
+   background-color: var(--main-accent-color);
+   border: none;
+   color: var(--main-white-color);
+   font-weight: 900;
+   font-size: 1.1em;
+   height: 40px;
+   padding: 0 4em;
+   cursor: pointer;
+}
+/* .footer-social li a {
+   width: 90%;
+   display: inline-block;
+   text-decoration: none;
+   color: var(--main-white-color);
+   padding: 0.3em 0.3em 0.3em 0;
+  
+} */

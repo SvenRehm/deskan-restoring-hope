@@ -45,15 +45,28 @@ const Footer = () => {
                   </Link>
                </li>
             </ul>
-            {/* <ul className="footer-info">
-               <li>Information</li>
-               <li> Home</li>
-               <li>321-775-3458</li> <li>404-234-2702</li>
-               <li>Fax: 321-775-3082</li>
-               <li>liverpj@bellsouth.net </li>
-               <li>DeskanInstitute@Gmail.com</li>
-               <li>charlys424@bellsouth.net</li>
-            </ul> */}
+            <ul className="footer-social">
+               <li>Social</li>
+               <li>
+                  <a href="/">Facebook</a>
+               </li>
+               <li>
+                  <a href="/">Twitter</a>
+               </li>
+               <li>
+                  <a href="/">Youtube</a>
+               </li>
+               <li>
+                  <a href="/">Newsletter/Blog</a>
+               </li>
+            </ul>
+
+            <div className="newsletter">
+               <h3>Join our newsletter and stay informed!</h3>
+               <p>Get the latest news and information.</p>
+               <input type="text" placeholder="Email"></input>
+               <button>Subscribe</button>
+            </div>
             <h4>Copyright 2019. Deskan Restouring Hope, Inc.</h4>
          </div>
       </section>
