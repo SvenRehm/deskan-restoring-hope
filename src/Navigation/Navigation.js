@@ -14,6 +14,8 @@ const Navigation = () => {
    const [dropdownProgramm, setDropdownProgramm] = useState(false)
    const [dropdownAbout, setDropdownAbout] = useState(false)
 
+   const [activeNav, setActiveNav] = useState("")
+
    const showNavbarBackground = () => {
       window.scrollY >= 100 ? setNavbar(true) : setNavbar(false)
    }
@@ -56,12 +58,14 @@ const Navigation = () => {
                   onMouseEnter={onMouseEnter}
                   onMouseLeave={onMouseLeave}
                >
-                  <a href="/" onClick={(event) => event.preventDefault()}>
+                  <NavLink to="/" onClick={(event) => event.preventDefault()}>
                      Ways to Help
-                  </a>
+                  </NavLink>
                </li>
                {dropdown && (
                   <Dropdown
+                     activeNav={activeNav}
+                     setActiveNav={setActiveNav}
                      dropdownClass={"dropdown"}
                      onMouseEnter={onMouseEnter}
                      onMouseLeave={onMouseLeave}
@@ -104,26 +108,16 @@ const Navigation = () => {
                   ></Dropdown>
                )}
                <li>
-                  <NavLink
-                     // style={({ isActive }) => {
-                     //    return {
-                     //       backgroundColor: isActive ? "#fffbf6" : "",
-                     //       color: isActive ? "#111111" : "",
-                     //    }
-                     // }}
-                     to="/deskan-restoring-hope/"
-                  >
-                     Resources
-                  </NavLink>
+                  <NavLink to="/deskan-restoring-hope/">Resources</NavLink>
                </li>
                <li>
                   <NavLink
-                     // style={({ isActive }) => {
-                     //    return {
-                     //       backgroundColor: isActive ? "#fffbf6" : "",
-                     //       color: isActive ? "#111111" : "",
-                     //    }
-                     // }}
+                     style={({ isActive }) => {
+                        return {
+                           backgroundColor: isActive ? "#fffbf6" : "",
+                           color: isActive ? "#111111" : "",
+                        }
+                     }}
                      to="/deskan-restoring-hope/about"
                   >
                      Contact

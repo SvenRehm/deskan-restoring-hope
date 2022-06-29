@@ -1,6 +1,7 @@
 export const WaysToHelpContent = [
    {
       id: 1,
+      dropdownMenu: "Ways To Help",
       title: "Volunteer",
       path: "/deskan-restoring-hope/volunteer",
       header: "Become a Volunteer",
@@ -16,6 +17,7 @@ export const WaysToHelpContent = [
    },
    {
       id: 2,
+      dropdownMenu: "Ways To Help",
       title: "Join a committee",
       path: "/deskan-restoring-hope/committee",
       header: "Deskan Committees",
@@ -34,6 +36,7 @@ export const WaysToHelpContent = [
    },
    {
       id: 3,
+      dropdownMenu: "Ways To Help",
       title: "Become a sponsor",
       path: "/deskan-restoring-hope/sponsors",
       header: "Become a Sponsor",
@@ -43,6 +46,7 @@ export const WaysToHelpContent = [
    },
    {
       id: 4,
+      dropdownMenu: "Ways To Help",
       title: "Be a partner",
       path: "/deskan-restoring-hope/partners",
       header: "Become a Partner",
@@ -54,9 +58,15 @@ export const WaysToHelpContent = [
    We relied on the generosity of corporations and foundations since their donations is vital to advancing the mission here at Deskan.</p>
    <p>Please contact us for more information about becoming a partner or sponsoring.</p>`,
    },
-   { id: 5, title: "Make a Donation", path: "/deskan-restoring-hope/donate" },
+   {
+      id: 5,
+      dropdownMenu: "Ways To Help",
+      title: "Make a Donation",
+      path: "/deskan-restoring-hope/donate",
+   },
    {
       id: 6,
+      dropdownMenu: "Ways To Help",
       title: "Thank You",
       path: "/deskan-restoring-hope/thank-you",
       header: "Thank You All",

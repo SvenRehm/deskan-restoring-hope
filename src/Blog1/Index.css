@@ -68,8 +68,6 @@
 .blog-grid img {
    grid-column: 8/13;
    width: 100%;
-   /* object-fit: cover; */
-   /* overflow: hidden; */
 }
 .list-title {
    font-weight: 800;
@@ -77,6 +75,13 @@
 }
 .blog-grid p ul {
    list-style: none;
+}
+
+.blog-grid p ol {
+   margin-top: 1em;
+}
+.blog-grid p ol li {
+   margin-left: 1.2em;
 }
 .blog-grid p ul li {
    margin-bottom: 1em;

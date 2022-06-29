@@ -1,6 +1,6 @@
 import React from "react"
 import "./Index.css"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 const Dropdown = ({
    dropdownContent,
@@ -15,7 +15,17 @@ const Dropdown = ({
             onMouseLeave={onMouseLeave}
             key={item.id}
          >
-            <Link to={item.path}>{item.title}</Link>
+            <NavLink
+               style={({ isActive }) => {
+                  return {
+                     backgroundColor: isActive ? " #a382ff" : "",
+                     color: isActive ? "#111111" : "",
+                  }
+               }}
+               to={item.path}
+            >
+               {item.title}
+            </NavLink>
          </li>
       )
    })

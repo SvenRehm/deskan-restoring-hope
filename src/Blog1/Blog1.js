@@ -1,9 +1,5 @@
 import React from "react"
 import "./Index.css"
-// import aboutusimg from "../Images/about_us.jpg"
-// import { Link, Outlet } from "react-router-dom"
-// import { WaysToHelpContent } from "../Navigation/WaysToHelpContent"
-
 import { useParams } from "react-router-dom"
 import GetInvolved from "../GetInvolved/GetInvolved"
 import { WaysToHelpContent } from "../Navigation/WaysToHelpContent"
@@ -15,14 +11,13 @@ import Happy from "../Images/Happy dad.jpg"
 const allArrays = [...WaysToHelpContent, ...ProgrammsContent, ...AboutContent]
 
 function filterArrayWithParams(param) {
-   console.log(param)
    return allArrays.filter((item) => item.path.includes(param))
 }
 
 const Blog1 = () => {
    let params = useParams()
    let invoice = filterArrayWithParams(params.blogId)
-   console.log(invoice)
+
    return (
       <>
          <section className="blog">
