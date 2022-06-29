@@ -12,11 +12,14 @@ body {
    -moz-osx-font-smoothing: grayscale;
    background-color: rgb(41, 41, 41);
 }
-
+button {
+   font-family: "Montserrat", sans-serif;
+}
 :root {
    --main-white-color: #fffbf6;
    --main-black-color: #111111;
    --main-accent-color: #5927e5;
+   --main-accent-color-hover: #3a0faf;
    --dark-accent-color: #350044;
    --main-grey-color: #4d4d4d;
    --ligh-grey: #e8e8e8;

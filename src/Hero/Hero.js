@@ -1,6 +1,6 @@
 import React from "react"
 import "./Index.css"
-
+import { Link } from "react-router-dom"
 const Hero = () => {
    return (
       <section className="hero">
@@ -10,8 +10,22 @@ const Hero = () => {
                SERVING VETERANS
             </h1>
             <h2>Helping homeless Vets and their Families.</h2>
-            <button className="button donate"> Donate</button>
-            <button className="button involved"> Volunteer</button>
+
+            <div className="call-to-action">
+               <Link
+                  to="/deskan-restoring-hope/donate"
+                  className="button donate"
+               >
+                  Donate
+               </Link>
+
+               <Link
+                  to="/deskan-restoring-hope/volunteer"
+                  className="button involved"
+               >
+                  Volunteer
+               </Link>
+            </div>
          </div>
       </section>
    )

@@ -1,24 +1,33 @@
 .sponsors {
    width: 100%;
-   background-color: var(--ligh-grey);
+   /* background-color: var(--ligh-grey); */
+   background-color: white;
 }
 .sponsoricon {
    width: 120px;
    height: 120px;
-
+   /* width: 140px;
+   height: 140px;
    margin: 0 0 0 0.3em;
-   background-color: white;
+   background-color: white; */
    overflow: hidden;
 }
-.sponsoricon img {
-   width: 100%;
-   height: auto;
-   overflow: hidden;
+.sponsors .sponsoricon img {
+   width: 120px;
+   height: 120px;
+   object-fit: contain;
+   margin: 0 0 0 0.3em;
+   background-color: white;
+
+   /* width: 100%;
+   height: auto; */
 }
 
 .sponsors ul {
+   border-top: 1px solid var(--ligh-grey);
    display: flex;
    align-items: center;
+
    justify-content: space-between;
    list-style: none;
    padding: 3em 0;

@@ -54,14 +54,30 @@
    margin: 0 0 3em 0;
    line-height: 1.5;
 }
+
 .blog-grid p {
    grid-column: 1/7;
    line-height: 1.6;
    font-size: 1.1em;
 }
+.blog-grid p p {
+   font-size: 1em;
+   margin-top: 1em;
+}
+
 .blog-grid img {
    grid-column: 8/13;
    width: 100%;
    /* object-fit: cover; */
    /* overflow: hidden; */
+}
+.list-title {
+   font-weight: 800;
+   margin: 0 0 1em 0;
+}
+.blog-grid p ul {
+   list-style: none;
+}
+.blog-grid p ul li {
+   margin-bottom: 1em;
 }

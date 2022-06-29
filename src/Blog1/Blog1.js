@@ -11,7 +11,7 @@ import { ProgrammsContent } from "../Navigation/ProgrammsContent"
 import { AboutContent } from "../Navigation/AboutContent"
 import heroImg from "../Images/helmet.jpg"
 import Happy from "../Images/Happy dad.jpg"
-
+// import Pdf from "../Images/Pdf/RebuildBarbuda Roof Project  Report 2019.pdf"
 const allArrays = [...WaysToHelpContent, ...ProgrammsContent, ...AboutContent]
 
 function filterArrayWithParams(param) {
@@ -42,6 +42,9 @@ const Blog1 = () => {
                   {/* {invoice[0].paragraph} */}
                </p>
                <img src={Happy} alt="blogimage" />
+               {/* <a href={Pdf} target="_blank" rel="noreferrer">
+                  Download Pdf
+               </a> */}
             </div>
          </section>
          <GetInvolved />

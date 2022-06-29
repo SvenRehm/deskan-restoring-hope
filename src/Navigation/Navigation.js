@@ -13,6 +13,7 @@ const Navigation = () => {
    const [dropdown, setDropdown] = useState(false)
    const [dropdownProgramm, setDropdownProgramm] = useState(false)
    const [dropdownAbout, setDropdownAbout] = useState(false)
+
    const showNavbarBackground = () => {
       window.scrollY >= 100 ? setNavbar(true) : setNavbar(false)
    }
@@ -38,8 +39,7 @@ const Navigation = () => {
    const onMouseLeaveThree = () => {
       setDropdownAbout(false)
    }
-   // <Link to="/invoices">Invoices</Link>
-   // <Link to="/expenses">Expenses</Link>
+
    return (
       <div className={navbar ? "nav-container show-nav" : "nav-container"}>
          <ul className="main-navigation">
