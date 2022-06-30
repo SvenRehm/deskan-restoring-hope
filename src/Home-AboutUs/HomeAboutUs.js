@@ -1,6 +1,7 @@
 import React from "react"
 import "./Index.css"
 import aboutusimg from "../Images/about_us.jpg"
+import { Link } from "react-router-dom"
 
 const HomeAboutUs = () => {
    return (
@@ -34,7 +35,9 @@ const HomeAboutUs = () => {
                      interact with mentoring health professionals.
                   </li>
                </ol>
-               <button>About Us</button>
+               <Link to="/deskan-restoring-hope/about-us">
+                  <button>About Us</button>
+               </Link>
             </div>
          </div>
       </section>

@@ -1,5 +1,6 @@
 import React from "react"
 import "./Index.css"
+import { Link } from "react-router-dom"
 
 const GetInvolved = () => {
    return (
@@ -11,7 +12,9 @@ const GetInvolved = () => {
                a donation.
             </h2>
             <div className="get-involved-button-wrapper">
-               <button>Get Involved</button>
+               <Link to="/deskan-restoring-hope/volunteer">
+                  <button>Get Involved</button>
+               </Link>
             </div>
          </div>
       </section>
