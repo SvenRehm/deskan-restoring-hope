@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/deskan-restoring-hope/static/css/main.3fcdad6b.css",
-    "main.js": "/deskan-restoring-hope/static/js/main.3d60874b.js",
+    "main.css": "/deskan-restoring-hope/static/css/main.e835877e.css",
+    "main.js": "/deskan-restoring-hope/static/js/main.b86a3364.js",
     "static/js/787.122a7876.chunk.js": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js",
     "static/media/about_us.jpg": "/deskan-restoring-hope/static/media/about_us.5efac0bd06bfd3a4e1eb.jpg",
     "static/media/DSC_0558.jpg": "/deskan-restoring-hope/static/media/DSC_0558.e792322a0fd8836f8b60.jpg",
+    "static/media/veteran-service.jpg": "/deskan-restoring-hope/static/media/veteran-service.1df175b8a02c9ed563a5.jpg",
+    "static/media/about-us-hero.jpg": "/deskan-restoring-hope/static/media/about-us-hero.09020d9bba9de4baef6c.jpg",
+    "static/media/volunteer2.jpg": "/deskan-restoring-hope/static/media/volunteer2.317fe9cc891cec2392cc.jpg",
+    "static/media/veteran.jpg": "/deskan-restoring-hope/static/media/veteran.5a14d7895c06409bb5b5.jpg",
     "static/media/donate-page.jpg": "/deskan-restoring-hope/static/media/donate-page.ac6f58a0eb65f0bd0c13.jpg",
+    "static/media/food-donation-hero.jpg": "/deskan-restoring-hope/static/media/food-donation-hero.b305ef011e572dd75fe3.jpg",
+    "static/media/success-stories-hero.jpg": "/deskan-restoring-hope/static/media/success-stories-hero.c8be66591963e3902dc3.jpg",
+    "static/media/giving.jpg": "/deskan-restoring-hope/static/media/giving.46a41dc901c2ebda19cc.jpg",
+    "static/media/second-chance-hero.jpg": "/deskan-restoring-hope/static/media/second-chance-hero.898b5713a357c6b30ad2.jpg",
+    "static/media/contact.jpg": "/deskan-restoring-hope/static/media/contact.3ba5e78ee670d7977fab.jpg",
     "static/media/volunteer.jpg": "/deskan-restoring-hope/static/media/volunteer.4fa38a43d86254016dde.jpg",
     "static/media/young soldier.webp": "/deskan-restoring-hope/static/media/young soldier.5a34602145518afc1c45.webp",
     "static/media/thank-you.jpg": "/deskan-restoring-hope/static/media/thank-you.4d7df4012c8edd11baec.jpg",
+    "static/media/restoring-hope-hero.jpg": "/deskan-restoring-hope/static/media/restoring-hope-hero.3c1b9ce2742d4dac9b31.jpg",
     "static/media/8.png": "/deskan-restoring-hope/static/media/8.55d49ef49b06d6144751.png",
+    "static/media/Medical Mission.jpg": "/deskan-restoring-hope/static/media/Medical Mission.e461c6e50b109cf2413c.jpg",
     "static/media/genebrutty.jpg": "/deskan-restoring-hope/static/media/genebrutty.67c40a797ef6c619d736.jpg",
+    "static/media/helping-homeless.jpg": "/deskan-restoring-hope/static/media/helping-homeless.7505c5d5b7aac4a7909c.jpg",
     "static/media/woman sitting in front of closed door.jpg": "/deskan-restoring-hope/static/media/woman sitting in front of closed door.28dc623279493b5b5b8d.jpg",
     "static/media/closet.jpg": "/deskan-restoring-hope/static/media/closet.6826f7136ee198d307d2.jpg",
     "static/media/johnmoeses.jpg": "/deskan-restoring-hope/static/media/johnmoeses.323bd7755a1306c450b3.jpg",
@@ -23,12 +35,12 @@
     "static/media/4.png": "/deskan-restoring-hope/static/media/4.9c5b18a8351e4c03bf36.png",
     "index.html": "/deskan-restoring-hope/index.html",
     "static/media/logo.svg": "/deskan-restoring-hope/static/media/logo.91dda6d972526251bacf29ac174c4d9f.svg",
-    "main.3fcdad6b.css.map": "/deskan-restoring-hope/static/css/main.3fcdad6b.css.map",
-    "main.3d60874b.js.map": "/deskan-restoring-hope/static/js/main.3d60874b.js.map",
+    "main.e835877e.css.map": "/deskan-restoring-hope/static/css/main.e835877e.css.map",
+    "main.b86a3364.js.map": "/deskan-restoring-hope/static/js/main.b86a3364.js.map",
     "787.122a7876.chunk.js.map": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fcdad6b.css",
-    "static/js/main.3d60874b.js"
+    "static/css/main.e835877e.css",
+    "static/js/main.b86a3364.js"
   ]
 }
