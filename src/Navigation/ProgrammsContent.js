@@ -1,6 +1,18 @@
+import veteran from "../Images/veteran.jpg"
+import veteranService from "../Images/veteran-service.jpg"
+import medicalMission from "../Images/Medical Mission.jpg"
+import foodHero from "../Images/food-donation-hero.jpg"
+import helpingHomelessHero from "../Images/helping-homeless.jpg"
+import givingGift from "../Images/giving.jpg"
+import restoringHopeHero from "../Images/restoring-hope-hero.jpg"
+
+import secondChance from "../Images/second-chance-hero.jpg"
+
 export const ProgrammsContent = [
    {
       id: 1,
+      heroimg: veteran,
+      img: veteranService,
       title: "Veterans Services",
       path: "/deskan-restoring-hope/veterans",
       header: "WE ARE A VETERAN SERVING VETERANS—ORGANIZATION",
@@ -13,6 +25,8 @@ export const ProgrammsContent = [
    },
    {
       id: 2,
+      heroimg: medicalMission,
+      img: veteranService,
       title: "Medical Mission/Missionary Work",
       path: "/deskan-restoring-hope/mmwork",
       header: "Medical Mission & Missionary Work",
@@ -31,6 +45,9 @@ export const ProgrammsContent = [
    },
    {
       id: 3,
+
+      heroimg: secondChance,
+      img: veteranService,
       title: "Second Chance Programm",
       path: "/deskan-restoring-hope/second-chance",
       header: "Welcome to Deskan Second Chance Program!",
@@ -46,6 +63,8 @@ export const ProgrammsContent = [
    },
    {
       id: 4,
+      heroimg: foodHero,
+      img: veteranService,
       title: "Food/Clothes",
       path: "/deskan-restoring-hope/food-pantry",
       header: "Food Pantry",
@@ -60,10 +79,16 @@ export const ProgrammsContent = [
       </p>
       <p> This monthly feeding program is extended to the Parks where the homeless find a home. It is also extended to families in need of food and clothing, who can reach us to partake of their need from our Food Pantry and Clothing Rack in Stone Mountain, GA.
       
-      You can view our online menu for more information about our monthly menu.</p>`,
+      You can view our online menu for more information about our monthly menu.</p><h2 class="second-heading ">Clothes Closet</h2><h3>Deskan has provided clothing to local organizations that share in the cause of “Second Chance for Individuals” Women of Domestic Violence, In Home Foster Care Services, Families of Natural Disaster (flood, fire or loss of home) in places like New Orleans, New Jersey, Tennessee, Mississippi, Haiti, Guyana, and Belize, Central America.</h3>
+      <p>Our clothing closets give the less fortunate the opportunity to get new or gentle used clothes for themselves or love ones. To those who don’t have decent clothes to clothes themselves or their family, we provide them the opportunities, to get decent clothing assistance in offering coats, shoes, clothes for individuals including infants or babies.
+</br></br>
+      If you would like to donate your new or gentle used clothes or would like to receive some of our clothes closets items, please get intouch with us.
+     </br> Please contact us for more information about becoming a partner or sponsoring.</p>`,
    },
    {
       id: 5,
+      heroimg: helpingHomelessHero,
+      img: veteranService,
       title: "Homelessness",
       path: "/deskan-restoring-hope/homeless",
       header: "Helping the Homeless",
@@ -78,6 +103,8 @@ export const ProgrammsContent = [
    },
    {
       id: 6,
+      heroimg: givingGift,
+      img: veteranService,
       title: "Annual Community Holiday Giving",
       path: "/deskan-restoring-hope/achgiving",
       header: "Annual Community Holiday Giving",
@@ -90,6 +117,8 @@ export const ProgrammsContent = [
    },
    {
       id: 7,
+      heroimg: restoringHopeHero,
+      img: veteranService,
       title: "Restoring Hope",
       path: "/deskan-restoring-hope/restore-hope",
       header: "Restoring Hope Ministry",

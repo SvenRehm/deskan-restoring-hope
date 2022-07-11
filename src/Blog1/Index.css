@@ -47,6 +47,10 @@
    margin: 0 0 1em 0;
    line-height: 1.5;
 }
+.blog-grid .second-heading {
+   margin: 1em 0 1em 0;
+   line-height: 1.5;
+}
 .blog-grid h3 {
    font-size: 1.2em;
    font-weight: 500;

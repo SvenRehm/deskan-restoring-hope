@@ -3,7 +3,7 @@ import Navigation from "./Navigation/Navigation"
 
 import Footer from "./Footer/Footer"
 import Home from "./Routes/Home/Home"
-import About from "./Routes/About/About"
+import Contact from "./Contact/Contact"
 import Blog1 from "./Blog1/Blog1"
 import Donate from "./Donate/Donate"
 import { Routes, Route } from "react-router-dom"
@@ -23,7 +23,10 @@ function App() {
                      </main>
                   }
                /> */}
-               <Route path="/deskan-restoring-hope/about" element={<About />} />
+               <Route
+                  path="/deskan-restoring-hope/about"
+                  element={<Contact />}
+               />
                <Route path="/deskan-restoring-hope/" element={<Home />} />
 
                <Route
