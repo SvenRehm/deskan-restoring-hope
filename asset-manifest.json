@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/deskan-restoring-hope/static/css/main.e835877e.css",
-    "main.js": "/deskan-restoring-hope/static/js/main.b86a3364.js",
+    "main.js": "/deskan-restoring-hope/static/js/main.d146edf4.js",
     "static/js/787.122a7876.chunk.js": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js",
     "static/media/about_us.jpg": "/deskan-restoring-hope/static/media/about_us.5efac0bd06bfd3a4e1eb.jpg",
     "static/media/DSC_0558.jpg": "/deskan-restoring-hope/static/media/DSC_0558.e792322a0fd8836f8b60.jpg",
@@ -17,6 +17,7 @@
     "static/media/contact.jpg": "/deskan-restoring-hope/static/media/contact.3ba5e78ee670d7977fab.jpg",
     "static/media/volunteer.jpg": "/deskan-restoring-hope/static/media/volunteer.4fa38a43d86254016dde.jpg",
     "static/media/young soldier.webp": "/deskan-restoring-hope/static/media/young soldier.5a34602145518afc1c45.webp",
+    "static/media/accomplishment-hero.jpg": "/deskan-restoring-hope/static/media/accomplishment-hero.9effab8a493b9bb0eb88.jpg",
     "static/media/thank-you.jpg": "/deskan-restoring-hope/static/media/thank-you.4d7df4012c8edd11baec.jpg",
     "static/media/restoring-hope-hero.jpg": "/deskan-restoring-hope/static/media/restoring-hope-hero.3c1b9ce2742d4dac9b31.jpg",
     "static/media/8.png": "/deskan-restoring-hope/static/media/8.55d49ef49b06d6144751.png",
@@ -36,11 +37,11 @@
     "index.html": "/deskan-restoring-hope/index.html",
     "static/media/logo.svg": "/deskan-restoring-hope/static/media/logo.91dda6d972526251bacf29ac174c4d9f.svg",
     "main.e835877e.css.map": "/deskan-restoring-hope/static/css/main.e835877e.css.map",
-    "main.b86a3364.js.map": "/deskan-restoring-hope/static/js/main.b86a3364.js.map",
+    "main.d146edf4.js.map": "/deskan-restoring-hope/static/js/main.d146edf4.js.map",
     "787.122a7876.chunk.js.map": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e835877e.css",
-    "static/js/main.b86a3364.js"
+    "static/js/main.d146edf4.js"
   ]
 }
