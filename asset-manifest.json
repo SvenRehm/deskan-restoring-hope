@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/deskan-restoring-hope/static/css/main.b390ae14.css",
-    "main.js": "/deskan-restoring-hope/static/js/main.76938c2a.js",
+    "main.css": "/deskan-restoring-hope/static/css/main.3fcdad6b.css",
+    "main.js": "/deskan-restoring-hope/static/js/main.3d60874b.js",
     "static/js/787.122a7876.chunk.js": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js",
     "static/media/about_us.jpg": "/deskan-restoring-hope/static/media/about_us.5efac0bd06bfd3a4e1eb.jpg",
     "static/media/DSC_0558.jpg": "/deskan-restoring-hope/static/media/DSC_0558.e792322a0fd8836f8b60.jpg",
-    "static/media/Happy dad.jpg": "/deskan-restoring-hope/static/media/Happy dad.bf960a4a9474c4317387.jpg",
-    "static/media/helmet.jpg": "/deskan-restoring-hope/static/media/helmet.b01e6f2f6c8fe2ce516f.jpg",
+    "static/media/donate-page.jpg": "/deskan-restoring-hope/static/media/donate-page.ac6f58a0eb65f0bd0c13.jpg",
+    "static/media/volunteer.jpg": "/deskan-restoring-hope/static/media/volunteer.4fa38a43d86254016dde.jpg",
     "static/media/young soldier.webp": "/deskan-restoring-hope/static/media/young soldier.5a34602145518afc1c45.webp",
+    "static/media/thank-you.jpg": "/deskan-restoring-hope/static/media/thank-you.4d7df4012c8edd11baec.jpg",
     "static/media/8.png": "/deskan-restoring-hope/static/media/8.55d49ef49b06d6144751.png",
     "static/media/genebrutty.jpg": "/deskan-restoring-hope/static/media/genebrutty.67c40a797ef6c619d736.jpg",
     "static/media/woman sitting in front of closed door.jpg": "/deskan-restoring-hope/static/media/woman sitting in front of closed door.28dc623279493b5b5b8d.jpg",
@@ -22,12 +23,12 @@
     "static/media/4.png": "/deskan-restoring-hope/static/media/4.9c5b18a8351e4c03bf36.png",
     "index.html": "/deskan-restoring-hope/index.html",
     "static/media/logo.svg": "/deskan-restoring-hope/static/media/logo.91dda6d972526251bacf29ac174c4d9f.svg",
-    "main.b390ae14.css.map": "/deskan-restoring-hope/static/css/main.b390ae14.css.map",
-    "main.76938c2a.js.map": "/deskan-restoring-hope/static/js/main.76938c2a.js.map",
+    "main.3fcdad6b.css.map": "/deskan-restoring-hope/static/css/main.3fcdad6b.css.map",
+    "main.3d60874b.js.map": "/deskan-restoring-hope/static/js/main.3d60874b.js.map",
     "787.122a7876.chunk.js.map": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b390ae14.css",
-    "static/js/main.76938c2a.js"
+    "static/css/main.3fcdad6b.css",
+    "static/js/main.3d60874b.js"
   ]
 }
