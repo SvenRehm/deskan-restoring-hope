@@ -4,7 +4,7 @@ export const ProgrammsContent = [
       title: "Veterans Services",
       path: "/deskan-restoring-hope/veterans",
       header: "WE ARE A VETERAN SERVING VETERANS—ORGANIZATION",
-      desc: "no description",
+
       paragraph: `Now, more than ever, it is important for us to come together as communities to celebrate humanity,  compassion and understanding, and to exercise the power we all have to make a difference. <p>We know you can reach out to many others, but we are asking you to help us to help others.
 
       Veterans have disproportionate rates of mental illness, particularly posttraumatic stress disorder (PTSD), substance abuse disorders, depression, anxiety, and military sexual trauma.</p> <p>Nearly 50% of combat veterans from Iraq report that they have suffered from PTSD, and close to 40% of these same veteran’s report “problem alcohol use”; in addition, according to estimates from 2010, approximately 22 veterans died as a result of suicide each day in that calendar year.

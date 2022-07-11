@@ -1,6 +1,10 @@
+import volunteerImg from "../Images/volunteer.jpg"
+import thankyouImg from "../Images/thank-you.jpg"
 export const WaysToHelpContent = [
    {
       id: 1,
+      heroimg: volunteerImg,
+      img: volunteerImg,
       dropdownMenu: "Ways To Help",
       title: "Volunteer",
       path: "/deskan-restoring-hope/volunteer",
@@ -17,6 +21,7 @@ export const WaysToHelpContent = [
    },
    {
       id: 2,
+      heroimg: volunteerImg,
       dropdownMenu: "Ways To Help",
       title: "Join a committee",
       path: "/deskan-restoring-hope/committee",
@@ -36,6 +41,7 @@ export const WaysToHelpContent = [
    },
    {
       id: 3,
+      heroimg: volunteerImg,
       dropdownMenu: "Ways To Help",
       title: "Become a sponsor",
       path: "/deskan-restoring-hope/sponsors",
@@ -46,6 +52,7 @@ export const WaysToHelpContent = [
    },
    {
       id: 4,
+      heroimg: volunteerImg,
       dropdownMenu: "Ways To Help",
       title: "Be a partner",
       path: "/deskan-restoring-hope/partners",
@@ -66,11 +73,12 @@ export const WaysToHelpContent = [
    },
    {
       id: 6,
+      heroimg: thankyouImg,
       dropdownMenu: "Ways To Help",
       title: "Thank You",
       path: "/deskan-restoring-hope/thank-you",
       header: "Thank You All",
-      desc: "no description",
+
       paragraph: `Deskan Institute wishes to thank all our supporters, volunteers Board Members and well-wishers for your unbending support to our Organization.
 
       <p>Our Missions would not succeed without your help. Over the past twenty-seven years, you have devoted your time, talents and resources to our Missions, without fail.</p>

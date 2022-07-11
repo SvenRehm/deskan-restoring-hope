@@ -5,8 +5,8 @@ import GetInvolved from "../GetInvolved/GetInvolved"
 import { WaysToHelpContent } from "../Navigation/WaysToHelpContent"
 import { ProgrammsContent } from "../Navigation/ProgrammsContent"
 import { AboutContent } from "../Navigation/AboutContent"
-import heroImg from "../Images/helmet.jpg"
-import Happy from "../Images/Happy dad.jpg"
+// import heroImg from "../Images/helmet.jpg"
+// import Happy from "../Images/Happy dad.jpg"
 // import Pdf from "../Images/Pdf/RebuildBarbuda Roof Project  Report 2019.pdf"
 const allArrays = [...WaysToHelpContent, ...ProgrammsContent, ...AboutContent]
 
@@ -22,7 +22,7 @@ const Blog1 = () => {
       <>
          <section className="blog">
             <div className="blog-hero">
-               <img src={heroImg} alt="i" />
+               <img src={invoice[0].heroimg} alt="i" />
                <h1>{invoice[0].title}</h1>
             </div>
 
@@ -36,7 +36,7 @@ const Blog1 = () => {
                <p dangerouslySetInnerHTML={{ __html: invoice[0].paragraph }}>
                   {/* {invoice[0].paragraph} */}
                </p>
-               <img src={Happy} alt="blogimage" />
+               <img src={invoice[0].img} alt="blogimage" />
                {/* <a href={Pdf} target="_blank" rel="noreferrer">
                   Download Pdf
                </a> */}
