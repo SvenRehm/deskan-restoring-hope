@@ -1,6 +1,7 @@
 import aboutushero from "../Images/about-us-hero.jpg"
 import aboutUs from "../Images/about_us.jpg"
 import successHero from "../Images/success-stories-hero.jpg"
+import accomplishmentHero from "../Images/accomplishment-hero.jpg"
 
 export const AboutContent = [
    {
@@ -45,9 +46,9 @@ export const AboutContent = [
       title: "Succes Stories",
 
       path: "/deskan-restoring-hope/success-stories",
-      header: "",
-      desc: "Testimonials from Families and Individuals.",
-      paragraph: `<li>“I am a cancer patient I just finish CHEM and get started late just trying to get things for my children to have a Thanksgiving meal. Ms you do not know. It is so hard. Sometimes I just feel like I am not fit to be a mother. Everything is so hard.” My Children will be able to eat a nice meal tomorrow.” (Bufford, GA) 
+      header: "Testimonials from Families and Individuals.",
+      desc: "",
+      paragraph: `<ul><li>“I am a cancer patient I just finish CHEM and get started late just trying to get things for my children to have a Thanksgiving meal. Ms you do not know. It is so hard. Sometimes I just feel like I am not fit to be a mother. Everything is so hard.” My Children will be able to eat a nice meal tomorrow.” (Bufford, GA) 
       </li>
       <li>
       “I lost my job in October 2011; ever since things have been rough. My car broke down--had to get a new car, which I did not want because now I have a payment and things got really bad. I have a job now, but it does not pay as much as I am always behind. I am also behind in my mortgage. I have legal trouble with my 9-year-old son, that is an expense. You people save the day with the food. I just cannot put food on the table for Thanksgiving. Please pray for us.” 
@@ -68,18 +69,33 @@ export const AboutContent = [
       <li>
       I am a mother of two children, a 10-year-old and an 18-month-old girl that was born weighing one and one-half pounds. She is still being monitored by the hospital. So I can not work. My husband walked away after she was born. My mother helps when she can. I just need to have a meal for Thanksgiving. My daughter is helping me to adjust many days and nights. </li>
       
-     
-     
+     </ul>
       
       `,
    },
    {
       id: 3,
       title: "Accomplishments",
+      heroimg: accomplishmentHero,
+
       path: "/deskan-restoring-hope/accomplishments",
       header: "",
-      desc: "",
-      paragraph: ``,
+      desc: "Deskan was established with the aim of providing social services,education, counseling and clinical services.",
+      paragraph: `<h2>Accomplishments/Highlights for 2015 To-Date</h2><ol>
+      <li>
+       Provided meals and clothing to more than 1600 Atlanta hungry and homeless individuals
+</li>      <li>
+ Held workshops and information sessions on HIV/AIDS, HPV, Domestic Violence, Child Abuse and Rape. Provided counseling services to over 300 individuals, including young adults, children and youths in the Atlanta and DeKalb Communities.
+</li>  <li> Provided School supplies for 65 Homeless Children living at an Atlanta Shelter
+</li> <li> Provided Breakfast and lunch for over three hundred (300) children in-need in DeKalb, Gwinnett, Rockdale and Decatur
+Sent [10] barrels of donated medical supplies, school supplies and children’s clothing to Guyana for churches and schools,’ Regions 10, 2, and 4.
+</li> <li>Provided Scholarships for 2 adults to continue their Nursing Training in Guyana: 1st Installment $40, 000 GYD.
+</li> <li>Provide stipend to help repair home for homeless family of four (4) in Guyana
+</li><li>Provided funds to purchase an Electric Saw to help in the Amerindian Community of Guyana. Lumber
+</li><li>Provided funds to help with transportation for second chance program in need of work.
+</li><li>Provided school supplies for children in needy in Atlanta. Deskan’s Second Chance program made a difference for more than 10 individuals who benefited from this program for this year.
+</li>
+      </ol>`,
    },
    {
       id: 4,
@@ -97,16 +113,9 @@ export const AboutContent = [
       desc: "",
       paragraph: ``,
    },
+
    {
       id: 6,
-      title: "Sponsors/Partners",
-      path: "/deskan-restoring-hope/sponsors",
-      header: "",
-      desc: "",
-      paragraph: ``,
-   },
-   {
-      id: 7,
       title: "Photo Gallery",
       path: "/deskan-restoring-hope/photogallery",
       header: "",
