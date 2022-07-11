@@ -7,7 +7,9 @@ import Contact from "./Contact/Contact"
 import Blog1 from "./Blog1/Blog1"
 import Donate from "./Donate/Donate"
 import { Routes, Route } from "react-router-dom"
-
+import BoardMembers from "./Board Members/BoardMembers"
+import Reports from "./Reports/Reports"
+import Gallery from "./Gallery/Gallery"
 function App() {
    return (
       <div className="App">
@@ -23,6 +25,19 @@ function App() {
                      </main>
                   }
                /> */}
+               <Route
+                  path="/deskan-restoring-hope/board-members"
+                  element={<BoardMembers />}
+               />
+
+               <Route
+                  path="/deskan-restoring-hope/reports"
+                  element={<Reports />}
+               />
+               <Route
+                  path="/deskan-restoring-hope/photogallery"
+                  element={<Gallery />}
+               />
                <Route
                   path="/deskan-restoring-hope/about"
                   element={<Contact />}
