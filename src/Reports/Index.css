@@ -34,3 +34,21 @@
    max-width: 1160px;
    margin: 0 auto;
 }
+.reports-container h2 {
+   font-size: 2.5em;
+   padding: 1.5em 0;
+}
+.reports-container ul {
+   list-style: none;
+}
+.reports-container .newsletter-list {
+   margin-bottom: 5em;
+}
+
+.reports-container ul li {
+   margin: 1em 0;
+}
+.reports-container ul li a {
+   padding: 0.3em 0;
+   font-size: 1.1em;
+}
