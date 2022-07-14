@@ -40,3 +40,36 @@
       max-width: 1050px;
    }
 }
+
+@media only screen and (max-width: 830px) {
+   .sponsoricon {
+      width: 80px;
+      height: 80px;
+   }
+   .sponsors .sponsoricon img {
+      width: 80px;
+      height: 80px;
+   }
+   .sponsors ul {
+      max-width: 750px;
+   }
+}
+@media only screen and (max-width: 600px) {
+   .sponsors ul {
+      max-width: 400px;
+      margin: 0 auto;
+      display: block;
+   }
+   .sponsoricon {
+      width: 50%;
+      height: 50%;
+      display: inline-block;
+      margin-bottom: 1em;
+   }
+   .sponsors .sponsoricon img {
+      width: 150px;
+      height: 150px;
+      display: block;
+      margin: 0 auto;
+   }
+}

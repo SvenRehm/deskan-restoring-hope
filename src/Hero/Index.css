@@ -85,12 +85,36 @@
 }
 @media only screen and (max-width: 950px) {
    .hero h1 {
-      grid-column: 1/11;
+      grid-column: 1/12;
    }
    .container {
       /* padding: 0 1em; */
 
       max-width: 920px;
       padding: 0 2.5em;
+   }
+}
+
+@media only screen and (max-width: 830px) {
+   .hero h1 {
+      font-size: 3.8em;
+   }
+   .hero h2 {
+      grid-column: 1/13;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .hero h1 {
+      font-size: 2.6em;
+   }
+   .call-to-action {
+      margin-top: 5.5em;
+      grid-column: 1/13;
+      grid-row: 9/10;
+   }
+
+   .involved {
+      margin-left: 3em;
    }
 }

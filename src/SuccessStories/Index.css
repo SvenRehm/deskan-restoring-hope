@@ -45,3 +45,26 @@
    width: 70%;
    line-height: 1.6;
 }
+
+@media only screen and (max-width: 830px) {
+   .success-card {
+      grid-column: 3/11;
+      padding: 2.5em;
+      margin-bottom: 6em;
+   }
+   .success-card h2 {
+      width: 100%;
+   }
+   .success-card p {
+      width: 100%;
+   }
+
+   .success-card.right-aligned {
+      grid-column: 3/11;
+   }
+   .success-card.right-aligned h2,
+   .success-card.right-aligned p {
+      margin: 0 0 1em 0;
+      width: 100%;
+   }
+}

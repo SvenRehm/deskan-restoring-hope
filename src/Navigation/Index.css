@@ -65,7 +65,10 @@
    background-color: var(--main-white-color);
    color: var(--main-accent-color);
 }
-
+.alllinks > li a:hover {
+   color: var(--main-black-color);
+   background-color: var(--main-white-color);
+}
 .dropdown {
    position: absolute;
    max-width: 350px;
@@ -125,13 +128,6 @@
 .menu {
    cursor: pointer;
 }
-
-@media only screen and (max-width: 1250px) {
-   .nav-container .main-navigation {
-      width: 1050px;
-   }
-}
-
 @keyframes animatename {
    0% {
       transform: translateY(-1%);
@@ -140,6 +136,11 @@
    100% {
       opacity: 1;
       transform: translateY(0%);
+   }
+}
+@media only screen and (max-width: 1250px) {
+   .nav-container .main-navigation {
+      width: 1050px;
    }
 }
 
@@ -186,10 +187,7 @@
       text-decoration: none;
       font-size: 0.9em;
    }
-   .alllinks > li a:hover {
-      color: var(--main-black-color);
-      background-color: var(--main-white-color);
-   }
+
    .dropdown {
       animation: animatename 250ms linear;
       position: relative;

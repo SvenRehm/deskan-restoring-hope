@@ -115,3 +115,13 @@
       max-width: 920px;
    }
 }
+
+@media only screen and (max-width: 600px) {
+   .donate-container {
+      max-width: 570px;
+      padding: 0 2em;
+   }
+   .donate-container a {
+      margin-left: 25%;
+   }
+}
