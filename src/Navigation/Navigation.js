@@ -71,7 +71,9 @@ const Navigation = () => {
    return (
       <div
          className={
-            navbar || menuIsOpen ? "nav-container show-nav" : "nav-container"
+            navbar || (menuIsOpen && isMobile)
+               ? "nav-container show-nav"
+               : "nav-container"
          }
       >
          <ul className="main-navigation">
