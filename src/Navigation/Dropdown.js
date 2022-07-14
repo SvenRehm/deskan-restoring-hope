@@ -9,14 +9,22 @@ const Dropdown = ({
    dropdownClass,
    onMouseClick,
    setMenuIsOpen,
+   isMobile,
 }) => {
    const allDropdownItems = dropdownContent.map((item) => {
+      const handleMouse = () => {
+         if (isMobile) {
+            return onMouseClick
+         } else {
+            return null
+         }
+      }
       return (
          <li
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
             onClick={() => {
-               onMouseClick()
+               handleMouse()
                setMenuIsOpen((prevstate) => !prevstate)
             }}
             key={item.id}

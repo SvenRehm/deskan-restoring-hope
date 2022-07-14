@@ -35,7 +35,7 @@ const Navigation = () => {
       }
    }, [])
 
-   let isMobile = width <= 1060
+   let isMobile = width <= 1101
 
    window.addEventListener("scroll", showNavbarBackground)
 
@@ -115,6 +115,7 @@ const Navigation = () => {
                {dropdown && (
                   <Dropdown
                      dropdownClass={"dropdown"}
+                     isMobile={isMobile}
                      onMouseEnter={!isMobile ? onMouseEnter : null}
                      onMouseLeave={!isMobile ? onMouseLeave : null}
                      onMouseClick={isMobile ? onMouseClickOne : null}
@@ -136,6 +137,7 @@ const Navigation = () => {
                {dropdownProgramm && (
                   <Dropdown
                      dropdownClass={"dropdown2"}
+                     isMobile={isMobile}
                      onMouseEnter={!isMobile ? onMouseEnterTwo : null}
                      onMouseLeave={!isMobile ? onMouseLeaveTwo : null}
                      onMouseClick={isMobile ? onMouseClickTwo : null}
@@ -156,6 +158,7 @@ const Navigation = () => {
                {dropdownAbout && (
                   <Dropdown
                      dropdownClass={"dropdown3"}
+                     isMobile={isMobile}
                      dropdownContent={AboutContent}
                      onMouseEnter={!isMobile ? onMouseEnterThree : null}
                      onMouseLeave={!isMobile ? onMouseLeaveThree : null}

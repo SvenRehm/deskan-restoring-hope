@@ -36,3 +36,13 @@
 .segment {
    padding: 3.5em 0;
 }
+@media only screen and (max-width: 1250px) {
+   .info-grid {
+      max-width: 1050px;
+   }
+}
+@media only screen and (max-width: 1101px) {
+   .info-grid {
+      max-width: 920px;
+   }
+}

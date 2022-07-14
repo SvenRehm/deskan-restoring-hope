@@ -52,3 +52,20 @@
    padding: 0.3em 0;
    font-size: 1.1em;
 }
+@media only screen and (max-width: 1250px) {
+   .reports-container {
+      max-width: 1050px;
+   }
+}
+@media only screen and (max-width: 1101px) {
+   .reports-container {
+      max-width: 920px;
+   }
+}
+
+@media only screen and (max-width: 950px) {
+   .reports-container {
+      /* max-width: 920px; */
+      padding: 0 2.5em;
+   }
+}

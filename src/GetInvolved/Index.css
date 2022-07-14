@@ -41,3 +41,15 @@
    width: 100%;
    text-align: center;
 }
+
+@media only screen and (max-width: 1101px) {
+   .get-involved {
+      max-width: 920px;
+   }
+   .get-involved h1 {
+      font-size: 2em;
+   }
+   .get-involved h2 {
+      font-size: 1.3em;
+   }
+}

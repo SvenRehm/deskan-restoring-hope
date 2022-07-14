@@ -120,11 +120,24 @@
    background-color: var(--main-white-color);
    color: var(--main-accent-color);
 }
-/* .footer-social li a {
-   width: 90%;
-   display: inline-block;
-   text-decoration: none;
-   color: var(--main-white-color);
-   padding: 0.3em 0.3em 0.3em 0;
-  
-} */
+
+@media only screen and (max-width: 1101px) {
+   .footer {
+      max-width: 920px;
+   }
+   .footer .newsletter button {
+      margin-left: 0;
+      margin-top: 1em;
+      padding: 0 4.1em;
+   }
+}
+
+@media only screen and (max-width: 950px) {
+   /* .nav-container .main-navigation {
+      padding: 0 2.5em;
+   } */
+
+   .footer {
+      padding: 0 2.5em;
+   }
+}

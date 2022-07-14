@@ -24,11 +24,3 @@ button {
    --ligh-grey: #e8e8e8;
    --very-light-accent: #f9f5ff;
 }
-.container {
-   height: 100%;
-   display: grid;
-   grid-template-columns: repeat(12, 1fr);
-   grid-template-rows: repeat(12, 1fr);
-   max-width: 1160px;
-   margin: 0 auto;
-}
