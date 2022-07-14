@@ -131,6 +131,18 @@
       width: 1050px;
    }
 }
+
+@keyframes animatename {
+   0% {
+      transform: translateY(-1%);
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0%);
+   }
+}
+
 @media only screen and (max-width: 1101px) {
    .nav-container {
       position: fixed;
@@ -148,16 +160,23 @@
    }
 
    .alllinks {
-      display: none;
+      display: block;
+      opacity: 0;
       background-color: var(--main-black-color);
       width: 350px;
       height: 100vh;
       position: absolute;
       top: 90px;
       right: 0;
+      transform: translateX(100%);
+      transition: transform 250ms ease-in, opacity 250ms ease-in;
    }
+
    .alllinks.isShown {
       display: block;
+      opacity: 1;
+      transform: translateX(0%);
+      transition: transform 250ms ease-in;
    }
    .alllinks > li a {
       width: 100%;
@@ -172,6 +191,7 @@
       background-color: var(--main-white-color);
    }
    .dropdown {
+      animation: animatename 250ms linear;
       position: relative;
       max-width: 350px;
       top: 0;
@@ -183,6 +203,7 @@
    }
 
    .dropdown2 {
+      animation: animatename 250ms linear;
       position: relative;
       max-width: 350px;
       background-color: var(--main-white-color);
@@ -194,6 +215,7 @@
    }
 
    .dropdown3 {
+      animation: animatename 250ms linear;
       position: relative;
       max-width: 350px;
       border: none;
