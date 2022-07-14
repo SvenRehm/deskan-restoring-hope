@@ -7,7 +7,6 @@
    z-index: 500;
    height: 90px;
    transition: all 400ms ease-in;
-   /* background-color: var(--main-black-color); */
 }
 .nav-container.show-nav {
    background-color: var(--main-black-color);
@@ -41,19 +40,15 @@
 
 .logo {
    margin-left: auto;
-
    padding: 0;
 }
 .logo:hover {
    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
    background-color: transparent;
-   /* transform: scale(1); */
 }
 
 .alllinks > li a:hover {
    color: var(--main-black-color);
-   background-color: var(--main-white-color);
-   /* box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.75); */
 }
 
 .alllinks > li a.isActive {
@@ -65,10 +60,6 @@
    background-color: var(--main-accent-color);
 }
 
-/* .alllinks > li .donate-button:hover {
-   background-color: var(--main-accent-color-hover);
-   color: var(--main-white-color);
-} */
 .alllinks > li .donate-button:hover {
    background-color: var(--main-white-color);
    color: var(--main-accent-color);
@@ -81,7 +72,6 @@
    list-style: none;
    top: 2.7em;
    left: -1px;
-   /* box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.75); */
    border: 0.5px solid rgb(17, 17, 17);
    border-top: none;
 }
@@ -130,4 +120,84 @@
 .dropdown3 > li a:hover {
    color: var(--main-black-color);
    background-color: #a382ff;
+}
+.menu {
+   cursor: pointer;
+}
+@media only screen and (max-width: 1060px) {
+   .nav-container {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      height: 90px;
+   }
+
+   .nav-container .main-navigation {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      width: 1000px;
+      margin: 0 auto;
+   }
+
+   .alllinks {
+      /* display: flex; */
+      display: none;
+      /* display: block; */
+      background-color: var(--main-black-color);
+      /* background-color: red; */
+      width: 350px;
+      height: 100vh;
+      position: absolute;
+      top: 90px;
+      right: 0;
+   }
+   .alllinks.isShown {
+      display: block;
+   }
+   .alllinks > li a {
+      width: 100%;
+      display: inline-block;
+      position: relative;
+      padding: 0.9em 1.7em;
+      text-decoration: none;
+      font-size: 0.9em;
+   }
+   .alllinks > li a:hover {
+      color: var(--main-black-color);
+      background-color: var(--main-white-color);
+   }
+   .dropdown {
+      position: relative;
+      max-width: 350px;
+      top: 0;
+      left: 0;
+      border: none;
+   }
+   .alllinks .dropdown-hover a {
+      background-color: #a382ff;
+   }
+
+   .dropdown2 {
+      position: relative;
+      max-width: 350px;
+      background-color: var(--main-white-color);
+      list-style: none;
+      top: 0;
+      left: 0;
+      border: none;
+      border-top: none;
+   }
+
+   .dropdown3 {
+      position: relative;
+      max-width: 350px;
+      border: none;
+      top: 0;
+      left: 0;
+   }
 }

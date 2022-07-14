@@ -7,12 +7,18 @@ const Dropdown = ({
    onMouseEnter,
    onMouseLeave,
    dropdownClass,
+   onMouseClick,
+   setMenuIsOpen,
 }) => {
    const allDropdownItems = dropdownContent.map((item) => {
       return (
          <li
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
+            onClick={() => {
+               onMouseClick()
+               setMenuIsOpen((prevstate) => !prevstate)
+            }}
             key={item.id}
          >
             <NavLink
