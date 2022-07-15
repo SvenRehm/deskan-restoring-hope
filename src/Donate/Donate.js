@@ -3,7 +3,8 @@ import "./Index.css"
 // import aboutusimg from "../Images/about_us.jpg"
 // import { Link, Outlet } from "react-router-dom"
 // import { WaysToHelpContent } from "../Navigation/WaysToHelpContent"
-import img from "../Images/donate-page.jpg"
+// import img from "../Images/donate-page.jpg"
+import img2 from "../Images/donate2.jpg"
 import { Link } from "react-router-dom"
 import SponsorsAndPartners from "../SponsorsAndPartners/SponsorsAndPartners"
 import GetInvolved from "../GetInvolved/GetInvolved"
@@ -11,7 +12,7 @@ const Donate = () => {
    return (
       <>
          <div className="donate-hero">
-            <img src={img} alt="donate-hero" />
+            <img src={img2} alt="donate-hero" />
             <h1>Donate</h1>
          </div>
          <div className="donate-container">

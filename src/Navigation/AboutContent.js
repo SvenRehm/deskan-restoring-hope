@@ -1,7 +1,11 @@
-import aboutushero from "../Images/about-us-hero.jpg"
+import aboutushero from "../Images/about us.jpg"
 import aboutUs from "../Images/about_us.jpg"
 import successHero from "../Images/success-stories-hero.jpg"
-import accomplishmentHero from "../Images/accomplishment-hero.jpg"
+import successImg from "../Images/happy.jpg"
+
+// import accomplishmentHero from "../Images/accomplishment-hero.jpg"
+import accomplishmentHero from "../Images/Accomplishments.jpg"
+import accomplishmentImg from "../Images/accomplishments-img.jpg"
 
 export const AboutContent = [
    {
@@ -42,7 +46,7 @@ export const AboutContent = [
    {
       id: 2,
       heroimg: successHero,
-
+      img: successImg,
       title: "Succes Stories",
 
       path: "/deskan-restoring-hope/success-stories",
@@ -77,6 +81,7 @@ export const AboutContent = [
       id: 3,
       title: "Accomplishments",
       heroimg: accomplishmentHero,
+      img: accomplishmentImg,
 
       path: "/deskan-restoring-hope/accomplishments",
       header: "",

@@ -31,18 +31,17 @@
    grid-column: 5/12;
 }
 .success-card.right-aligned h2 {
-   margin-left: 30%;
+   font-size: 2em;
 }
-.success-card.right-aligned p {
-   margin-left: 30%;
-}
+
 .success-card h2 {
-   width: 70%;
+   font-size: 2em;
+   width: 100%;
    margin-bottom: 1em;
    color: var(--main-accent-color);
 }
 .success-card p {
-   width: 70%;
+   width: 100%;
    line-height: 1.6;
 }
 

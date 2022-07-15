@@ -30,11 +30,9 @@ const Footer = () => {
                <li>
                   <Link to="/deskan-restoring-hope/about-us">About </Link>
                </li>
+
                <li>
-                  <Link to="">Resources</Link>
-               </li>
-               <li>
-                  <Link to="">Contact</Link>
+                  <Link to="/deskan-restoring-hope/contact">Contact</Link>
                </li>
                <li>
                   <Link
@@ -48,16 +46,20 @@ const Footer = () => {
             <ul className="footer-social">
                <li>Social</li>
                <li>
-                  <a href="/">Facebook</a>
+                  <a href="https://www.facebook.com/DeskanInstitute/">
+                     Facebook
+                  </a>
                </li>
                <li>
-                  <a href="/">Twitter</a>
+                  <a href="https://twitter.com/DeskanInstitute">Twitter</a>
                </li>
                <li>
-                  <a href="/">Youtube</a>
+                  <a href="https://www.youtube.com/user/Dove424">Youtube</a>
                </li>
                <li>
-                  <a href="/">Newsletter/Blog</a>
+                  <a href="https://deskanblog.wordpress.com/">
+                     Newsletter/Blog
+                  </a>
                </li>
             </ul>
 

@@ -1,12 +1,19 @@
 import veteran from "../Images/veteran.jpg"
 import veteranService from "../Images/veteran-service.jpg"
-import medicalMission from "../Images/Medical Mission.jpg"
+// import medicalMission from "../Images/Medical Mission.jpg"
+import medicalMission from "../Images/medical-mission.jpg"
+import medicalMission2 from "../Images/medical-mission-blog.jpg"
 import foodHero from "../Images/food-donation-hero.jpg"
 import helpingHomelessHero from "../Images/helping-homeless.jpg"
 import givingGift from "../Images/giving.jpg"
 import restoringHopeHero from "../Images/restoring-hope-hero.jpg"
 
+import restoringHopeImg from "../Images/restoring-hope.jpg"
+import secondChanceImg from "../Images/second-chance-blog.jpg"
 import secondChance from "../Images/second-chance-hero.jpg"
+import foodPantry from "../Images/food-pantry.jpg"
+import homelessness from "../Images/homelessness.jpg"
+import givingImg from "../Images/gift-giving.jpg"
 
 export const ProgrammsContent = [
    {
@@ -26,7 +33,7 @@ export const ProgrammsContent = [
    {
       id: 2,
       heroimg: medicalMission,
-      img: veteranService,
+      img: medicalMission2,
       title: "Medical Mission/Missionary Work",
       path: "/deskan-restoring-hope/mmwork",
       header: "Medical Mission & Missionary Work",
@@ -47,7 +54,7 @@ export const ProgrammsContent = [
       id: 3,
 
       heroimg: secondChance,
-      img: veteranService,
+      img: secondChanceImg,
       title: "Second Chance Programm",
       path: "/deskan-restoring-hope/second-chance",
       header: "Welcome to Deskan Second Chance Program!",
@@ -64,7 +71,7 @@ export const ProgrammsContent = [
    {
       id: 4,
       heroimg: foodHero,
-      img: veteranService,
+      img: foodPantry,
       title: "Food/Clothes",
       path: "/deskan-restoring-hope/food-pantry",
       header: "Food Pantry",
@@ -88,7 +95,7 @@ export const ProgrammsContent = [
    {
       id: 5,
       heroimg: helpingHomelessHero,
-      img: veteranService,
+      img: homelessness,
       title: "Homelessness",
       path: "/deskan-restoring-hope/homeless",
       header: "Helping the Homeless",
@@ -104,7 +111,7 @@ export const ProgrammsContent = [
    {
       id: 6,
       heroimg: givingGift,
-      img: veteranService,
+      img: givingImg,
       title: "Annual Community Holiday Giving",
       path: "/deskan-restoring-hope/achgiving",
       header: "Annual Community Holiday Giving",
@@ -118,7 +125,7 @@ export const ProgrammsContent = [
    {
       id: 7,
       heroimg: restoringHopeHero,
-      img: veteranService,
+      img: restoringHopeImg,
       title: "Restoring Hope",
       path: "/deskan-restoring-hope/restore-hope",
       header: "Restoring Hope Ministry",

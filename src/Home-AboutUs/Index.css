@@ -6,7 +6,7 @@
 .home-about-us-grid {
    display: grid;
    grid-template-columns: repeat(12, 1fr);
-   grid-template-rows: repeat(12, 50px);
+   grid-template-rows: repeat(12, 60px);
    max-width: 1160px;
    margin: 0 auto;
    padding: 5em 0;
@@ -15,12 +15,13 @@
 .about-us-img {
    width: 100%;
    height: auto;
-   grid-row: 3/12;
+   /* grid-row: 3/12;    */
+   grid-row: 4/12;
    grid-column: 1/7;
    z-index: 20;
 }
 .about-us-section {
-   margin: 2em 0 1em 0;
+   margin: 3em 0 1em 0;
    grid-row: 1/13;
    background-color: var(--dark-accent-color);
    grid-column: 4/13;

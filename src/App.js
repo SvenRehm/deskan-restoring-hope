@@ -1,4 +1,3 @@
-import "./App.css"
 import Navigation from "./Navigation/Navigation"
 
 import Footer from "./Footer/Footer"
@@ -39,7 +38,7 @@ function App() {
                   element={<Gallery />}
                />
                <Route
-                  path="/deskan-restoring-hope/about"
+                  path="/deskan-restoring-hope/contact"
                   element={<Contact />}
                />
                <Route path="/deskan-restoring-hope/" element={<Home />} />

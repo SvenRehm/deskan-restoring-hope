@@ -1,7 +1,10 @@
 import volunteerImg from "../Images/volunteer.jpg"
 import volunteer2Img from "../Images/volunteer2.jpg"
 import thankyou from "../Images/about_us.jpg"
-import thankyouImg from "../Images/thank-you.jpg"
+import thankyouImg from "../Images/thanks.jpg"
+import committee from "../Images/committee.jpg"
+import sponsor from "../Images/sponsor.jpg"
+import partner from "../Images/partner.jpg"
 
 export const WaysToHelpContent = [
    {
@@ -25,7 +28,7 @@ export const WaysToHelpContent = [
    {
       id: 2,
       heroimg: volunteerImg,
-
+      img: committee,
       dropdownMenu: "Ways To Help",
       title: "Join a committee",
       path: "/deskan-restoring-hope/committee",
@@ -46,6 +49,7 @@ export const WaysToHelpContent = [
    {
       id: 3,
       heroimg: volunteerImg,
+      img: sponsor,
       dropdownMenu: "Ways To Help",
       title: "Become a sponsor",
       path: "/deskan-restoring-hope/sponsors",
@@ -57,6 +61,7 @@ export const WaysToHelpContent = [
    {
       id: 4,
       heroimg: volunteerImg,
+      img: partner,
       dropdownMenu: "Ways To Help",
       title: "Be a partner",
       path: "/deskan-restoring-hope/partners",

@@ -168,9 +168,9 @@ const Navigation = () => {
                      setMenuIsOpen={setMenuIsOpen}
                   ></Dropdown>
                )}
-               <li>
+               {/* <li>
                   <NavLink to="/deskan-restoring-hope/">Resources</NavLink>
-               </li>
+               </li> */}
                <li>
                   <NavLink
                      style={({ isActive }) => {
@@ -179,7 +179,7 @@ const Navigation = () => {
                            color: isActive ? "#111111" : "",
                         }
                      }}
-                     to="/deskan-restoring-hope/about"
+                     to="/deskan-restoring-hope/contact"
                   >
                      Contact
                   </NavLink>
