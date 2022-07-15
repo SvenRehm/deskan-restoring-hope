@@ -109,12 +109,48 @@
       font-size: 2.6em;
    }
    .call-to-action {
-      margin-top: 5.5em;
       grid-column: 1/13;
       grid-row: 9/10;
    }
 
    .involved {
       margin-left: 3em;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .hero h1 {
+      font-size: 3.3em;
+   }
+   .container {
+      /* padding: 0 1em; */
+
+      padding: 0 2em;
+   }
+}
+@media only screen and (max-width: 486px) {
+   .hero h2 {
+      font-size: 1.7em;
+   }
+   .call-to-action {
+      /* grid-column: 1/11; */
+      grid-column: 1/13;
+      grid-row: 9/10;
+   }
+
+   .call-to-action .button.donate {
+      display: block;
+      padding: 0.7em 1.2em;
+      width: 180px;
+      margin: 0 auto;
+      /* margin-left: 25%; */
+   }
+   .call-to-action .button.involved {
+      display: block;
+
+      padding: 0.7em 1.2em;
+      width: 180px;
+      margin: 0 auto;
+      margin-top: 2em;
    }
 }

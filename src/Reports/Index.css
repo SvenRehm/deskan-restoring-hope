@@ -69,3 +69,13 @@
       padding: 0 2.5em;
    }
 }
+
+@media only screen and (max-width: 460px) {
+   .reports-hero h1 {
+      font-size: 3em;
+      justify-self: center;
+      text-align: center;
+      /* align-self: center; */
+      /* margin-top: 3em; */
+   }
+}

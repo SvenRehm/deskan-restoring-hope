@@ -68,3 +68,11 @@
       width: 100%;
    }
 }
+@media only screen and (max-width: 460px) {
+   .success-card {
+      grid-column: 2/12;
+   }
+   .success-card.right-aligned {
+      grid-column: 2/12;
+   }
+}

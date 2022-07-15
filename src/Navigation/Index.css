@@ -233,3 +233,9 @@
       padding: 0 2.5em;
    }
 }
+
+@media only screen and (max-width: 950px) {
+   .nav-container .main-navigation {
+      padding: 0 2em;
+   }
+}

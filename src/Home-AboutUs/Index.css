@@ -143,3 +143,43 @@
       margin-bottom: 2em;
    }
 }
+
+@media only screen and (max-width: 950px) {
+   .home-about-us-grid {
+      grid-template-rows: repeat(12, 60px);
+      max-width: 1160px;
+      padding: 5em 0;
+   }
+   .about-us-section h1 {
+      grid-column: 3/12;
+   }
+
+   .about-us-img {
+      grid-row: 4/12;
+      grid-column: 1/7;
+      margin-left: 0.5em;
+   }
+}
+
+@media only screen and (max-width: 830px) {
+   .about-us-section a {
+      grid-column: 9/11;
+      height: 40px;
+      width: 140px;
+   }
+}
+@media only screen and (max-width: 460px) {
+   .about-us-img {
+      grid-row: 1/4;
+      grid-column: 1/13;
+      height: 300px;
+      margin: 0;
+   }
+   .home-about-us-grid {
+      grid-template-rows: repeat(11, 100px);
+      padding: 0;
+   }
+   .about-us-section a {
+      grid-column: 6/8;
+   }
+}

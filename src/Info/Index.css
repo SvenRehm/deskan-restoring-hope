@@ -59,10 +59,21 @@
 }
 
 @media only screen and (max-width: 600px) {
+   .info-header {
+      font-size: 1.4em;
+   }
    .info-grid {
-      max-width: 530px;
+      max-width: 380px;
+      padding: 0 2em;
+      border: none;
    }
    .info-segment {
       grid-column: 1/13;
+      grid-gap: 0;
+      margin-top: 1em;
+   }
+   .segment {
+      grid-column: 1/6;
+      padding: 2em 0;
    }
 }
