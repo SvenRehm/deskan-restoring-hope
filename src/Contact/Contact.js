@@ -34,6 +34,25 @@ function Contact() {
                   <h3>LiverpJ@Bellsouth.net</h3>
                </div>
             </div>
+
+            <div className="contact-socials">
+               <div className="socials-segment">
+                  <a href="https://twitter.com/DeskanInstitute">Twitter</a>
+               </div>
+               <div className="socials-segment">
+                  <a href="https://www.facebook.com/DeskanInstitute/">
+                     Facebook
+                  </a>
+               </div>
+               <div className="socials-segment">
+                  <a href="https://www.youtube.com/user/Dove424">Youtube</a>
+               </div>
+               <div className="socials-segment">
+                  <a href="https://deskanblog.wordpress.com/">
+                     Newsletter/Blog
+                  </a>
+               </div>
+            </div>
             <div className="contact-form">
                <h2>Send us your queries</h2>
 
