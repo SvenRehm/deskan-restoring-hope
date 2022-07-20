@@ -38,8 +38,14 @@ const Blog1 = () => {
                </p>
                <img src={invoice[0].img} alt="blogimage" />
                {/* <a href={Pdf} target="_blank" rel="noreferrer">
-                  Download Pdf
+                  Download 
+                  Pdf
                </a> */}
+               {invoice[0].pdf ? (
+                  <a href={invoice[0].pdf} target="_blank" rel="noreferrer">
+                     Download Pdf
+                  </a>
+               ) : null}
             </div>
          </section>
          <GetInvolved />

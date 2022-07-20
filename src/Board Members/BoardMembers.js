@@ -4,7 +4,7 @@ import "./Index.css"
 import MemberCard from "./MemberCard"
 import img1 from "../Images/Boardmembers/joan.jpg"
 import img2 from "../Images/Boardmembers/charles2.jpg"
-import img3 from "../Images/Boardmembers/jamal3.png"
+
 import team from "../Images/team.jpg"
 
 const allMembers = [
@@ -20,12 +20,7 @@ const allMembers = [
       name: "Charles Liverpool",
       title: "Assistant Director and Coordinator, Veterans Program",
    },
-   {
-      id: 3,
-      img: img3,
-      name: "Jamal Liverpool",
-      title: "Youth Director",
-   },
+
    {
       id: 4,
       img: "asda",

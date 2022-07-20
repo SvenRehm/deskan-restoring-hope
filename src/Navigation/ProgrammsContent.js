@@ -72,7 +72,7 @@ export const ProgrammsContent = [
       id: 4,
       heroimg: foodHero,
       img: foodPantry,
-      title: "Food/Clothes",
+      title: "Food Pantry",
       path: "/deskan-restoring-hope/food-pantry",
       header: "Food Pantry",
       desc: "Deskan provided grocery boxes of food to over 2,500 families.</br> Deskan also helped serve over 21,426 hot meals at homeless shelters </br>in Atlanta, Local Hotel and Extended Stay Motel in Decatur and Stone Mountain area..",
@@ -86,11 +86,7 @@ export const ProgrammsContent = [
       </p>
       <p> This monthly feeding program is extended to the Parks where the homeless find a home. It is also extended to families in need of food and clothing, who can reach us to partake of their need from our Food Pantry and Clothing Rack in Stone Mountain, GA.
       
-      You can view our online menu for more information about our monthly menu.</p><h2 class="second-heading ">Clothes Closet</h2><h3>Deskan has provided clothing to local organizations that share in the cause of “Second Chance for Individuals” Women of Domestic Violence, In Home Foster Care Services, Families of Natural Disaster (flood, fire or loss of home) in places like New Orleans, New Jersey, Tennessee, Mississippi, Haiti, Guyana, and Belize, Central America.</h3>
-      <p>Our clothing closets give the less fortunate the opportunity to get new or gentle used clothes for themselves or love ones. To those who don’t have decent clothes to clothes themselves or their family, we provide them the opportunities, to get decent clothing assistance in offering coats, shoes, clothes for individuals including infants or babies.
-</br></br>
-      If you would like to donate your new or gentle used clothes or would like to receive some of our clothes closets items, please get intouch with us.
-     </br> Please contact us for more information about becoming a partner or sponsoring.</p>`,
+      You can view our online menu for more information about our monthly menu.</p>`,
    },
    {
       id: 5,

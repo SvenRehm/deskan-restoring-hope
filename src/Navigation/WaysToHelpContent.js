@@ -6,6 +6,8 @@ import committee from "../Images/committee.jpg"
 import sponsor from "../Images/sponsor.jpg"
 import partner from "../Images/partner.jpg"
 
+import Pdf1 from "../Images/Pdf/WWA Community Support Presentation.pdf"
+
 export const WaysToHelpContent = [
    {
       id: 1,
@@ -67,12 +69,15 @@ export const WaysToHelpContent = [
       path: "/deskan-restoring-hope/partners",
       header: "Become a Partner",
       desc: "We collaborate with organizations, churches, medical centers, businesses, sponsors, corporations and other service providers to help our communities, won't you please consider and become a partner or sponsor with us.",
+      pdf: Pdf1,
       paragraph: `As a non-profit organization, we are always looking for partners to join us, whether it’s a long or short term collaboration partnership, we would love for your business, or organization to become partners with us.
 
    <p>Partnership is about sharing, whether in resources or a common need, partnerships are essential to the success of our organization, it can be innovative, and boost efficiency to make a significant difference in the lives of the needy.
    
    We relied on the generosity of corporations and foundations since their donations is vital to advancing the mission here at Deskan.</p>
-   <p>Please contact us for more information about becoming a partner or sponsoring.</p>`,
+   <p>Please contact us for more information about becoming a partner or sponsoring.</p>
+   
+   `,
    },
    {
       id: 5,
