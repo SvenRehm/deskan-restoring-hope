@@ -1,15 +1,12 @@
 .sponsors {
    width: 100%;
-   /* background-color: var(--ligh-grey); */
    background-color: white;
 }
+
 .sponsoricon {
    width: 120px;
    height: 120px;
-   /* width: 140px;
-   height: 140px;
-   margin: 0 0 0 0.3em;
-   background-color: white; */
+
    overflow: hidden;
 }
 .sponsors .sponsoricon img {
@@ -18,9 +15,6 @@
    object-fit: contain;
    margin: 0 0 0 0.3em;
    background-color: white;
-
-   /* width: 100%;
-   height: auto; */
 }
 
 .sponsors ul {

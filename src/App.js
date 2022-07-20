@@ -20,7 +20,6 @@ function App() {
                   path="/deskan-restoring-hope/board-members"
                   element={<BoardMembers />}
                />
-
                <Route
                   path="/deskan-restoring-hope/reports"
                   element={<Reports />}

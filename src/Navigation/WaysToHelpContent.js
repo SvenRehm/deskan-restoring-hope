@@ -70,6 +70,7 @@ export const WaysToHelpContent = [
       header: "Become a Partner",
       desc: "We collaborate with organizations, churches, medical centers, businesses, sponsors, corporations and other service providers to help our communities, won't you please consider and become a partner or sponsor with us.",
       pdf: Pdf1,
+      pdfName: "WWA Community Support Presentation",
       paragraph: `As a non-profit organization, we are always looking for partners to join us, whether it’s a long or short term collaboration partnership, we would love for your business, or organization to become partners with us.
 
    <p>Partnership is about sharing, whether in resources or a common need, partnerships are essential to the success of our organization, it can be innovative, and boost efficiency to make a significant difference in the lives of the needy.

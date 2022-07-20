@@ -16,7 +16,6 @@ const SuccessStories = () => {
                   However, thanks to Deskan, my children were able to eat a nice
                   meal for Thanksgiving.” (Bufford, GA).
                </p>
-               {/* <img src="" alt="success strorie1"></img> */}
             </div>
             <div className="success-card right-aligned">
                <h2>I am a grandmother raising my grandchildren</h2>
@@ -27,7 +26,6 @@ const SuccessStories = () => {
                   help so much. The toys would keep the children happy. God
                   bless you people.” (Grandmother of 2).
                </p>
-               {/* <img src="" alt="success strorie1"></img> */}
             </div>
             <div className="success-card">
                <h2>I am a single mother of three from Tennessee. </h2>
@@ -38,7 +36,6 @@ const SuccessStories = () => {
                   been there for me and my children and I thank God for them."
                   (Decatur)
                </p>
-               {/* <img src="" alt="success strorie1"></img> */}
             </div>
          </div>
       </section>

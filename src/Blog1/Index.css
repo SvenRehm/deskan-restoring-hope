@@ -92,6 +92,12 @@
    margin-bottom: 1em;
 }
 
+.blog-grid a {
+   margin-top: 1em;
+   grid-column: 1/7;
+   line-height: 1.6;
+}
+
 @media only screen and (max-width: 1250px) {
    .blog-grid {
       max-width: 1050px;

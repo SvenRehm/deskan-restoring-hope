@@ -43,7 +43,7 @@ const Blog1 = () => {
                </a> */}
                {invoice[0].pdf ? (
                   <a href={invoice[0].pdf} target="_blank" rel="noreferrer">
-                     Download Pdf
+                     {invoice[0].pdfName}
                   </a>
                ) : null}
             </div>
