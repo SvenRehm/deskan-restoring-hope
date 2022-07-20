@@ -16,14 +16,6 @@ function App() {
             <Navigation />
 
             <Routes>
-               {/* <Route
-                  path="*"
-                  element={
-                     <main style={{ padding: "1rem" }}>
-                        <p>There's nothing here!</p>
-                     </main>
-                  }
-               /> */}
                <Route
                   path="/deskan-restoring-hope/board-members"
                   element={<BoardMembers />}
