@@ -15,7 +15,7 @@ export const WaysToHelpContent = [
       img: volunteer2Img,
       dropdownMenu: "Ways To Help",
       title: "Volunteer",
-      path: "/deskan-restoring-hope/volunteer",
+      path: "/volunteer",
       header: "Become a Volunteer",
       desc: "DESKAN welcomes your partnership in our global mission. Together we really can make a difference in people’s lives. Please join us in praying for peace and healing in our wounded world. “To whom much is given much is required.” .",
       paragraph: `One of the best things you can do for your self is to do something for others.And one of the best ways to accomplish that is to volunteer. 
@@ -33,7 +33,7 @@ export const WaysToHelpContent = [
       img: committee,
       dropdownMenu: "Ways To Help",
       title: "Join a committee",
-      path: "/deskan-restoring-hope/committee",
+      path: "/committee",
       header: "Deskan Committees",
       desc: "Volunteer with Us",
       paragraph: `<ul><li class="list-title">EDUCATION COMMITTEE:<li/> The Education Committee is responsible for planning and coordinating book drives, scholarships, college preparation programs, mentorship programs, tutoring programs, computer donations, school supply donations, food drives, clothes drive and other activities deemed necessary to enhance students’ ability to learn and therefore, improve their chances of becoming viable citizens in society.
@@ -54,7 +54,7 @@ export const WaysToHelpContent = [
       img: sponsor,
       dropdownMenu: "Ways To Help",
       title: "Become a sponsor",
-      path: "/deskan-restoring-hope/sponsors",
+      path: "/sponsors",
       header: "Become a Sponsor",
       desc: "We collaborate with organizations, churches, medical centers, businesses, sponsors, corporations and other service providers to help our communities, won't you please consider and become a partner or sponsor with us.",
       paragraph: `Since we are a non-profit organization, we deeply rely on sponsorship from sponsors like you. Sponsors are one of the vital arms in our organization. <p>Your sponsorship can save the lives of many and help assure the success of Deskan in helping the needy both here and abroad.
@@ -66,7 +66,7 @@ export const WaysToHelpContent = [
       img: partner,
       dropdownMenu: "Ways To Help",
       title: "Be a partner",
-      path: "/deskan-restoring-hope/partners",
+      path: "/partners",
       header: "Become a Partner",
       desc: "We collaborate with organizations, churches, medical centers, businesses, sponsors, corporations and other service providers to help our communities, won't you please consider and become a partner or sponsor with us.",
       pdf: Pdf1,
@@ -84,7 +84,7 @@ export const WaysToHelpContent = [
       id: 5,
       dropdownMenu: "Ways To Help",
       title: "Make a Donation",
-      path: "/deskan-restoring-hope/donate",
+      path: "/donate",
    },
    {
       id: 6,
@@ -92,7 +92,7 @@ export const WaysToHelpContent = [
       img: thankyou,
       dropdownMenu: "Ways To Help",
       title: "Thank You",
-      path: "/deskan-restoring-hope/thank-you",
+      path: "/thank-you",
       header: "Thank You All",
 
       paragraph: `Deskan Institute wishes to thank all our supporters, volunteers Board Members and well-wishers for your unbending support to our Organization.

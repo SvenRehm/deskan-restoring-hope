@@ -13,7 +13,7 @@ export const AboutContent = [
       heroimg: aboutushero,
       img: aboutUs,
       title: "About Deskan",
-      path: "/deskan-restoring-hope/about-us",
+      path: "/about-us",
       header: "ABOUT DESKAN RESTORING HOPE, INC",
       desc: "Deskan was established with the aim of providing social services,education, counseling and clinical services.",
       paragraph: `<ul><li class="list-title">VISION: </li>  <li>What better way to impact the health and well-being of our communities than to be a voice for, or to become an advocate for health promotion and disease prevention and or to mentor someone. With this vision the Deskan RESTORING HOPE, Inc was born.
@@ -49,7 +49,7 @@ export const AboutContent = [
       img: successImg,
       title: "Succes Stories",
 
-      path: "/deskan-restoring-hope/success-stories",
+      path: "/success-stories",
       header: "Testimonials from Families and Individuals.",
       desc: "",
       paragraph: `<ul><li>“I am a cancer patient I just finish CHEM and get started late just trying to get things for my children to have a Thanksgiving meal. Ms you do not know. It is so hard. Sometimes I just feel like I am not fit to be a mother. Everything is so hard.” My Children will be able to eat a nice meal tomorrow.” (Bufford, GA) 
@@ -83,7 +83,7 @@ export const AboutContent = [
       heroimg: accomplishmentHero,
       img: accomplishmentImg,
 
-      path: "/deskan-restoring-hope/accomplishments",
+      path: "/accomplishments",
       header: "",
       desc: "Deskan was established with the aim of providing social services,education, counseling and clinical services.",
       paragraph: `<h2>Accomplishments/Highlights for 2015 To-Date</h2><ol>
@@ -105,7 +105,7 @@ Sent [10] barrels of donated medical supplies, school supplies and children’s 
    {
       id: 4,
       title: "Board Members",
-      path: "/deskan-restoring-hope/board-members",
+      path: "/board-members",
       header: "",
       desc: "",
       paragraph: ``,
@@ -113,7 +113,7 @@ Sent [10] barrels of donated medical supplies, school supplies and children’s 
    {
       id: 5,
       title: "Reports/Newsletter",
-      path: "/deskan-restoring-hope/reports",
+      path: "/reports",
       header: "",
       desc: "",
       paragraph: ``,
@@ -122,7 +122,7 @@ Sent [10] barrels of donated medical supplies, school supplies and children’s 
    {
       id: 6,
       title: "Photo Gallery",
-      path: "/deskan-restoring-hope/photogallery",
+      path: "/photogallery",
       header: "",
       desc: "",
       paragraph: ``,

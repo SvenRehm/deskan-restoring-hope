@@ -16,32 +16,14 @@ function App() {
             <Navigation />
 
             <Routes>
-               <Route
-                  path="/deskan-restoring-hope/board-members"
-                  element={<BoardMembers />}
-               />
-               <Route
-                  path="/deskan-restoring-hope/reports"
-                  element={<Reports />}
-               />
-               <Route
-                  path="/deskan-restoring-hope/photogallery"
-                  element={<Gallery />}
-               />
-               <Route
-                  path="/deskan-restoring-hope/contact"
-                  element={<Contact />}
-               />
-               <Route path="/deskan-restoring-hope/" element={<Home />} />
+               <Route path="/board-members" element={<BoardMembers />} />
+               <Route path="/reports" element={<Reports />} />
+               <Route path="/photogallery" element={<Gallery />} />
+               <Route path="/contact" element={<Contact />} />
+               <Route path="/" element={<Home />} />
 
-               <Route
-                  path="/deskan-restoring-hope/donate"
-                  element={<Donate />}
-               />
-               <Route
-                  path="/deskan-restoring-hope/:blogId"
-                  element={<Blog1 />}
-               />
+               <Route path="/donate" element={<Donate />} />
+               <Route path="/:blogId" element={<Blog1 />} />
             </Routes>
             <Footer />
          </>

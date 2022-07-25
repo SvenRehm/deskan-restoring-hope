@@ -17,28 +17,23 @@ const Footer = () => {
             <ul className="footer-nav">
                <li>Navigation</li>
                <li>
-                  <Link to="/deskan-restoring-hope/">Home</Link>
+                  <Link to="/">Home</Link>
                </li>
                <li>
-                  <Link to="/deskan-restoring-hope/committee">
-                     Ways to Help
-                  </Link>
+                  <Link to="/committee">Ways to Help</Link>
                </li>
                <li>
-                  <Link to="/deskan-restoring-hope/veterans">Programms </Link>
+                  <Link to="/veterans">Programms </Link>
                </li>
                <li>
-                  <Link to="/deskan-restoring-hope/about-us">About </Link>
+                  <Link to="/about-us">About </Link>
                </li>
 
                <li>
-                  <Link to="/deskan-restoring-hope/contact">Contact</Link>
+                  <Link to="/contact">Contact</Link>
                </li>
                <li>
-                  <Link
-                     className="donate-button"
-                     to="/deskan-restoring-hope/donate"
-                  >
+                  <Link className="donate-button" to="/donate">
                      Donate
                   </Link>
                </li>

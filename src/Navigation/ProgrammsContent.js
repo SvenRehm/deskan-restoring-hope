@@ -21,7 +21,7 @@ export const ProgrammsContent = [
       heroimg: veteran,
       img: veteranService,
       title: "Veterans Services",
-      path: "/deskan-restoring-hope/veterans",
+      path: "/veterans",
       header: "WE ARE A VETERAN SERVING VETERANS—ORGANIZATION",
 
       paragraph: `Now, more than ever, it is important for us to come together as communities to celebrate humanity,  compassion and understanding, and to exercise the power we all have to make a difference. <p>We know you can reach out to many others, but we are asking you to help us to help others.
@@ -35,7 +35,7 @@ export const ProgrammsContent = [
       heroimg: medicalMission,
       img: medicalMission2,
       title: "Medical Mission/Missionary Work",
-      path: "/deskan-restoring-hope/mmwork",
+      path: "/mmwork",
       header: "Medical Mission & Missionary Work",
       desc: "Deskan provides clinic for medical care, medical evaluation and consultation, and health education and prevention education.",
       paragraph: `<p>The clinic also provides donated reading glasses to those in-need and over-the-counter medications are dispensed at the clinic which is staffed by a local Pharmacist.
@@ -56,7 +56,7 @@ export const ProgrammsContent = [
       heroimg: secondChance,
       img: secondChanceImg,
       title: "Second Chance Programm",
-      path: "/deskan-restoring-hope/second-chance",
+      path: "/second-chance",
       header: "Welcome to Deskan Second Chance Program!",
       desc: "Second Chance Outreach Program strives to educate, rehabilitate and increase community safety by maximizing men and women's potential.",
       paragraph: `Second Chance Outreach Program strives to educate, rehabilitate and increase community safety by maximizing men and women's potential. Our services along with community collaboration and contributions, allow our outreach efforts to assist individuals in need of a Second Chance.
@@ -73,7 +73,7 @@ export const ProgrammsContent = [
       heroimg: foodHero,
       img: foodPantry,
       title: "Food Pantry",
-      path: "/deskan-restoring-hope/food-pantry",
+      path: "/food-pantry",
       header: "Food Pantry",
       desc: "Deskan provided grocery boxes of food to over 2,500 families.</br> Deskan also helped serve over 21,426 hot meals at homeless shelters </br>in Atlanta, Local Hotel and Extended Stay Motel in Decatur and Stone Mountain area..",
       paragraph: `Women and children make up the fastest growing segment of the homeless population with half of the women and children living in the State of Georgia.
@@ -93,7 +93,7 @@ export const ProgrammsContent = [
       heroimg: helpingHomelessHero,
       img: homelessness,
       title: "Homelessness",
-      path: "/deskan-restoring-hope/homeless",
+      path: "/homeless",
       header: "Helping the Homeless",
       desc: "Homelessness is not a choice.... Help IS! Homelessness is not unique to in town Atlanta communities: it is becoming a growing problem in surrounding counties as well.",
       paragraph: `United Way data shows that approximately 2/3 of homeless calls originated in counties that surround the Atlanta area. The fastest growing group of homeless people is children under 9 years of age.
@@ -109,7 +109,7 @@ export const ProgrammsContent = [
       heroimg: givingGift,
       img: givingImg,
       title: "Annual Community Holiday Giving",
-      path: "/deskan-restoring-hope/achgiving",
+      path: "/achgiving",
       header: "Annual Community Holiday Giving",
       desc: "Nationwide, two factors have contributed to the increase in homelessness over the past several years—an increase in poverty and a decrease in the availability of affordable housing units.",
       paragraph: `The Community Holiday Giving Program distributes to over 2,000 families, personal hygiene products, clothes, food, household goods, student uniforms, school supplies, and book bags, assist with graduation costs, toys and medical care for emergency indigent families.
@@ -123,7 +123,7 @@ export const ProgrammsContent = [
       heroimg: restoringHopeHero,
       img: restoringHopeImg,
       title: "Restoring Hope",
-      path: "/deskan-restoring-hope/restore-hope",
+      path: "/restore-hope",
       header: "Restoring Hope Ministry",
       desc: "Research also shows that individuals from medically underserved populations are more likely to be diagnosed with late- stage diseases that might have been treated more effectively or cured if diagnosed earlier.",
       paragraph: `Financial, physical, and cultural beliefs are also barriers that prevent individuals or groups from obtaining effective health care.The National Cancer Institute (NCI) defines "cancer health disparities" as adverse differences in cancer incidence (new cases), cancer prevalence (all existing cases), cancer death (mortality), cancer survivorship, and burden of cancer or related health conditions that exist among specific population groups in the United States.
