@@ -16,9 +16,7 @@ const Navigation = () => {
    const [dropdown, setDropdown] = useState(false)
    const [dropdownProgramm, setDropdownProgramm] = useState(false)
    const [dropdownAbout, setDropdownAbout] = useState(false)
-
    const [menuIsOpen, setMenuIsOpen] = useState(false)
-
    const [width, setWidth] = useState(window.innerWidth)
 
    const showNavbarBackground = () => {
@@ -79,7 +77,7 @@ const Navigation = () => {
          <ul className="main-navigation">
             <div className="Logos">
                <li>
-                  <NavLink className="logo" to="/deskan-restoring-hope/">
+                  <NavLink className="logo" to="/">
                      {<Logo />}
                   </NavLink>
                </li>
@@ -179,16 +177,13 @@ const Navigation = () => {
                            color: isActive ? "#111111" : "",
                         }
                      }}
-                     to="/deskan-restoring-hope/contact"
+                     to="/contact"
                   >
                      Contact
                   </NavLink>
                </li>
                <li>
-                  <NavLink
-                     className="donate-button"
-                     to="/deskan-restoring-hope/donate"
-                  >
+                  <NavLink className="donate-button" to="/donate">
                      Donate
                   </NavLink>
                </li>
