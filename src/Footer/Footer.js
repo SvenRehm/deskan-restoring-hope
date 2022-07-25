@@ -9,7 +9,6 @@ const Footer = () => {
                <li>Contact Us</li>
                <li> Melbournes, FL. 32940</li>
                <li>321-775-3458</li> <li>404-234-2702</li>
-               <li>Fax: 321-775-3082</li>
                <li>liverpj@bellsouth.net </li>
                <li>DeskanInstitute@Gmail.com</li>
                <li>charlys424@bellsouth.net</li>

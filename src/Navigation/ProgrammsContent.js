@@ -3,7 +3,7 @@ import veteranService from "../Images/veteran-service.jpg"
 // import medicalMission from "../Images/Medical Mission.jpg"
 import medicalMission from "../Images/medical-mission.jpg"
 import medicalMission2 from "../Images/medical-mission-blog.jpg"
-import foodHero from "../Images/food-donation-hero.jpg"
+
 import helpingHomelessHero from "../Images/helping-homeless.jpg"
 import givingGift from "../Images/giving.jpg"
 import restoringHopeHero from "../Images/restoring-hope-hero.jpg"
@@ -11,7 +11,7 @@ import restoringHopeHero from "../Images/restoring-hope-hero.jpg"
 import restoringHopeImg from "../Images/restoring-hope.jpg"
 import secondChanceImg from "../Images/second-chance-blog.jpg"
 import secondChance from "../Images/second-chance-hero.jpg"
-import foodPantry from "../Images/food-pantry.jpg"
+
 import homelessness from "../Images/homelessness.jpg"
 import givingImg from "../Images/gift-giving.jpg"
 
@@ -48,6 +48,12 @@ export const ProgrammsContent = [
       
       </p> <p>If you don't know a medical missionary, you can still help by using the sponsorship site to make a general donation to DESKAN Medical Missions. Your donation will be used where most needed to support the work of the missionaries.
       
+      <h1> DISASTER RESPONSE:</h1>
+   Earthquake Haiti, Hurricane Maria, Hurricane Katrina: Adopted 29 families from New Orleans, Andrew, Harvey, Hurricane Rita , Hurricane Dorian -Bahamas  and hurricane Bermuda-help  to Re-built re-oldest living person home.  
+      Hurricane/Floodings/Earthquake  
+
+      
+      
       </p>`,
    },
    {
@@ -68,26 +74,7 @@ export const ProgrammsContent = [
       
       We have been able to help individuals completed over a hundred and eighty Community Services Hours.</p> <p>If you are interested in our Second Chance Program please contact us.</p>`,
    },
-   {
-      id: 4,
-      heroimg: foodHero,
-      img: foodPantry,
-      title: "Food Pantry",
-      path: "/food-pantry",
-      header: "Food Pantry",
-      desc: "Deskan provided grocery boxes of food to over 2,500 families.</br> Deskan also helped serve over 21,426 hot meals at homeless shelters </br>in Atlanta, Local Hotel and Extended Stay Motel in Decatur and Stone Mountain area..",
-      paragraph: `Women and children make up the fastest growing segment of the homeless population with half of the women and children living in the State of Georgia.
-      <p>Deskan’s team seeks to develop a plan that effects behavioral changes through Education Programs, Life skills Training, Mentoring, Conflict Resolution and Community Involvement.
-      </p>
-      Our Monthly Feed program is at My Sister’s House at the Atlanta Union Mission, Atlanta, GA. We provide nutritious meals to more than 200 women and children on the first Saturday of every month.
-      
-      
-      <p>We provide FREE lunch to those who are hungry every 1st Saturday of the month. We need your help by volunteering, or donating funds or grocery to help serve the needy.
-      </p>
-      <p> This monthly feeding program is extended to the Parks where the homeless find a home. It is also extended to families in need of food and clothing, who can reach us to partake of their need from our Food Pantry and Clothing Rack in Stone Mountain, GA.
-      
-      You can view our online menu for more information about our monthly menu.</p>`,
-   },
+
    {
       id: 5,
       heroimg: helpingHomelessHero,

@@ -19,9 +19,9 @@ function Contact() {
 
          <ContactContainer>
             <h3>
-               Thank you for your interest in Deskan Institute & Training. Our
-               standard turnaround time for requests is 24-72 business hours but
-               may be longer at this time due to unsually high call volume. Your
+               Thank you for your interest in Deskan Hope, Inc. Our standard
+               turnaround time for requests is 24-72 business hours but may be
+               longer at this time due to unsually high call volume. Your
                request is important to us, and we thank you for your patience
                and continued support.
             </h3>
