@@ -98,7 +98,7 @@ const Donate = () => {
                Some of the Programms the Donations will be used for you can find
                here
             </h2>
-            <Link to="/deskan-restoring-hope/veterans">Programms</Link>
+            <Link to="/veterans">Programms</Link>
          </div>
          <SponsorsAndPartners></SponsorsAndPartners>
          <GetInvolved></GetInvolved>

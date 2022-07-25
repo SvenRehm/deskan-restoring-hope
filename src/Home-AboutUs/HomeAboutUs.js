@@ -35,7 +35,7 @@ const HomeAboutUs = () => {
                      interact with mentoring health professionals.
                   </li>
                </ol>
-               <Link to="/deskan-restoring-hope/about-us">
+               <Link to="/about-us">
                   <button>About Us</button>
                </Link>
             </div>

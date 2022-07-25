@@ -19,13 +19,9 @@ const Hero = () => {
             <h2>Helping homeless Vets and their Families.</h2>
 
             <CtaHero>
-               <DonateButton to="/deskan-restoring-hope/donate">
-                  Donate
-               </DonateButton>
+               <DonateButton to="/donate">Donate</DonateButton>
 
-               <VolunteerButton to="/deskan-restoring-hope/volunteer">
-                  Volunteer
-               </VolunteerButton>
+               <VolunteerButton to="/volunteer">Volunteer</VolunteerButton>
             </CtaHero>
          </HeroContainer>
       </HeroStyles>

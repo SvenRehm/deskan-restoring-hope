@@ -12,7 +12,7 @@ const GetInvolved = () => {
                a donation.
             </h2>
             <div className="get-involved-button-wrapper">
-               <Link to="/deskan-restoring-hope/volunteer">
+               <Link to="/volunteer">
                   <button>Get Involved</button>
                </Link>
             </div>
