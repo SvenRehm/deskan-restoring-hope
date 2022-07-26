@@ -11,6 +11,8 @@ import { AboutContent } from "./AboutContent"
 // import { MdMenu, MdOutlineClose } from "react-icons/md"
 import MenuIsHamburger from "./MenuIHamburger"
 import { MenuIsClosed } from "./MenuIHamburger"
+
+import logo from "../Images/logo1.png"
 const Navigation = () => {
    const [navbar, setNavbar] = useState(false)
    const [dropdown, setDropdown] = useState(false)
@@ -68,16 +70,18 @@ const Navigation = () => {
 
    return (
       <div
-         className={
-            navbar || (menuIsOpen && isMobile)
-               ? "nav-container show-nav"
-               : "nav-container"
-         }
+         // className={
+         //    navbar || (menuIsOpen && isMobile)
+         //       ? "nav-container show-nav"
+         //       : "nav-container show-nav"
+         // }
+         className="nav-container show-nav"
       >
          <ul className="main-navigation">
             <div className="Logos">
                <li>
                   <NavLink className="logo" to="/">
+                     <img alt="logo" src={logo}></img>
                      {<Logo />}
                   </NavLink>
                </li>
