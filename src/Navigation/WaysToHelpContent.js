@@ -77,6 +77,14 @@ export const WaysToHelpContent = [
    
    We relied on the generosity of corporations and foundations since their donations is vital to advancing the mission here at Deskan.</p>
    <p>Please contact us for more information about becoming a partner or sponsoring.</p>
+   <br/>
+
+   <h1>Sponsors & Partners</h1>
+
+   <ul>
+   <li><a href="http://bridgesglobalmedicalmissions.org/" target="_blank">Bridges Global Medical Missions - Saving Lives and Educating Communities.</a></li>
+   </ul>
+   
    
    `,
    },

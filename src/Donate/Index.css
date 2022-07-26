@@ -1,8 +1,7 @@
 .donate-container {
    height: 100%;
    display: grid;
-   /* grid-template-columns: repeat(12, 1fr); */
-   /* grid-template-rows: repeat(12, 1fr); */
+
    grid-template-rows: auto;
    max-width: 1160px;
    margin: 0 auto;
@@ -34,6 +33,7 @@
    align-self: center;
    margin-top: 2em;
 }
+
 .donate-container .donate-desc-header {
    color: var(--main-black-color);
    font-size: 2.5em;
@@ -41,7 +41,7 @@
 
 .donate-container h2 {
    font-size: 2.3em;
-   margin: 2em 0;
+   margin: 2em 0 0.5em 0;
    color: var(--main-accent-color);
 }
 .donate-container h2:nth-child(2) {
@@ -54,7 +54,11 @@
    color: var(--main-black-color);
    font-size: 1.4em;
    margin-top: 2em;
-   margin-bottom: 2em;
+   margin-bottom: 1em;
+}
+.donate-container h4 {
+   color: var(--main-black-color);
+   font-size: 1.3em;
 }
 .donate-container .donate-reasons li {
    margin: 0.8em 0 0.8em 0;
@@ -71,18 +75,17 @@
 }
 
 .donate-container ol {
+   list-style-position: inside;
    margin-top: 2em;
 }
 .donate-container ol li {
    margin-top: 1em;
 }
 .donate-container p {
-   font-size: 1.3em;
+   font-size: 1.2em;
 }
 .donate-container a {
-   /* display: inline-block; */
    width: 230px;
-   /* height: 50px; */
 
    color: var(--main-accent-color);
 

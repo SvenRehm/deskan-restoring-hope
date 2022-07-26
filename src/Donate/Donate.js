@@ -16,10 +16,11 @@ const Donate = () => {
             <h1>Donate</h1>
          </div>
          <div className="donate-container">
-            <h2 className="donate-desc-header">
+            <h2>JOIN A CAUSE Donate</h2>
+            <h4>
                Deskan was established with the aim of providing social
                services,education, counseling and clinical services.
-            </h2>
+            </h4>
 
             <h2>Why Donate?</h2>
 
@@ -30,15 +31,15 @@ const Donate = () => {
                MASKS PROJECT for Hospitals, Nursing Homes, Senior Center,
                (National and International)
             </p>
-            <ul className="donate-reasons">
+            <ol className="donate-reasons">
                <li>Increase resources for Military families.</li>
                <li>
                   Increase resources for Homeless Veterans, disable Veterans
                </li>
-               <li>Native American Health Care for families in ND</li>
+               <li>Native American Health Care for families in NEED</li>
                <li>
-                  Provide resource and Counselling for Domestic Violence
-                  families and women of homelessness as a result of DV.
+                  Provide resource and Counseling for Domestic Violence families
+                  and women of homelessness as a result of DV.
                </li>
                <li>
                   Help with funding for COVID-19 burial ( April 2020 to Present
@@ -49,18 +50,22 @@ const Donate = () => {
                   of COVID-19.
                </li>
                <li>Support for Women Veterans and their Children</li>
-               <li>The Food Pantry</li>
-               <li>Medical Mission & Missionary Work</li>
-               <li>The Clothes Closet</li>
+
+               <li>
+                  DASATER /HURRICANE/EARTHQUAKES/ Medical Mission & Missionary
+                  Work
+               </li>
                <li>Back to School Program & The Community Holiday Giving</li>
-               <li>Helping the Homeless</li>
+
+               <li>RESOURCES FOR SAFE SCHOOLS/DOMESTICE VIOLENCE</li>
+
                <p className="donate-welcome-help">
                   DESKAN welcomes your partnership in our global mission.
                   Together we really can make a difference in people’s lives. We
                   invite you to extend your hand by giving your time and talent
                   to a much needed cause - helping the needy.
                </p>
-            </ul>
+            </ol>
             <div className="donate-waystodonate">
                <h2>Ways to Donate</h2>
                <p className="waystodonate-text">

@@ -5,6 +5,9 @@ import MemberCard from "./MemberCard"
 import img1 from "../Images/Boardmembers/joan.jpg"
 import img2 from "../Images/Boardmembers/charles2.jpg"
 
+import img13 from "../Images/Boardmembers/P.-Griffith.jpg"
+import img14 from "../Images/Boardmembers/Dr.-KT.jpg"
+
 import team from "../Images/team.jpg"
 
 const allMembers = [
@@ -74,6 +77,18 @@ const allMembers = [
       img: "asda",
       name: "High School Student",
       title: "New Board Member",
+   },
+   {
+      id: 13,
+      img: img13,
+      name: "Dr. Patrick Griffith",
+      title: "Adjunct Professor of Medicine Neurology",
+   },
+   {
+      id: 14,
+      img: img14,
+      name: "Dr. Kelwyn Thomas",
+      title: "Assoc. Professor, Morehouse School of Medicine Prostate Cancer ",
    },
 ]
 
