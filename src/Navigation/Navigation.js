@@ -11,7 +11,7 @@ import { AboutContent } from "./AboutContent"
 // import { MdMenu, MdOutlineClose } from "react-icons/md"
 import MenuIsHamburger from "./MenuIHamburger"
 import { MenuIsClosed } from "./MenuIHamburger"
-
+import { motion } from "framer-motion"
 import logo from "../Images/logo1.png"
 const Navigation = () => {
    const [navbar, setNavbar] = useState(false)
@@ -69,13 +69,30 @@ const Navigation = () => {
    }
 
    return (
-      <div
+      <motion.div
          // className={
          //    navbar || (menuIsOpen && isMobile)
          //       ? "nav-container show-nav"
          //       : "nav-container show-nav"
          // }
          className="nav-container show-nav"
+         initial="hidden"
+         animate="visible"
+         variants={{
+            hidden: {
+               y: -90,
+               opacity: 0,
+            },
+            visible: {
+               y: 0,
+               opacity: 1,
+               transition: {
+                  duration: 1.4,
+                  delay: 0.4,
+                  ease: "easeIn",
+               },
+            },
+         }}
       >
          <ul className="main-navigation">
             <div className="Logos">
@@ -193,7 +210,7 @@ const Navigation = () => {
                </li>
             </div>
          </ul>
-      </div>
+      </motion.div>
    )
 }
 

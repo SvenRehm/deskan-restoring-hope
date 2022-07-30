@@ -1,11 +1,32 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "./Index.css"
 import aboutusimg from "../Images/about_us.jpg"
 import { Link } from "react-router-dom"
 
+import { useAnimation, motion } from "framer-motion"
+import { useInView } from "react-intersection-observer"
+
+const variants = {
+   visible: { opacity: 1, y: 0 },
+   hidden: { opacity: 0, y: 150 },
+}
 const HomeAboutUs = () => {
+   const controls = useAnimation()
+   const [ref, inView] = useInView()
+
+   useEffect(() => {
+      if (inView) {
+         controls.start("visible")
+      }
+   }, [controls, inView])
    return (
-      <section className="home-about-us">
+      <motion.div
+         className="home-about-us"
+         ref={ref}
+         animate={controls}
+         initial="hidden"
+         variants={variants}
+      >
          <div className="home-about-us-grid">
             <img className="about-us-img" src={aboutusimg} alt="out team"></img>
 
@@ -40,7 +61,7 @@ const HomeAboutUs = () => {
                </Link>
             </div>
          </div>
-      </section>
+      </motion.div>
    )
 }
 

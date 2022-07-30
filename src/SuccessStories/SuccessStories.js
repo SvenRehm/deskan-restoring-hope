@@ -1,9 +1,29 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "./Index.css"
 
+import { useAnimation, motion } from "framer-motion"
+import { useInView } from "react-intersection-observer"
+const variants = {
+   visible: { opacity: 1, y: 0 },
+   hidden: { opacity: 0, y: 150 },
+}
 const SuccessStories = () => {
+   const controls = useAnimation()
+   const [ref, inView] = useInView()
+
+   useEffect(() => {
+      if (inView) {
+         controls.start("visible")
+      }
+   }, [controls, inView])
    return (
-      <section className="success-stories-wrapper">
+      <motion.div
+         className="success-stories-wrapper"
+         ref={ref}
+         animate={controls}
+         initial="hidden"
+         variants={variants}
+      >
          <div className="success-stories">
             <h1>Success Stories</h1>
             <div className="success-card">
@@ -17,7 +37,13 @@ const SuccessStories = () => {
                   meal for Thanksgiving.” (Bufford, GA).
                </p>
             </div>
-            <div className="success-card right-aligned">
+            <div
+               className="success-card right-aligned"
+               ref={ref}
+               animate={controls}
+               initial="hidden"
+               variants={variants}
+            >
                <h2>I am a grandmother raising my grandchildren</h2>
                <p>
                   These 5 children did not ask to come here. The situation is
@@ -38,7 +64,7 @@ const SuccessStories = () => {
                </p>
             </div>
          </div>
-      </section>
+      </motion.div>
    )
 }
 

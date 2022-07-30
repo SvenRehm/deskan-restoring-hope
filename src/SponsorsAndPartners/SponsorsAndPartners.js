@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "./Index.css"
 import img from "../Images/Sponsors/1.png"
 import img2 from "../Images/Sponsors/2.png"
@@ -8,9 +8,31 @@ import img5 from "../Images/Sponsors/5.png"
 import img6 from "../Images/Sponsors/6.jpg"
 import img7 from "../Images/Sponsors/7.png"
 import img8 from "../Images/Sponsors/8.png"
+
+import { useAnimation, motion } from "framer-motion"
+import { useInView } from "react-intersection-observer"
+
+const variants = {
+   visible: { opacity: 1, y: 0 },
+   hidden: { opacity: 0, y: 150 },
+}
 const SponsorsAndPartners = () => {
+   const controls = useAnimation()
+   const [ref, inView] = useInView()
+
+   useEffect(() => {
+      if (inView) {
+         controls.start("visible")
+      }
+   }, [controls, inView])
    return (
-      <section className="sponsors">
+      <motion.div
+         className="sponsors"
+         ref={ref}
+         animate={controls}
+         initial="hidden"
+         variants={variants}
+      >
          <ul>
             <li className="sponsoricon">
                <img src={img} alt="sponsor"></img>
@@ -37,7 +59,7 @@ const SponsorsAndPartners = () => {
                <img src={img8} alt="sponsor8"></img>
             </li>
          </ul>
-      </section>
+      </motion.div>
    )
 }
 
