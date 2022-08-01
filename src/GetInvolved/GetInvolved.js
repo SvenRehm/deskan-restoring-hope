@@ -16,6 +16,7 @@ const GetInvolved = () => {
          controls.start("visible")
       }
    }, [controls, inView])
+
    return (
       <div className="get-involved-wrapper">
          <motion.div
@@ -31,8 +32,17 @@ const GetInvolved = () => {
                a donation.
             </h2>
             <div className="get-involved-button-wrapper">
-               <Link to="/volunteer">
-                  <button>Get Involved</button>
+               {/* {!getinvolved ? (
+                  <Link to="/volunteer">
+                     <button>Get Involved</button>
+                  </Link>
+               ) : (
+                  <Link to="/contact">
+                     <button>Contact Us</button>
+                  </Link>
+               )} */}
+               <Link to="/contact">
+                  <button>Contact Us</button>
                </Link>
             </div>
          </motion.div>

@@ -48,8 +48,8 @@ export const ProgrammsContent = [
       
       Participants pay their own round-trip airfare, mission fee (food, housing, ground transportation, etc.) and bring supplies and medicines. We have set up a special web site where you can make a donation to a friend or family member you may know who will be joining us on a future medical mission.
       
-      </p> <p>If you don't know a medical missionary, you can still help by using the sponsorship site to make a general donation to DESKAN Medical Missions. Your donation will be used where most needed to support the work of the missionaries.
-   
+      </p> <p>If you don't know a medical missionary, you can still help by using the sponsorship site to make a general donation to DESKAN Medical Missions. Your donation will be used where most needed to support the work of the missionaries.</p>
+      </br>
       <h1>RESPONSE: ANSWERING TO THE CALL: Disaster Response</h1>
     <p>
       DESKAN RESTORING HOPE, INC IS a first responder where our Disaster Area Response Teams put their compassion into action by helping survivors impacted by disasters around the world. DESKAN RESTORING HOPE, INC meets the critical urgent needs in the immediate aftermath of a disaster is essential to ease the suffering. DESKAN RESTORING HOPE, INC s philosophy is First In – Last Out. On average, our teams hit the ground within the first week of a disaster.  In our response, we reach those most in need no matter where they are located or what the surrounding conditions are.es. We care for entire communities whether members are getting well-checks or are sick or frail, or at significant risk of ill health and disease. To foster community interaction and development, we begin each clinic with team members’ introduction to community leaders and members and proceed through pre-arranged logistics. Locations for clinic can vary from community hospitals to small clinics, health posts, temporary areas set up in a village, or even in individual homes reached by trekking from village to village for house calls.

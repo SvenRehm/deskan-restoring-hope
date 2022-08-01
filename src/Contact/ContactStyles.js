@@ -69,14 +69,23 @@ export const ContactSocials = styled.div`
    justify-items: center;
    text-align: center;
    margin: 1em 0 6em 0;
-   a {
+
+   .socials-segment {
+      transition: all 150ms ease-in-out;
+      &:hover {
+         transform: scale(1.1);
+      }
+   }
+   .socials-segment a {
       text-decoration: none;
       padding: 0.5em;
       font-size: 1.5em;
       font-weight: 600;
       color: var(--main-accent-color);
+
       margin: 1em 0;
    }
+
    @media (max-width: 830px) {
       display: block;
       div {
@@ -156,9 +165,9 @@ export const ContactForm = styled.div`
       font-size: 1.1em;
       padding: 0.7em 2.5em;
       border: 1px solid var(--main-white-color);
-      transition: all 300ms linear;
+      transition: all 150ms linear;
    }
-   orm button:hover {
+   form button:hover {
       background-color: var(--main-white-color);
       color: var(--main-accent-color);
       border: 1px solid var(--main-accent-color);

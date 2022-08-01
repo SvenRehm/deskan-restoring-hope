@@ -108,7 +108,7 @@ function BoardMembers() {
       <section className="board-member-section">
          <div className="board-member-hero">
             <img src={team} alt="board-member-hero" />
-            <h1>Board Member</h1>
+            <h1>Board Members</h1>
          </div>
          <h2 className="board-member-header">Deskan Board of Directors</h2>
          <div className="board-member-container"> {boardMemberCards}</div>

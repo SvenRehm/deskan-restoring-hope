@@ -119,12 +119,12 @@ Sent [10] barrels of donated medical supplies, school supplies and children’s 
       paragraph: ``,
    },
 
-   {
-      id: 6,
-      title: "Photo Gallery",
-      path: "/photogallery",
-      header: "",
-      desc: "",
-      paragraph: ``,
-   },
+   // {
+   //    id: 6,
+   //    title: "Photo Gallery",
+   //    path: "/photogallery",
+   //    header: "",
+   //    desc: "",
+   //    paragraph: ``,
+   // },
 ]

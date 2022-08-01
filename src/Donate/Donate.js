@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
 import "./Index.css"
 // import aboutusimg from "../Images/about_us.jpg"
 // import { Link, Outlet } from "react-router-dom"
@@ -8,15 +8,52 @@ import img2 from "../Images/donate2.jpg"
 import { Link } from "react-router-dom"
 import SponsorsAndPartners from "../SponsorsAndPartners/SponsorsAndPartners"
 import GetInvolved from "../GetInvolved/GetInvolved"
+
+import { useAnimation, motion } from "framer-motion"
+
+const variants = {
+   visible: { opacity: 1, y: 0 },
+   hidden: { opacity: 0, y: 250 },
+}
+
 const Donate = () => {
+   const scrollRef = useRef(null)
+   // const container = {
+   //    hidden: { opacity: 1 },
+   //    show: {
+   //       opacity: 1,
+   //       transition: {
+   //          delayChildren: 0.3,
+   //          staggerChildren: 0.2,
+   //       },
+   //    },
+   // }
+
+   // const item = {
+   //    hidden: { opacity: 0 },
+   //    show: {
+   //       opacity: 1,
+   //       transition: {
+   //          duration: 0.4,
+   //       },
+   //    },
+   // }
    return (
       <>
          <div className="donate-hero">
             <img src={img2} alt="donate-hero" />
             <h1>Donate</h1>
          </div>
-         <div className="donate-container">
+
+         <motion.div
+            initial={{ opacity: 0, y: 250 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="donate-container"
+         >
             <h2>JOIN A CAUSE Donate</h2>
+
             <h4>
                Deskan was established with the aim of providing social
                services,education, counseling and clinical services.
@@ -31,7 +68,14 @@ const Donate = () => {
                MASKS PROJECT for Hospitals, Nursing Homes, Senior Center,
                (National and International)
             </p>
-            <ol className="donate-reasons">
+
+            <motion.ol
+               initial={{ opacity: 0, y: 250 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: true }}
+               transition={{ duration: 0.5 }}
+               className="donate-reasons"
+            >
                <li>Increase resources for Military families.</li>
                <li>
                   Increase resources for Homeless Veterans, disable Veterans
@@ -65,8 +109,15 @@ const Donate = () => {
                   invite you to extend your hand by giving your time and talent
                   to a much needed cause - helping the needy.
                </p>
-            </ol>
-            <div className="donate-waystodonate">
+            </motion.ol>
+
+            <motion.div
+               initial={{ opacity: 0, y: 250 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: true }}
+               transition={{ duration: 0.5 }}
+               className="donate-container"
+            >
                <h2>Ways to Donate</h2>
                <p className="waystodonate-text">
                   As a registered 501(c)(3) charitable organization as
@@ -85,26 +136,32 @@ const Donate = () => {
                   DESKAN thank you in advance for your donation towards our
                   missions.
                </h3>
-            </div>
+            </motion.div>
+            <motion.div
+               initial={{ opacity: 0, y: 250 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: true }}
+               transition={{ duration: 0.5 }}
+            >
+               <h2>Mail In Donation</h2>
+               <p>
+                  Mailing Address <br />
+                  Deskan Restoring Hope Through Compassion, Inc <br /> 3055
+                  Constellation Dr, <br /> Melbourne, FL. 32940
+               </p>
+               <h2>Donate by Zelle, Cashapp, Credit/Debit Card</h2>
+               <p>
+                  To make a donation through Zelle, Cashapp, Debit or Credit
+                  Card, please CALL US! <br /> Phone: 404-234-2702/770-256-0356
+               </p>
 
-            <h2>Mail In Donation</h2>
-            <p>
-               Mailing Address <br />
-               Deskan Restoring Hope Through Compassion, Inc <br /> 3055
-               Constellation Dr, <br /> Melbourne, FL. 32940
-            </p>
-            <h2>Donate by Zelle, Cashapp, Credit/Debit Card</h2>
-            <p>
-               To make a donation through Zelle, Cashapp, Debit or Credit Card,
-               please CALL US! <br /> Phone: 404-234-2702/770-256-0356
-            </p>
-
-            <h2>
-               Some of the Programms the Donations will be used for you can find
-               here
-            </h2>
+               <h2>
+                  Some of the Programms the Donations will be used for you can
+                  find here
+               </h2>
+            </motion.div>
             <Link to="/veterans">Programms</Link>
-         </div>
+         </motion.div>
          <SponsorsAndPartners></SponsorsAndPartners>
          <GetInvolved></GetInvolved>
       </>
