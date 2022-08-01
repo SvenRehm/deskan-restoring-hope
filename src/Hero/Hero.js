@@ -76,9 +76,10 @@ const Hero = () => {
                   },
                   visible: {
                      opacity: 1,
+
                      transition: {
-                        delay: 1,
-                        duration: 0.3,
+                        delay: 1.1,
+                        duration: 0.4,
                      },
                   },
                }}

@@ -36,7 +36,9 @@ export const ProgrammsContent = [
       img: medicalMission2,
       title: "Medical Mission/Missionary Work",
       path: "/mmwork",
-      header: "Medical Mission & Missionary Work",
+      header:
+         "MEDICAL OUTREACH MISSION. SAVING LIVES AND EDUCATING COMMUNITIES",
+
       desc: "Deskan provides clinic for medical care, medical evaluation and consultation, and health education and prevention education.",
       paragraph: `<p>The clinic also provides donated reading glasses to those in-need and over-the-counter medications are dispensed at the clinic which is staffed by a local Pharmacist.
 

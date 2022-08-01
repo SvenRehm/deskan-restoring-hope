@@ -14,16 +14,11 @@ import { MenuIsClosed } from "./MenuIHamburger"
 import { motion } from "framer-motion"
 import logo from "../Images/logo1.png"
 const Navigation = () => {
-   const [navbar, setNavbar] = useState(false)
    const [dropdown, setDropdown] = useState(false)
    const [dropdownProgramm, setDropdownProgramm] = useState(false)
    const [dropdownAbout, setDropdownAbout] = useState(false)
    const [menuIsOpen, setMenuIsOpen] = useState(false)
    const [width, setWidth] = useState(window.innerWidth)
-
-   const showNavbarBackground = () => {
-      window.scrollY >= 100 ? setNavbar(true) : setNavbar(false)
-   }
 
    function handleWindowSizeChange() {
       setWidth(window.innerWidth)
@@ -36,8 +31,6 @@ const Navigation = () => {
    }, [])
 
    let isMobile = width <= 1101
-
-   window.addEventListener("scroll", showNavbarBackground)
 
    const onMouseEnter = () => {
       setDropdown(true)
@@ -70,11 +63,6 @@ const Navigation = () => {
 
    return (
       <motion.div
-         // className={
-         //    navbar || (menuIsOpen && isMobile)
-         //       ? "nav-container show-nav"
-         //       : "nav-container show-nav"
-         // }
          className="nav-container show-nav"
          initial="hidden"
          animate="visible"
@@ -87,9 +75,9 @@ const Navigation = () => {
                y: 0,
                opacity: 1,
                transition: {
-                  duration: 1.4,
-                  delay: 0.4,
-                  ease: "easeIn",
+                  duration: 0.7,
+                  delay: 0.5,
+                  ease: "linear",
                },
             },
          }}

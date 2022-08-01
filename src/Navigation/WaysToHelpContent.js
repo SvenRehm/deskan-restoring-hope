@@ -81,8 +81,26 @@ export const WaysToHelpContent = [
 
    <h1>Sponsors & Partners</h1>
 
-   <ul>
-   <li><a href="http://bridgesglobalmedicalmissions.org/" target="_blank">Bridges Global Medical Missions - Saving Lives and Educating Communities.</a></li>
+   <ul class="sponsors-list">
+   <li><a href="https://www.aimu.us/" target="_blank">American International Medical School</a></li>
+   <li><a href="https://atlantamission.org/" target="_blank">Atlanta Union Mission</a></li>
+   <li><a href="https://brevardhomelesscoalition.org/" target="_blank">The Brevard Homeless Coalition</a></li>
+   <li><a href="http://bridgesglobalmedicalmissions.org/" target="_blank">Bridges Global Medical Missions-Saving Lives and Educating Communities.</a></li>
+   <li><a href="https://cisga.org/" target="_blank">Communities in Schools of Georgia, Inc.</a></li>
+   <li><a href="https://gcfv.georgia.gov/locations/dekalb-county-domestic-violence-task-force" target="_blank">Dekalb County Domestic Violence</a></li>
+   <li><a href="https://hip.emory.edu/" target="_blank">Emory Center for AIDS Research</a></li>
+   <li><a href="https://www.imon-gy.com/" target="_blank">IMON Wireless Solutions, Inc. </a></li>
+   <li><a href="https://icfdn.org/" target="_blank">International Community Foundation</a></li>
+   <li><a href="https://www.msm.edu/" target="_blank">Morehouse School of Medicine</a></li>
+   <li><a href="https://nvhs.org/" target="_blank">National Veterans Homeless Services</a></li>
+   <li><a href="https://www.unitedwayatlanta.org/" target="_blank">United Way of Metro Atlanta</a></li>
+   <li><a href="https://veteransmemorialcenter.org/stand-down/" target="_blank">Veterans Memorial Stand Down, 2019</a></li>
+   <li><a href="https://www.vycguyana.net/" target="_blank">Volunteer Youth Corps Guyana</a></li>
+   <li><a href="https://www.wfu.edu/" target="_blank">Wake Forest Academic Corner</a></li>
+   <li><a href="https://womenwatchafrika.org/" target="_blank">Women Watch Afrika (WWA) </a></li>
+
+
+   
    </ul>
    
    

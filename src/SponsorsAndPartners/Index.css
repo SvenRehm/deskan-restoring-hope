@@ -1,32 +1,41 @@
 .sponsors {
    width: 100%;
    background-color: white;
+   padding: 3em 0;
 }
-
-.sponsoricon {
-   width: 120px;
-   height: 120px;
-
-   overflow: hidden;
-}
-.sponsors .sponsoricon img {
-   width: 120px;
-   height: 120px;
-   object-fit: contain;
-   margin: 0 0 0 0.3em;
-   background-color: white;
+.sponsors h2 {
+   font-size: 2.2em;
+   text-align: center;
+   color: var(--main-accent-color);
+   margin-bottom: 2.2em;
 }
 
 .sponsors ul {
-   border-top: 1px solid var(--ligh-grey);
-   display: flex;
-   align-items: center;
-
-   justify-content: space-between;
    list-style: none;
-   padding: 3em 0;
+   display: grid;
+   grid-gap: 0.5em;
+   row-gap: 2em;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   justify-items: center;
+   align-items: center;
    max-width: 1160px;
-   margin: 0 auto;
+   margin: 3em auto 5em auto;
+   padding: 0 1.5em;
+}
+
+.sponsoricon {
+   width: 140px;
+}
+.sponsoricon.smaller {
+   width: 120px;
+}
+
+.sponsoricon.bigger {
+   width: 180px;
+}
+
+.sponsors .sponsoricon img {
+   width: 100%;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -35,20 +44,25 @@
    }
 }
 
-@media only screen and (max-width: 830px) {
-   .sponsoricon {
-      width: 80px;
-      height: 80px;
-   }
-   .sponsors .sponsoricon img {
-      width: 80px;
-      height: 80px;
-   }
+@media only screen and (max-width: 915px) {
    .sponsors ul {
-      max-width: 750px;
+      max-width: 800px;
+      grid-gap: 1em;
+      row-gap: 2em;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+   }
+   .sponsoricon {
+      width: 120px;
+   }
+   .sponsoricon.smaller {
+      width: 110px;
+   }
+
+   .sponsoricon.bigger {
+      width: 140px;
    }
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
    .sponsors ul {
       max-width: 400px;
       margin: 0 auto;
@@ -65,5 +79,25 @@
       height: 150px;
       display: block;
       margin: 0 auto;
+   }
+} */
+
+@media only screen and (max-width: 350px) {
+   .sponsors ul {
+      display: grid;
+      max-width: 340px;
+      margin: 3em auto;
+      row-gap: 1em;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+   }
+   .sponsoricon {
+      width: 80px;
+   }
+   .sponsoricon.smaller {
+      width: 70px;
+   }
+
+   .sponsoricon.bigger {
+      width: 100px;
    }
 }

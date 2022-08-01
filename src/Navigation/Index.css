@@ -10,7 +10,6 @@
    transition: all 200ms ease-in;
 }
 .nav-container.show-nav {
-   /* background-color: var(--main-black-color); */
    background-color: rgba(0, 0, 0, 0.562);
    box-shadow: 3px 21px 30px -21px rgba(0, 0, 0, 0.75);
 }

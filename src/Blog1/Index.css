@@ -94,8 +94,15 @@
 
 .blog-grid a {
    margin-top: 1em;
-   grid-column: 1/7;
+   grid-column: 1/5;
    line-height: 1.6;
+}
+
+.blog-grid p .sponsors-list {
+   margin-top: 2.5em;
+}
+.blog-grid p .sponsors-list li a {
+   padding: 0.4em 0;
 }
 
 @media only screen and (max-width: 1250px) {
