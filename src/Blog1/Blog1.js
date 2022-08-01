@@ -41,74 +41,76 @@ const Blog1 = () => {
 
    return (
       <>
-         <div className="blog">
-            {/* <AnimatePage> */}
-            <div className="blog-hero">
-               <img src={invoice[0].heroimg} alt="i" />
-               <motion.h1
-                  initial="hidden"
-                  animate="visible"
-                  variants={{
-                     hidden: {
-                        scale: 0.9,
-                        opacity: 0,
-                     },
-                     visible: {
-                        scale: 1,
-                        opacity: 1,
-                        transition: {
-                           duration: 0.6,
+         <AnimatePage>
+            <div className="blog">
+               {/* <AnimatePage> */}
+               <div className="blog-hero">
+                  <img src={invoice[0].heroimg} alt="i" />
+                  <motion.h1
+                     initial="hidden"
+                     animate="visible"
+                     variants={{
+                        hidden: {
+                           scale: 0.9,
+                           opacity: 0,
                         },
-                     },
-                  }}
+                        visible: {
+                           scale: 1,
+                           opacity: 1,
+                           transition: {
+                              duration: 0.6,
+                           },
+                        },
+                     }}
+                  >
+                     {invoice[0].title}
+                  </motion.h1>
+               </div>
+
+               <motion.div
+                  variants={container}
+                  initial="hidden"
+                  animate="show"
+                  className="blog-grid"
+                  // initial="hidden"
+                  // animate="visible"
+                  // variants={{
+                  //    hidden: {
+                  //       opacity: 0,
+                  //    },
+                  //    visible: {
+                  //       opacity: 1,
+                  //       transition: {
+                  //          duration: 0.7,
+                  //          delay: 0.8,
+                  //       },
+                  //    },
+                  // }}
                >
-                  {invoice[0].title}
-               </motion.h1>
+                  <motion.h2 variants={item}>{invoice[0].header}</motion.h2>
+                  <motion.h3
+                     variants={item}
+                     dangerouslySetInnerHTML={{ __html: invoice[0].desc }}
+                  ></motion.h3>
+                  <motion.p
+                     variants={item}
+                     dangerouslySetInnerHTML={{ __html: invoice[0].paragraph }}
+                  ></motion.p>
+                  <motion.img
+                     variants={item}
+                     src={invoice[0].img}
+                     alt="blogimage"
+                  />
+                  {invoice[0].pdf ? (
+                     <a href={invoice[0].pdf} target="_blank" rel="noreferrer">
+                        {invoice[0].pdfName}
+                     </a>
+                  ) : null}
+               </motion.div>
             </div>
 
-            <motion.div
-               variants={container}
-               initial="hidden"
-               animate="show"
-               className="blog-grid"
-               // initial="hidden"
-               // animate="visible"
-               // variants={{
-               //    hidden: {
-               //       opacity: 0,
-               //    },
-               //    visible: {
-               //       opacity: 1,
-               //       transition: {
-               //          duration: 0.7,
-               //          delay: 0.8,
-               //       },
-               //    },
-               // }}
-            >
-               <motion.h2 variants={item}>{invoice[0].header}</motion.h2>
-               <motion.h3
-                  variants={item}
-                  dangerouslySetInnerHTML={{ __html: invoice[0].desc }}
-               ></motion.h3>
-               <motion.p
-                  variants={item}
-                  dangerouslySetInnerHTML={{ __html: invoice[0].paragraph }}
-               ></motion.p>
-               <motion.img
-                  variants={item}
-                  src={invoice[0].img}
-                  alt="blogimage"
-               />
-               {invoice[0].pdf ? (
-                  <a href={invoice[0].pdf} target="_blank" rel="noreferrer">
-                     {invoice[0].pdfName}
-                  </a>
-               ) : null}
-            </motion.div>
-         </div>
-
-         <GetInvolved />
+            <GetInvolved />
+         </AnimatePage>
       </>
    )
 }

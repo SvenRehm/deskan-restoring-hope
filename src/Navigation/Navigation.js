@@ -60,25 +60,21 @@ const Navigation = () => {
    const onMouseClickThree = () => {
       setDropdownAbout((prevstate) => !prevstate)
    }
-
+   const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] }
    return (
       <motion.div
          className="nav-container show-nav"
          initial="hidden"
          animate="visible"
+         transition={transition}
          variants={{
             hidden: {
                y: -90,
-               opacity: 0,
+
+               transitionDelay: 0.5,
             },
             visible: {
                y: 0,
-               opacity: 1,
-               transition: {
-                  duration: 0.7,
-                  delay: 0.5,
-                  ease: "linear",
-               },
             },
          }}
       >

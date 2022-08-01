@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react"
+import React from "react"
 import "./Index.css"
 // import aboutusimg from "../Images/about_us.jpg"
 // import { Link, Outlet } from "react-router-dom"
@@ -9,35 +9,10 @@ import { Link } from "react-router-dom"
 import SponsorsAndPartners from "../SponsorsAndPartners/SponsorsAndPartners"
 import GetInvolved from "../GetInvolved/GetInvolved"
 
-import { useAnimation, motion } from "framer-motion"
-
-const variants = {
-   visible: { opacity: 1, y: 0 },
-   hidden: { opacity: 0, y: 250 },
-}
+import { motion } from "framer-motion"
 
 const Donate = () => {
-   const scrollRef = useRef(null)
-   // const container = {
-   //    hidden: { opacity: 1 },
-   //    show: {
-   //       opacity: 1,
-   //       transition: {
-   //          delayChildren: 0.3,
-   //          staggerChildren: 0.2,
-   //       },
-   //    },
-   // }
-
-   // const item = {
-   //    hidden: { opacity: 0 },
-   //    show: {
-   //       opacity: 1,
-   //       transition: {
-   //          duration: 0.4,
-   //       },
-   //    },
-   // }
+   const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] }
    return (
       <>
          <div className="donate-hero">
@@ -46,10 +21,10 @@ const Donate = () => {
          </div>
 
          <motion.div
-            initial={{ opacity: 0, y: 250 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
+            transition={transition}
             className="donate-container"
          >
             <h2>JOIN A CAUSE Donate</h2>
@@ -73,7 +48,7 @@ const Donate = () => {
                initial={{ opacity: 0, y: 250 }}
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true }}
-               transition={{ duration: 0.5 }}
+               transition={transition}
                className="donate-reasons"
             >
                <li>Increase resources for Military families.</li>
@@ -115,7 +90,7 @@ const Donate = () => {
                initial={{ opacity: 0, y: 250 }}
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true }}
-               transition={{ duration: 0.5 }}
+               transition={transition}
                className="donate-container"
             >
                <h2>Ways to Donate</h2>
@@ -141,7 +116,7 @@ const Donate = () => {
                initial={{ opacity: 0, y: 250 }}
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true }}
-               transition={{ duration: 0.5 }}
+               transition={transition}
             >
                <h2>Mail In Donation</h2>
                <p>
