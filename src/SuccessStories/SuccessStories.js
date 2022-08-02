@@ -3,6 +3,8 @@ import "./Index.css"
 
 import { useAnimation, motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+import { Link } from "react-router-dom"
+
 const variants = {
    visible: { opacity: 1, y: 0 },
    hidden: { opacity: 0, y: 150 },
@@ -63,6 +65,11 @@ const SuccessStories = () => {
                   (Decatur)
                </p>
             </div>
+         </div>
+         <div className="success-stories-button-wrapper">
+            <Link to="/success-stories">
+               <button>More</button>
+            </Link>
          </div>
       </motion.div>
    )

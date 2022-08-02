@@ -41,7 +41,7 @@
 
 .donate-container h2 {
    font-size: 2.3em;
-   margin: 2em 0 0.5em 0;
+   margin: 2em 0 2em 0;
    color: var(--main-accent-color);
 }
 .donate-container h2:nth-child(2) {

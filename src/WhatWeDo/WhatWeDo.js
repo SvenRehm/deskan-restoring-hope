@@ -29,9 +29,8 @@ const WhatWeDo = () => {
    }
    const AllCards = whatWeDoContent.map((item, i) => {
       return (
-         <motion.div className="card" variants={cardanimation}>
+         <motion.div className="card" variants={cardanimation} key={i}>
             <Card
-               key={i}
                title={item.title}
                text={item.text}
                img={item.img}

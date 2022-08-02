@@ -10,6 +10,26 @@ import {
 } from "./ContactStyles"
 import { motion } from "framer-motion"
 function Contact() {
+   const container = {
+      hidden: { opacity: 1 },
+      show: {
+         opacity: 1,
+         transition: {
+            delayChildren: 0.3,
+            staggerChildren: 0.2,
+         },
+      },
+   }
+
+   const item = {
+      hidden: { opacity: 0 },
+      show: {
+         opacity: 1,
+         transition: {
+            duration: 0.4,
+         },
+      },
+   }
    return (
       <>
          <AnimatePage>
@@ -38,16 +58,20 @@ function Contact() {
                </motion.h1>
             </MoreInfoHero>
 
-            <ContactContainer>
-               <h3>
+            <ContactContainer
+               variants={container}
+               initial="hidden"
+               animate="show"
+            >
+               <motion.h3 variants={item}>
                   Thank you for your interest in Deskan Hope, Inc. Our standard
                   turnaround time for requests is 24-72 business hours but may
                   be longer at this time due to unsually high call volume. Your
                   request is important to us, and we thank you for your patience
                   and continued support.
-               </h3>
+               </motion.h3>
 
-               <WaysToContact>
+               <WaysToContact variants={item}>
                   <div className="contact-segment">
                      <h2>HEAD OFFICE</h2>
                      <h3>Melbourne, FL. 32940</h3>
@@ -63,7 +87,7 @@ function Contact() {
                   </div>
                </WaysToContact>
 
-               <ContactSocials>
+               <ContactSocials variants={item}>
                   <div className="socials-segment">
                      <a href="https://twitter.com/DeskanInstitute">Twitter</a>
                   </div>

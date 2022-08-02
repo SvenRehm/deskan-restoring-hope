@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { motion } from "framer-motion"
 
 export const MoreInfoHero = styled.div`
    height: 35vh;
@@ -26,7 +27,7 @@ export const MoreInfoHero = styled.div`
       margin-top: 2em;
    }
 `
-export const ContactContainer = styled.div`
+export const ContactContainer = styled(motion.div)`
    max-width: 1160px;
    margin: 0 auto;
    display: grid;
@@ -42,7 +43,7 @@ export const ContactContainer = styled.div`
       max-width: 750px;
    }
 `
-export const WaysToContact = styled.div`
+export const WaysToContact = styled(motion.div)`
    grid-column: 2/12;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -61,7 +62,7 @@ export const WaysToContact = styled.div`
       grid-template-columns: none;
    }
 `
-export const ContactSocials = styled.div`
+export const ContactSocials = styled(motion.div)`
    grid-column: 2/12;
    display: grid;
    grid-template-columns: repeat(4, 1fr);

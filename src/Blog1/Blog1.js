@@ -72,20 +72,6 @@ const Blog1 = () => {
                   initial="hidden"
                   animate="show"
                   className="blog-grid"
-                  // initial="hidden"
-                  // animate="visible"
-                  // variants={{
-                  //    hidden: {
-                  //       opacity: 0,
-                  //    },
-                  //    visible: {
-                  //       opacity: 1,
-                  //       transition: {
-                  //          duration: 0.7,
-                  //          delay: 0.8,
-                  //       },
-                  //    },
-                  // }}
                >
                   <motion.h2 variants={item}>{invoice[0].header}</motion.h2>
                   <motion.h3
