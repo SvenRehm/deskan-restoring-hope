@@ -10,6 +10,7 @@ import { AboutContent } from "./AboutContent"
 import MenuIsHamburger from "./MenuIHamburger"
 import { MenuIsClosed } from "./MenuIHamburger"
 import { motion } from "framer-motion"
+
 import logo from "../../Images/logo1.png"
 const Navigation = () => {
    const [dropdown, setDropdown] = useState(false)
@@ -168,10 +169,12 @@ const Navigation = () => {
                      setMenuIsOpen={setMenuIsOpen}
                   ></Dropdown>
                )}
-               {/* <li>
-                  <NavLink to="/deskan-restoring-hope/">Resources</NavLink>
-               </li> */}
-               <li>
+
+               <li
+                  onClick={() => {
+                     setMenuIsOpen((prevstate) => !prevstate)
+                  }}
+               >
                   <NavLink
                      style={({ isActive }) => {
                         return {
@@ -184,7 +187,11 @@ const Navigation = () => {
                      Contact
                   </NavLink>
                </li>
-               <li>
+               <li
+                  onClick={() => {
+                     setMenuIsOpen((prevstate) => !prevstate)
+                  }}
+               >
                   <NavLink className="donate-button" to="/donate">
                      Donate
                   </NavLink>

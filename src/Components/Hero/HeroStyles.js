@@ -59,6 +59,11 @@ export const HeroStyles = styled.div`
       h2 {
          font-size: 1.7em;
       }
+      h1 {
+         text-align: center;
+         line-height: 1.2;
+         font-size: 2em;
+      }
    }
 `
 
@@ -100,6 +105,12 @@ export const HeroContainer = styled.div`
 
    @media (max-width: 600px) {
       padding: 0 2em;
+   }
+   @media only screen and (max-width: 486px) {
+      padding: 0 1em;
+      br {
+         display: none;
+      }
    }
 `
 

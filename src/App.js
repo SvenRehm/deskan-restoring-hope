@@ -9,6 +9,8 @@ import { Routes, Route, useLocation } from "react-router-dom"
 import BoardMembers from "./Components/Board Members/BoardMembers"
 import Reports from "./Components/Reports/Reports"
 import Gallery from "./Components/Gallery/Gallery"
+import TermsOfService from "./Components/PrivacyPolicy/TermsOfService"
+import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy"
 
 function App() {
    const location = useLocation()
@@ -25,6 +27,11 @@ function App() {
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/donate" element={<Donate />} />
                   <Route path="/:blogId" element={<Blog1 />} />
+                  <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                  <Route
+                     path="/terms-of-service"
+                     element={<TermsOfService />}
+                  />
                </Routes>
             </AnimatePresence>
             <Footer />

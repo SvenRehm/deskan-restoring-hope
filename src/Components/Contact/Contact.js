@@ -9,6 +9,7 @@ import {
    ContactForm,
 } from "./ContactStyles"
 import { motion } from "framer-motion"
+
 function Contact() {
    const container = {
       hidden: { opacity: 1 },
