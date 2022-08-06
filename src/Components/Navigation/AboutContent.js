@@ -1,11 +1,10 @@
-import aboutushero from "../Images/about us.jpg"
-import aboutUs from "../Images/about_us.jpg"
-import successHero from "../Images/success-stories-hero.jpg"
-import successImg from "../Images/happy.jpg"
+import aboutushero from "../../Images/about us.jpg"
+import aboutUs from "../../Images/about_us.jpg"
+import successHero from "../../Images/success-stories-hero.jpg"
+import successImg from "../../Images/happy.jpg"
 
-// import accomplishmentHero from "../Images/accomplishment-hero.jpg"
-import accomplishmentHero from "../Images/Accomplishments.jpg"
-import accomplishmentImg from "../Images/accomplishments-img.jpg"
+import accomplishmentHero from "../../Images/Accomplishments.jpg"
+import accomplishmentImg from "../../Images/accomplishments-img.jpg"
 
 export const AboutContent = [
    {

@@ -1,6 +1,6 @@
 import React from "react"
-import img from "../Images/contact.jpg"
-import AnimatePage from "../Animations/AnimatePage"
+import img from "../../Images/contact.jpg"
+import AnimatePage from "../../Animations/AnimatePage"
 import {
    MoreInfoHero,
    ContactContainer,

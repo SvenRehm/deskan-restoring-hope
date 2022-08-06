@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from "react"
 import "./Index.css"
-// import logo from "./logo.svg"
 import { ReactComponent as Logo } from "./logo.svg"
 import Dropdown from "./Dropdown"
 import { NavLink } from "react-router-dom"
-
 import { WaysToHelpContent } from "./WaysToHelpContent"
 import { ProgrammsContent } from "./ProgrammsContent"
 import { AboutContent } from "./AboutContent"
-// import { MdMenu, MdOutlineClose } from "react-icons/md"
+
 import MenuIsHamburger from "./MenuIHamburger"
 import { MenuIsClosed } from "./MenuIHamburger"
 import { motion } from "framer-motion"
-import logo from "../Images/logo1.png"
+import logo from "../../Images/logo1.png"
 const Navigation = () => {
    const [dropdown, setDropdown] = useState(false)
    const [dropdownProgramm, setDropdownProgramm] = useState(false)
@@ -60,7 +58,8 @@ const Navigation = () => {
    const onMouseClickThree = () => {
       setDropdownAbout((prevstate) => !prevstate)
    }
-   const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] }
+   const transition = { delay: 0.5, duration: 0.3, ease: "linear" }
+
    return (
       <motion.div
          className="nav-container show-nav"
@@ -70,8 +69,6 @@ const Navigation = () => {
          variants={{
             hidden: {
                y: -90,
-
-               transitionDelay: 0.5,
             },
             visible: {
                y: 0,

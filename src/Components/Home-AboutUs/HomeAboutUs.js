@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import "./Index.css"
-import aboutusimg from "../Images/about_us.jpg"
+import aboutusimg from "../../Images/about_us.jpg"
 import { Link } from "react-router-dom"
 
 import { useAnimation, motion } from "framer-motion"

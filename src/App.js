@@ -1,14 +1,14 @@
-import Navigation from "./Navigation/Navigation"
+import Navigation from "./Components/Navigation/Navigation"
 import { AnimatePresence } from "framer-motion"
-import Footer from "./Footer/Footer"
+import Footer from "./Components/Footer/Footer"
 import Home from "./Routes/Home/Home"
-import Contact from "./Contact/Contact"
-import Blog1 from "./Blog1/Blog1"
-import Donate from "./Donate/Donate"
+import Contact from "./Components/Contact/Contact"
+import Blog1 from "./Components/Blog1/Blog1"
+import Donate from "./Components/Donate/Donate"
 import { Routes, Route, useLocation } from "react-router-dom"
-import BoardMembers from "./Board Members/BoardMembers"
-import Reports from "./Reports/Reports"
-import Gallery from "./Gallery/Gallery"
+import BoardMembers from "./Components/Board Members/BoardMembers"
+import Reports from "./Components/Reports/Reports"
+import Gallery from "./Components/Gallery/Gallery"
 
 function App() {
    const location = useLocation()

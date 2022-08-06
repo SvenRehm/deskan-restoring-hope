@@ -2,15 +2,13 @@ import React from "react"
 
 import "./Index.css"
 import MemberCard from "./MemberCard"
-import img1 from "../Images/Boardmembers/joan.jpg"
-import img2 from "../Images/Boardmembers/charles2.jpg"
-
-import img13 from "../Images/Boardmembers/P.-Griffith.jpg"
-import img14 from "../Images/Boardmembers/Dr.-KT.jpg"
-
-import team from "../Images/team.jpg"
+import img1 from "../../Images/Boardmembers/joan.jpg"
+import img2 from "../../Images/Boardmembers/charles2.jpg"
+import img13 from "../../Images/Boardmembers/P.-Griffith.jpg"
+import img14 from "../../Images/Boardmembers/Dr.-KT.jpg"
+import team from "../../Images/team.jpg"
 import { motion } from "framer-motion"
-import AnimatePage from "../Animations/AnimatePage"
+import AnimatePage from "../../Animations/AnimatePage"
 const allMembers = [
    {
       id: 1,

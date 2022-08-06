@@ -1,19 +1,15 @@
-import veteran from "../Images/veteran.jpg"
-import veteranService from "../Images/veteran-service.jpg"
-// import medicalMission from "../Images/Medical Mission.jpg"
-import medicalMission from "../Images/medical-mission.jpg"
-import medicalMission2 from "../Images/medical-mission-blog.jpg"
-
-import helpingHomelessHero from "../Images/helping-homeless.jpg"
-import givingGift from "../Images/giving.jpg"
-import restoringHopeHero from "../Images/restoring-hope-hero.jpg"
-
-import restoringHopeImg from "../Images/restoring-hope.jpg"
-import secondChanceImg from "../Images/second-chance-blog.jpg"
-import secondChance from "../Images/second-chance-hero.jpg"
-
-import homelessness from "../Images/homelessness.jpg"
-import givingImg from "../Images/gift-giving.jpg"
+import veteran from "../../Images/veteran.jpg"
+import veteranService from "../../Images/veteran-service.jpg"
+import medicalMission from "../../Images/medical-mission.jpg"
+import medicalMission2 from "../../Images/medical-mission-blog.jpg"
+import helpingHomelessHero from "../../Images/helping-homeless.jpg"
+import givingGift from "../../Images/giving.jpg"
+import restoringHopeHero from "../../Images/restoring-hope-hero.jpg"
+import restoringHopeImg from "../../Images/restoring-hope.jpg"
+import secondChanceImg from "../../Images/second-chance-blog.jpg"
+import secondChance from "../../Images/second-chance-hero.jpg"
+import homelessness from "../../Images/homelessness.jpg"
+import givingImg from "../../Images/gift-giving.jpg"
 
 export const ProgrammsContent = [
    {

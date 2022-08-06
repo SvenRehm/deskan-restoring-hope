@@ -1,5 +1,5 @@
 import React from "react"
-import img from "../Images/contact.jpg"
+import img from "../../Images/contact.jpg"
 import "./Index.css"
 
 function Gallery() {

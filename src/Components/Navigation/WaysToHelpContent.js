@@ -1,12 +1,12 @@
-import volunteerImg from "../Images/volunteer.jpg"
-import volunteer2Img from "../Images/volunteer2.jpg"
-import thankyou from "../Images/about_us.jpg"
-import thankyouImg from "../Images/thanks.jpg"
-import committee from "../Images/committee.jpg"
-import sponsor from "../Images/sponsor.jpg"
-import partner from "../Images/partner.jpg"
+import volunteerImg from "../../Images/volunteer.jpg"
+import volunteer2Img from "../../Images/volunteer2.jpg"
+import thankyou from "../../Images/about_us.jpg"
+import thankyouImg from "../../Images/thanks.jpg"
+import committee from "../../Images/committee.jpg"
+import sponsor from "../../Images/sponsor.jpg"
+import partner from "../../Images/partner.jpg"
 
-import Pdf1 from "../Images/Pdf/WWA Community Support Presentation.pdf"
+import Pdf1 from "../../Images/Pdf/WWA Community Support Presentation.pdf"
 
 export const WaysToHelpContent = [
    {

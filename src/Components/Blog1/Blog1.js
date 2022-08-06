@@ -5,7 +5,7 @@ import GetInvolved from "../GetInvolved/GetInvolved"
 import { WaysToHelpContent } from "../Navigation/WaysToHelpContent"
 import { ProgrammsContent } from "../Navigation/ProgrammsContent"
 import { AboutContent } from "../Navigation/AboutContent"
-import AnimatePage from "../Animations/AnimatePage"
+import AnimatePage from "../../Animations/AnimatePage"
 import { motion } from "framer-motion"
 
 const allArrays = [...WaysToHelpContent, ...ProgrammsContent, ...AboutContent]

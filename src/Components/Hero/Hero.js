@@ -1,6 +1,5 @@
 import { motion } from "framer-motion"
 import React from "react"
-
 import {
    HeroStyles,
    HeroContainer,
@@ -8,18 +7,6 @@ import {
    CtaHero,
    VolunteerButton,
 } from "./HeroStyles"
-
-// const variants = {
-//    hidden: {
-//       opacity: 0,
-//    },
-//    visible: {
-//       opacity: 1,
-//       transition: {
-//          duration: 0.3,
-//       },
-//    },
-// }
 
 const Hero = () => {
    return (

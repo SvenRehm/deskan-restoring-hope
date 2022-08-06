@@ -1,7 +1,6 @@
 import styled from "styled-components"
-import img from "../Images/young_soldier.jpg"
+import img from "../../Images/young_soldier.jpg"
 import { Link } from "react-router-dom"
-import { motion } from "framer-motion"
 
 export const HeroStyles = styled.div`
    width: 100%;
