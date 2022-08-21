@@ -1,13 +1,7 @@
 import React from "react"
 import img from "../../Images/contact.jpg"
 import AnimatePage from "../../Animations/AnimatePage"
-import {
-   MoreInfoHero,
-   //    ContactContainer,
-   //    WaysToContact,
-   //    ContactSocials,
-   TosContainer,
-} from "./PrivacyPolicy.Styles"
+import { MoreInfoHero, TosContainer } from "./PrivacyPolicy.Styles"
 import { motion } from "framer-motion"
 
 function TermsOfService() {

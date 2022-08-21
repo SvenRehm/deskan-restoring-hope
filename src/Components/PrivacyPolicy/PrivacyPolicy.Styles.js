@@ -32,6 +32,14 @@ export const TosContainer = styled(motion.div)`
    margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(12, 1fr);
+   p {
+      align-self: center;
+      justify-self: center;
+      grid-column: 3/11;
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin: 2em 0 6em 0;
+   }
    h1 {
       align-self: center;
       justify-self: center;
