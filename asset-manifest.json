@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/deskan-restoring-hope/static/css/main.65a27f5f.css",
-    "main.js": "/deskan-restoring-hope/static/js/main.57d07635.js",
+    "main.css": "/deskan-restoring-hope/static/css/main.5779efb9.css",
+    "main.js": "/deskan-restoring-hope/static/js/main.a8e04f81.js",
     "static/js/787.122a7876.chunk.js": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js",
     "static/media/November Special Edit. Newsletter.pdf": "/deskan-restoring-hope/static/media/November Special Edit. Newsletter.7c1c4010741aa5282a54.pdf",
     "static/media/Newsletter Final.pdf": "/deskan-restoring-hope/static/media/Newsletter Final.0531f543b4d60fc417eb.pdf",
@@ -34,6 +34,7 @@
     "static/media/medical_mission.pdf": "/deskan-restoring-hope/static/media/medical_mission.28c0373b0e5c6f3c0bca.pdf",
     "static/media/donate2.jpg": "/deskan-restoring-hope/static/media/donate2.ec97f7c58b28c0807cec.jpg",
     "static/media/giving.jpg": "/deskan-restoring-hope/static/media/giving.46a41dc901c2ebda19cc.jpg",
+    "static/media/moren-hsu-VLaKsTkmVhk-unsplash.jpg": "/deskan-restoring-hope/static/media/moren-hsu-VLaKsTkmVhk-unsplash.d9c0611bb98c7be9762c.jpg",
     "static/media/medical-mission.jpg": "/deskan-restoring-hope/static/media/medical-mission.121f2e6c82f53a18c6e2.jpg",
     "static/media/contact.jpg": "/deskan-restoring-hope/static/media/contact.3ba5e78ee670d7977fab.jpg",
     "static/media/volunteer.jpg": "/deskan-restoring-hope/static/media/volunteer.4fa38a43d86254016dde.jpg",
@@ -52,13 +53,14 @@
     "static/media/helping-homeless.jpg": "/deskan-restoring-hope/static/media/helping-homeless.7505c5d5b7aac4a7909c.jpg",
     "static/media/woman sitting in front of closed door.jpg": "/deskan-restoring-hope/static/media/woman sitting in front of closed door.28dc623279493b5b5b8d.jpg",
     "static/media/gift-giving.jpg": "/deskan-restoring-hope/static/media/gift-giving.e6cc797cafa45237710f.jpg",
-    "static/media/closet.jpg": "/deskan-restoring-hope/static/media/closet.6826f7136ee198d307d2.jpg",
+    "static/media/national-cancer-institute-N_aihp118p8-unsplash.jpg": "/deskan-restoring-hope/static/media/national-cancer-institute-N_aihp118p8-unsplash.c789d48db5faab5e5008.jpg",
     "static/media/medical-mission-blog.jpg": "/deskan-restoring-hope/static/media/medical-mission-blog.6052a59e26ddf4f9dd47.jpg",
     "static/media/committee.jpg": "/deskan-restoring-hope/static/media/committee.b3d32ab364b228be90bc.jpg",
     "static/media/homelessness.jpg": "/deskan-restoring-hope/static/media/homelessness.dbd0c258dafe0ceae751.jpg",
     "static/media/second-chance-blog.jpg": "/deskan-restoring-hope/static/media/second-chance-blog.6fbe14399708fb67fa89.jpg",
     "static/media/partner.jpg": "/deskan-restoring-hope/static/media/partner.e1c18c0d0af0d8772e9f.jpg",
     "static/media/P.-Griffith.jpg": "/deskan-restoring-hope/static/media/P.-Griffith.d0cb1cf381b3e93366cf.jpg",
+    "static/media/kenny-eliason-zFSo6bnZJTw-unsplash.jpg": "/deskan-restoring-hope/static/media/kenny-eliason-zFSo6bnZJTw-unsplash.412988cf99bff736a446.jpg",
     "static/media/1.png": "/deskan-restoring-hope/static/media/1.98169674a403e8140444.png",
     "static/media/9.png": "/deskan-restoring-hope/static/media/9.e68ad93614fc4a985d1e.png",
     "static/media/2.png": "/deskan-restoring-hope/static/media/2.f26deecae8e1a3d43e35.png",
@@ -74,12 +76,12 @@
     "static/media/4.jpg": "/deskan-restoring-hope/static/media/4.22b51f095bd04972fda8.jpg",
     "index.html": "/deskan-restoring-hope/index.html",
     "static/media/logo.svg": "/deskan-restoring-hope/static/media/logo.82fd49b46312239e6c6b745439cf0baf.svg",
-    "main.65a27f5f.css.map": "/deskan-restoring-hope/static/css/main.65a27f5f.css.map",
-    "main.57d07635.js.map": "/deskan-restoring-hope/static/js/main.57d07635.js.map",
+    "main.5779efb9.css.map": "/deskan-restoring-hope/static/css/main.5779efb9.css.map",
+    "main.a8e04f81.js.map": "/deskan-restoring-hope/static/js/main.a8e04f81.js.map",
     "787.122a7876.chunk.js.map": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65a27f5f.css",
-    "static/js/main.57d07635.js"
+    "static/css/main.5779efb9.css",
+    "static/js/main.a8e04f81.js"
   ]
 }
