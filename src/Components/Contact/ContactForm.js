@@ -29,7 +29,12 @@ const ContactForm=()=> {
            }
            emailjs
               .send(serviceId, templateId, templateParams, userId)
-              .then((error) =>  alert(error))
+              .then((result) => {
+                // console.log(result.text);
+            }, (error) => {
+                // console.log(error.text);
+            });
+         
   
            setName("")
            setEmail("")
