@@ -18,16 +18,15 @@ const ContactForm=()=> {
         e.preventDefault()
   
         if (name && email && message) {
-           const serviceId = "service_pob8tqa"
-           const templateId = "template_3bvr4mg"
-           const userId = "P6ZdHihnL7BYSEnjl"
+           const serviceId = process.env.REACT_APP_SERVICE_ID
+           const templateId = process.env.REACT_APP_TEMPLATE_ID
+           const userId = process.env.REACT_APP_USER_ID
            const templateParams = {
               name,
               email,
               message,
               phone
            }
-  
            emailjs
               .send(serviceId, templateId, templateParams, userId)
               .then((error) =>  alert(error))
