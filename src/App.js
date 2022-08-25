@@ -13,7 +13,7 @@ import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy"
 
 function App() {
    const location = useLocation()
-   console.log("adsad")
+ 
    return (
       <div className="App">
          <>
@@ -23,7 +23,6 @@ function App() {
                   <Route path="/" element={<Home />} />
                   <Route path="/board-members" element={<BoardMembers />} />
                   <Route path="/reports" element={<Reports />} />
-               
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/donate" element={<Donate />} />
                   <Route path="/:blogId" element={<Blog1 />} />
