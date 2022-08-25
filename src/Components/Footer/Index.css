@@ -120,7 +120,24 @@
    background-color: var(--main-white-color);
    color: var(--main-accent-color);
 }
+.footer .tos {
+   grid-column: 1/13;
+justify-self: center;
+   color: var(--main-white-color);
 
+}
+.footer .tos a {
+   margin-right: 1em;
+   padding: .3em .6em;
+text-decoration: none;
+   color: rgb(204, 204, 204);
+}
+
+.footer .tos a:hover {
+   color: var(--dark-accent-color);
+
+   background-color: var(--main-white-color);
+}
 @media only screen and (max-width: 1101px) {
    .footer {
       max-width: 920px;
