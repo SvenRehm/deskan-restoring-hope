@@ -6,8 +6,9 @@ import {
    ContactContainer,
    WaysToContact,
    ContactSocials,
-   ContactForm,
 } from "./ContactStyles"
+
+import ContactForm from "./ContactForm"
 import { motion } from "framer-motion"
 
 function Contact() {
@@ -107,48 +108,8 @@ function Contact() {
                   </div>
                </ContactSocials>
 
-               <ContactForm>
-                  <h2>Send us your queries</h2>
-                  <form method="POST" target="_blank">
-                     <div className="label-name">
-                        <input
-                           placeholder="Name"
-                           type="text"
-                           name="name"
-                        ></input>
-                     </div>
-
-                     <div className="label-email">
-                        <input
-                           placeholder="Email"
-                           id="email"
-                           type="email"
-                           name="email"
-                           required
-                        ></input>
-                     </div>
-                     <div className="label-phone">
-                        <input
-                           placeholder="Phone No."
-                           id="phone"
-                           type="tel"
-                           name="phone"
-                           // pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                           required
-                        ></input>
-                     </div>
-                     <div className="label-message">
-                        <textarea
-                           placeholder="Write a message..."
-                           name="message"
-                           id="message"
-                        ></textarea>
-                     </div>
-                     <button className="form-button" type="submit">
-                        Submit
-                     </button>
-                  </form>
-               </ContactForm>
+               <ContactForm/>
+       
             </ContactContainer>
          </AnimatePage>
       </>

@@ -95,7 +95,7 @@ export const ContactSocials = styled(motion.div)`
    }
 `
 
-export const ContactForm = styled.div`
+export const ContactFormStyles = styled.div`
    max-width: 1160px;
    grid-column: 2/12;
    display: grid;
@@ -107,6 +107,18 @@ export const ContactForm = styled.div`
       font-size: 2.5em;
       text-align: center;
       padding: 0 0 1.5em 0;
+   }
+   span.visible{
+   display: block;
+   grid-row: 2;
+   grid-column: 1/-1; 
+   text-align: center;
+   color: green;
+   align-self: center;
+   }
+   span{
+   display: none;
+
    }
    form {
       grid-column: 2/12;
