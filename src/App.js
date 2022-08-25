@@ -13,6 +13,7 @@ import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy"
 
 function App() {
    const location = useLocation()
+   console.log("adsad")
    return (
       <div className="App">
          <>
