@@ -3,7 +3,7 @@ import img2 from "../../Images/pexels-taufiq-klinkenborg-384553.jpg"
 import img3 from "../../Images/genebrutty.jpg"
 import img4 from "../../Images/DSC_0558.jpg"
 import img5 from "../../Images/gift box.jpg"
-import img6 from "../../Images/closet.jpg"
+import img6 from "../../Images/kenny-eliason-zFSo6bnZJTw-unsplash.jpg"
 
 // pexels-taufiq-klinkenborg-384553.jpg
 
@@ -39,9 +39,9 @@ export let whatWeDoContent = [
       link: "/achgiving",
    },
    {
-      title: "Clothing Closet",
-      text: "Deskan has provided clothing to local organizations that share in the cause of “Second Chance for Individuals”.",
+      title: "Safe Schools",
+      text: "The Safe Schools program helps schools foster a safe environment that is supportive and inclusive of LGBTIQA+ students",
       img: img6,
-      link: "/food-pantry",
+      link: "/safe-schools",
    },
 ]

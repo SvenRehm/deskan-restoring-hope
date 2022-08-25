@@ -11,6 +11,10 @@ import secondChance from "../../Images/second-chance-hero.jpg"
 import homelessness from "../../Images/homelessness.jpg"
 import givingImg from "../../Images/gift-giving.jpg"
 
+
+import img1 from"../../Images/moren-hsu-VLaKsTkmVhk-unsplash.jpg"
+import img2 from"../../Images/national-cancer-institute-N_aihp118p8-unsplash.jpg"
+
 export const ProgrammsContent = [
    {
       id: 1,
@@ -73,6 +77,47 @@ export const ProgrammsContent = [
       </p><p> Reintegrate men and women back into society, and job market. We must effectively reunite families, productively restore our communities and provide effective skills to all, as we move forward.
       
       We have been able to help individuals completed over a hundred and eighty Community Services Hours.</p> <p>If you are interested in our Second Chance Program please contact us.</p>`,
+   },   {
+      id: 4,
+
+      heroimg: img1,
+      img: img2,
+      title: "Safe Schools Programm",
+      path: "/safe-schools",
+      header: "Safe Schools Programm",
+      desc: "Schools should fuel a child’s imagination, not violence. Kids should shoot each other a smile, not fatal bullets from guns. It is ironic how schools—which are supposed to be a safe space for students, are currently one of the places where violence and crime rates are towering. A lot of innocent people died on school grounds, especially in the United States. A statistic from CNN revealed that in 10 years, there were at least 177 school shootings in America. In these school shootings, 114 died, and 242 were injured. With all the violence taking place, it is time to act.",
+      paragraph: `<p><h1>What are Safe Schools?</h1>
+      The Safe Schools program helps schools foster a safe environment that is supportive and inclusive of LGBTIQA+ students.
+      It recognizes that creating a safe and inclusive environment is key to tackling bullying and harassment and preventing suicide and self-harm.
+      All students should be safe from bullying and feel included at school. Students who do not feel safe or included at school cannot learn effectively and reach their full potential.
+      Safe Schools is not a subject taught in the classroom and it is not a part of the curriculum.
+      It is a program for principals, teachers and school communities.
+      Schools have the discretion to use as many or as few of the resources, training</p>
+      <p><h1>How does Safe Schools work?</h1><p>Schools choose from a range of evidence-based and age-appropriate information, resources and professional learning to help them prevent, and respond to, bullying and discrimination based on sexual orientation, gender identity or intersex status. This could involve a review of school policies and practice, professional development for school staff, or establishing a student-led group to help create a more inclusive environment.
+      School principals take into consideration the views of their school community, including their parent and student representative groups, when determining the best approach to implementing their commitment to being a safe school.
+      CONTACT US. WE CAN HELP.
+      You may also wish to contact your local school directly to discuss their approach to LGBTIQA+ inclusion and support.</p></br>
+
+
+      <h1>Safe Schools support and resources</h1></br>
+      School staff may access support and advice from Safe Schools on matters like how to:
+
+      <ul class="safeschool">
+      <li>satisfy our policies regarding sexual and gender diversity and Victorian and Australian anti-discrimination legislation</li>
+      <li>prevent and respond to bullying incidents of LGBTIQA+ students</li>
+      <li>adopt a whole-school approach to preventing discrimination, harassment and bullying</li>
+      <li>create supportive and inclusive school policies</li>
+      <li>train staff on creating supportive spaces for LGBTIQA+ stude</li>
+      <li>develop student-led activities to create positive, inclusive change, and</li>
+      <li>equip other staff with skills and ideas to create inclusive environments.</li>
+      </ul>
+      
+
+      <h1>Resources</h1></br>
+<p>DEPARTMENT of Education and Training has developed the following resource to build schools’ understanding of the Safe Schools program and to guide their efforts to support LGBTIQA+ inclusion in their community.
+</br>We regularly consult with schools and key stakeholders to ensure the program continues to meet the needs of schools and their communities. This includes considering any further resources and supports that may be required.</p>
+      
+      `,
    },
 
    {

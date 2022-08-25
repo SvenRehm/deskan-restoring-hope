@@ -93,6 +93,12 @@
    margin-bottom: 1em;
 }
 
+.blog-grid .safeschool {
+   margin-top: 1em;
+   list-style-type:disc;
+   list-style-position: outside;
+   margin-left: 1em;
+}
 .blog-grid a {
    margin-top: 1em;
    grid-column: 1/5;
