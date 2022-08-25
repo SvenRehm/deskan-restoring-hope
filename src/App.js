@@ -8,7 +8,6 @@ import Donate from "./Components/Donate/Donate"
 import { Routes, Route, useLocation } from "react-router-dom"
 import BoardMembers from "./Components/Board Members/BoardMembers"
 import Reports from "./Components/Reports/Reports"
-import Gallery from "./Components/Gallery/Gallery"
 import TermsOfService from "./Components/PrivacyPolicy/TermsOfService"
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy"
 
