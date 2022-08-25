@@ -62,7 +62,7 @@ const Footer = () => {
             </ul>
       
 <MailchimpFormContainer></MailchimpFormContainer>
-            <div className="">
+<div className="tos">
                <Link to="/privacy-policy">privacy-policy</Link>
                <Link to="/terms-of-service">term-of-service</Link>
             </div>
