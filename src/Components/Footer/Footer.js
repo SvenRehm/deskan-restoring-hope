@@ -3,6 +3,7 @@ import "./Index.css"
 import { Link } from "react-router-dom"
 // import TermOfService from "./Components/PrivacyPolicy/TermOfService"
 // import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy"
+import MailchimpFormContainer from "./MailchimpFormContainer"
 
 const Footer = () => {
    return (
@@ -59,13 +60,8 @@ const Footer = () => {
                   </a>
                </li>
             </ul>
-            <div className="newsletter">
-               <h3>Join our newsletter and stay informed!</h3>
-               <p>Get the latest news and information.</p>
-               <input type="text" placeholder="Email"></input>
-               <button>Subscribe</button>
-            </div>
-
+      
+<MailchimpFormContainer></MailchimpFormContainer>
             <div className="">
                <Link to="/privacy-policy">privacy-policy</Link>
                <Link to="/terms-of-service">term-of-service</Link>
