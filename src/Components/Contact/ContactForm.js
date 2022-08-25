@@ -46,7 +46,7 @@ const ContactForm=()=> {
         }
    }
 
-
+console.log(process.env.REACT_APP_SERVICE_ID)
     return (
        <>
                 <ContactFormStyles>
