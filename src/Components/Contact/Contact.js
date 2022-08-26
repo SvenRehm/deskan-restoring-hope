@@ -68,7 +68,7 @@ function Contact() {
                <motion.h3 variants={item}>
                   Thank you for your interest in Deskan Hope, Inc. Our standard
                   turnaround time for requests is 24-72 business hours but may
-                  be longer at this time due to unsually high call volume. Your
+                  be longer at this time due to unsually high call volume. <br/>Your
                   request is important to us, and we thank you for your patience
                   and continued support.
                </motion.h3>
@@ -80,10 +80,11 @@ function Contact() {
                   </div>
                   <div className="contact-segment">
                      <h2>CALL US</h2>
-                     <h3>404-234-2702/770-256-0356</h3>
+                     <h3>404-234-2702<br></br>
+                        770-256-0356</h3>
                   </div>
                   <div className="contact-segment">
-                     <h2>EMAIl US</h2>
+                     <h2>EMAIL US</h2>
                      <h3>DeskanInstitute@Gmail.com</h3>
                      <h3>LiverpJ@Bellsouth.net</h3>
                   </div>

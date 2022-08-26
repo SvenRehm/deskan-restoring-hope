@@ -13,7 +13,6 @@ import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy"
 
 function App() {
    const location = useLocation()
- 
    return (
       <div className="App">
          <>

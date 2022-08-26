@@ -32,6 +32,7 @@ export const ContactContainer = styled(motion.div)`
    margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(12, 1fr);
+margin-bottom:6em ;
    h3 {
       grid-column: 2/12;
       font-size: 1.3em;
@@ -44,13 +45,9 @@ export const ContactContainer = styled(motion.div)`
    }
 `
 export const WaysToContact = styled(motion.div)`
-   grid-column: 2/12;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-gap: 2em;
-   justify-items: center;
-   text-align: center;
-   margin: 6em 0;
+   grid-column: 2/3;
+   grid-row: 2;
+   margin: 6em 0 0em 0;
    div h2 {
       color: var(--main-accent-color);
       margin: 1em 0;
@@ -58,55 +55,79 @@ export const WaysToContact = styled(motion.div)`
    div h3 {
       margin: 0.3em 0;
    }
+   .contact-segment{
+      margin-bottom: 3em;
+   }
    @media (max-width: 830px) {
       grid-template-columns: none;
    }
+   @media (max-width: 730px) {
+      margin-top: 4em;
+      grid-column: 2/-1;
+     align-self: center;
+      justify-self:center ;
+   }
+
+
+
 `
 export const ContactSocials = styled(motion.div)`
-   grid-column: 2/12;
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-gap: 2em;
+   grid-column: 2/3;
+   grid-row:2;
+   align-self:end;
    justify-items: center;
    text-align: center;
-   margin: 1em 0 6em 0;
+
 
    .socials-segment {
       transition: all 150ms ease-in-out;
+      /* &:hover {
+         transform: scale(1.1);
+      } */
+   }
+   .socials-segment a {
+      display:inline-block ;
+      text-decoration: none;
+      padding: 0.3em;
+      font-size: 1.5em;
+      font-weight: 600;
+      color: var(--main-accent-color);
+      transition: all 150ms ease-in-out;
+      /* margin: 1em 0; */
       &:hover {
          transform: scale(1.1);
       }
    }
-   .socials-segment a {
-      text-decoration: none;
+
+   @media (max-width: 730px) {
+grid-row: 4;
+grid-column: 2/12;
+.socials-segment a {
+ 
       padding: 0.5em;
-      font-size: 1.5em;
-      font-weight: 600;
-      color: var(--main-accent-color);
 
-      margin: 1em 0;
+      /* margin: 2em 0;  */
    }
-
-   @media (max-width: 830px) {
-      display: block;
-      div {
-         margin: 1em 0;
-      }
    }
 `
 
 export const ContactFormStyles = styled.div`
+    margin: 6em 0 0 0;
    max-width: 1160px;
-   grid-column: 2/12;
+   grid-column: 4/12;
+   grid-row: 2;
    display: grid;
    grid-template-columns: repeat(12, 1fr);
-   padding-bottom: 6em;
+   /* grid-template-rows: repeat(2, 1fr); */
+  padding-bottom: 6em;
    h2 {
+      grid-row: 1;
       color: var(--main-accent-color);
-      grid-column: 2/12;
+      grid-column: 2/12; 
       font-size: 2.5em;
       text-align: center;
-      padding: 0 0 1.5em 0;
+      margin-bottom: 1em;
+    
    }
    span.visible{
    display: block;
@@ -117,11 +138,20 @@ export const ContactFormStyles = styled.div`
    align-self: center;
    }
    span{
-   display: none;
+   /* display: none; */
+   margin-bottom: 3em;
+   display: block;
+   grid-row: 2;
+   grid-column: 1/-1; 
+   text-align: center;
+   color: green;
+   align-self: start;
 
    }
    form {
       grid-column: 2/12;
+      grid-row: 2;
+      margin-top: 2em;
    }
    form div {
       margin: 1.3em 0 0 0;
@@ -187,14 +217,14 @@ export const ContactFormStyles = styled.div`
    }
 
    @media (max-width: 830px) {
+
       h2 {
          grid-column: 1/13;
       }
-
       form {
          width: 100%;
-         grid-column: 1/13;
-         justify-self: center;
+         grid-column: 1/13;   
+    justify-self: center;
       }
 
       form .label-name input,
@@ -203,6 +233,27 @@ export const ContactFormStyles = styled.div`
          width: 100%;
       }
    }
+   @media (max-width: 730px) {
+      grid-row:3 ;
+      grid-column: 2/12;
+h2 {
+   grid-column: 1/13;
+}
+form {
+   width: 100%;
+   grid-column: 1/13;   
+justify-self: center;
+}
+
+form .label-name input,
+form .label-email input,
+form .label-phone input {
+   width: 100%;
+}
+}
+
+
+
    @media (max-width: 600px) {
       max-width: 600px;
    }
