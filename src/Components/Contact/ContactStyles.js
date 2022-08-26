@@ -35,7 +35,7 @@ export const ContactContainer = styled(motion.div)`
 margin-bottom:6em ;
    h3 {
       grid-column: 2/12;
-      font-size: 1.3em;
+      font-size: 1.2em;
       line-height: 1.6;
       margin: 2em 0 0 0;
    }
@@ -89,7 +89,7 @@ export const ContactSocials = styled(motion.div)`
       display:inline-block ;
       text-decoration: none;
       padding: 0.3em;
-      font-size: 1.5em;
+      font-size: 1.3em;
       font-weight: 600;
       color: var(--main-accent-color);
       transition: all 150ms ease-in-out;
@@ -124,7 +124,7 @@ export const ContactFormStyles = styled.div`
       grid-row: 1;
       color: var(--main-accent-color);
       grid-column: 2/12; 
-      font-size: 2.5em;
+      font-size: 2em;
       text-align: center;
       margin-bottom: 1em;
     
@@ -158,21 +158,21 @@ export const ContactFormStyles = styled.div`
    }
    form input:placeholder-shown {
       padding-left: 0.5em;
-      font-size: 1.1em;
+      font-size: 1em;
       font-family: "Montserrat", sans-serif;
    }
    form textarea:placeholder-shown {
       font-family: "Montserrat", sans-serif;
       padding-left: 0.5em;
       padding-top: 0.5em;
-      font-size: 1.1em;
+      font-size: 1em;
    }
 
    form .label-name input,
    form .label-email input,
    form .label-phone input {
       padding-left: 0.5em;
-      font-size: 1.1em;
+      font-size: 1em;
       grid-column: 2/12;
       justify-self: center;
       border: 1px solid rgb(163, 163, 163);
@@ -184,7 +184,7 @@ export const ContactFormStyles = styled.div`
    form .label-message textarea {
       width: 100%;
       height: 150px;
-      font-size: 1.3em;
+      font-size: 1em;
       padding-top: 0.5em;
       padding-left: 0.5em;
    }

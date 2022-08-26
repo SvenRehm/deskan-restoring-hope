@@ -29,7 +29,7 @@
    grid-template-columns: repeat(12, 1fr);
 }
 .about-us-section h1 {
-   padding: 0 1em;
+   /* padding: 0 1em; */
    grid-column: 6/12;
    font-size: 1.5em;
    margin: 2em 0 0 0;

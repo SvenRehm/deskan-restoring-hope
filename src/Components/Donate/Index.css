@@ -1,16 +1,19 @@
 .donate-container {
    height: 100%;
-   display: grid;
-
-   grid-template-rows: auto;
+   /* display: grid;
+   grid-template-rows: auto; */
    max-width: 1160px;
    margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+   grid-column-gap: 3em;
+
+   margin-bottom: 6em;
 }
 .donate-hero {
    height: 35vh;
    width: 100%;
    display: grid;
-
    grid-template-columns: repeat(12, 1fr);
    grid-template-rows: repeat(2, 1fr);
 }
@@ -36,19 +39,51 @@
 
 .donate-container .donate-desc-header {
    color: var(--main-black-color);
-   font-size: 2.5em;
+   font-size: 2.3em;
 }
 
 .donate-container h2 {
-   font-size: 2.3em;
-   margin: 2em 0 2em 0;
+   font-size: 1.5em;
+   margin: 1em 1em 1em 0;
    color: var(--main-accent-color);
 }
-.donate-container h2:nth-child(2) {
+
+.donate-container h1{
+   grid-column: 1/12;
    font-size: 2.3em;
-   margin: 0 0 1.5em 0;
+   margin: 1em 1em 1em 0; 
    color: var(--main-accent-color);
 }
+.donate-container h4{
+   grid-column: 1/8;
+
+}
+
+.donate-container .waystodonate{
+   grid-row: 3;
+   grid-column: 1/4;
+   margin-top:3em;
+}
+.donate-container .donate-now{
+   grid-row: 3;
+   grid-column: 4/7;
+   margin-top:3em;
+}
+
+.donate-container .donate-now h3,
+.donate-container .why-donate h3{
+   margin-top:0;
+margin-bottom:1.4em;
+}
+.donate-container .donate-now p{
+
+margin-bottom:1.4em;
+}
+.donate-container .why-donate{
+   grid-column: 7/12;
+   margin-top:3em;
+}
+
 
 .donate-container h3 {
    color: var(--main-black-color);
@@ -62,17 +97,14 @@
 }
 .donate-container .donate-reasons li {
    margin: 0.8em 0 0.8em 0;
-   font-size: 1.1em;
+   font-size: 1em;
 }
 .donate-welcome-help {
    margin-top: 2em;
    font-size: 1.3em;
    font-weight: 500;
 }
-.donate-container .waystodonate-text {
-   font-size: 1.3em;
-   font-weight: 500;
-}
+
 
 .donate-container ol {
    list-style-position: inside;
@@ -82,15 +114,12 @@
    margin-top: 1em;
 }
 .donate-container p {
-   font-size: 1.2em;
+   font-size: 1.04em;
 }
 .donate-container a {
    width: 230px;
-
-   color: var(--main-accent-color);
-
+color: var(--main-accent-color);
    border: solid 1px var(--main-accent-color);
-
    text-transform: uppercase;
    letter-spacing: 1px;
    text-decoration: none;

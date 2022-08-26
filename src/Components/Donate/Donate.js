@@ -14,7 +14,7 @@ const Donate = () => {
          <AnimatePage>
             <div className="donate-hero">
                <img src={img2} alt="donate-hero" />
-               <h1>Donate</h1>
+               <h1>Make a Donation</h1>
             </div>
 
             <motion.div
@@ -24,15 +24,17 @@ const Donate = () => {
                transition={transition}
                className="donate-container"
             >
-               <h2>JOIN A CAUSE Donate</h2>
 
+              
+               <h1>JOIN A CAUSE Donate</h1>
                <h4>
                   Deskan was established with the aim of providing social
                   services,education, counseling and clinical services.
                </h4>
 
-               <h2>Why Donate?</h2>
 
+               <div className="why-donate">
+               <h2>Why Donate?</h2>
                <h3>
                   Since 2016 Deskan Restoring Hope, Inc has provided the
                   following:
@@ -75,7 +77,7 @@ const Donate = () => {
                   <li>Back to School Program & The Community Holiday Giving</li>
 
                   <li>RESOURCES FOR SAFE SCHOOLS/DOMESTICE VIOLENCE</li>
-
+           
                   <p className="donate-welcome-help">
                      DESKAN welcomes your partnership in our global mission.
                      Together we really can make a difference in people’s lives.
@@ -83,58 +85,64 @@ const Donate = () => {
                      talent to a much needed cause - helping the needy.
                   </p>
                </motion.ol>
-
+               </div>
                <motion.div
                   initial={{ opacity: 0, y: 250 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={transition}
-                  className="donate-container"
+                  className="waystodonate"
                >
+                  
                   <h2>Ways to Donate</h2>
-                  <p className="waystodonate-text">
-                     As a registered 501(c)(3) charitable organization as
-                     recognized by the Internal Revenue Service, donations to
-                     DESKAN Restoring Hope, Inc. are tax deductible. Donations
-                     to DESKAN can take many forms:
-                  </p>
+                  <p>Donations to DESKAN can take many forms:</p>
+                
                   <ol>
                      <li>Cash, check or credit card, Zelle</li>
                      <li>Sponsorships</li>
                      <li>Wire Transfers and Gifts of Securities</li>
                      <li>Equipment and supplies.</li>
                   </ol>
-
+                  <br/>
+                  <p>
+                     As a registered 501(c)(3) charitable organization as
+                     recognized by the Internal Revenue Service, donations to
+                     DESKAN Restoring Hope, Inc. are tax deductible. Donations
+                     to DESKAN can take many forms:
+                  </p>
                   <h3>
                      DESKAN thank you in advance for your donation towards our
                      missions.
                   </h3>
+               
                </motion.div>
                <motion.div
                   initial={{ opacity: 0, y: 250 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={transition}
+                  className="donate-now"
                >
-                  <h2>Mail In Donation</h2>
+                   <h2>Donate Now</h2>
+                   <h3>Donate by Zelle, Cashapp, Credit/Debit Card</h3>
+
+                
+                  <p>
+                     To make a donation through Zelle, Cashapp, Debit or Credit
+                     Card, please CALL US! <br />  <br /> Phone:
+                     404-234-2702 or 770-256-0356
+                  </p>
+                  <h3>Mail In Donation</h3>
                   <p>
                      Mailing Address <br />
                      Deskan Restoring Hope Through Compassion, Inc <br /> 3055
                      Constellation Dr, <br /> Melbourne, FL. 32940
                   </p>
-                  <h2>Donate by Zelle, Cashapp, Credit/Debit Card</h2>
-                  <p>
-                     To make a donation through Zelle, Cashapp, Debit or Credit
-                     Card, please CALL US! <br /> Phone:
-                     404-234-2702/770-256-0356
-                  </p>
+                 
 
-                  <h2>
-                     Some of the Programms the Donations will be used for you
-                     can find down below
-                  </h2>
                </motion.div>
-               {/* <Link to="/veterans">Programms</Link> */}
+               
+         
             </motion.div>
 
             <WhatWeDo />
