@@ -138,14 +138,8 @@ export const ContactFormStyles = styled.div`
    align-self: center;
    }
    span{
-   /* display: none; */
-   margin-bottom: 3em;
-   display: block;
-   grid-row: 2;
-   grid-column: 1/-1; 
-   text-align: center;
-   color: green;
-   align-self: start;
+   display: none;
+ 
 
    }
    form {
