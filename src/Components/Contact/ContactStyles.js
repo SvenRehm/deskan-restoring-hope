@@ -132,14 +132,18 @@ export const ContactFormStyles = styled.div`
    }
    span.visible{
    display: block;
-   grid-row: 2;
-   grid-column: 1/-1; 
-   text-align: center;
-   color: green;
-   align-self: center;
+
    }
    span{
-   display: none;
+   /* display: none; */
+   display: block;
+   z-index: 2;
+   grid-row: 1/ 2;
+   grid-column: 2/12; 
+   text-align: center;
+   margin-top:5em;
+   color: green;
+   align-self:start;
    }
    form {
       grid-column: 2/12;
@@ -231,6 +235,7 @@ export const ContactFormStyles = styled.div`
       grid-column: 2/12;
 h2 {
    grid-column: 1/13;
+   font-size: 1.6em;
 }
 form {
    width: 100%;

@@ -132,6 +132,10 @@ justify-self: center;
 text-decoration: none;
    color: rgb(204, 204, 204);
 }
+.mc__alert{
+   color: var(--main-white-color);
+}
+
 
 .footer .tos a:hover {
    color: var(--dark-accent-color);
