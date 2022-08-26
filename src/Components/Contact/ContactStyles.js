@@ -131,12 +131,7 @@ export const ContactFormStyles = styled.div`
     
    }
    span.visible{
-   display: block;
-
-   }
-   span{
-   /* display: none; */
-   display: block;
+      display: block;
    z-index: 2;
    grid-row: 1/ 2;
    grid-column: 2/12; 
@@ -144,6 +139,11 @@ export const ContactFormStyles = styled.div`
    margin-top:5em;
    color: green;
    align-self:start;
+
+   }
+   span{
+   display: none;
+
    }
    form {
       grid-column: 2/12;
