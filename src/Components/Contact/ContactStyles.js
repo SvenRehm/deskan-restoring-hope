@@ -44,6 +44,7 @@ margin-bottom:6em ;
       max-width: 750px;
    }
 `
+
 export const WaysToContact = styled(motion.div)`
    grid-column: 2/3;
    grid-row: 2;
@@ -114,7 +115,7 @@ grid-column: 2/12;
 export const ContactFormStyles = styled.div`
     margin: 6em 0 0 0;
    max-width: 1160px;
-   grid-column: 4/12;
+   grid-column: 4/13;
    grid-row: 2;
    display: grid;
    grid-template-columns: repeat(12, 1fr);

@@ -8,7 +8,10 @@ import restoringHopeHero from "../../Images/restoring-hope-hero.jpg"
 import restoringHopeImg from "../../Images/restoring-hope.jpg"
 import secondChanceImg from "../../Images/second-chance-blog.jpg"
 import secondChance from "../../Images/second-chance-hero.jpg"
+
 import homelessness from "../../Images/homelessness.jpg"
+// import homelessness from "../../Images/DSC_0526.jpg"
+
 import givingImg from "../../Images/gift-giving.jpg"
 
 

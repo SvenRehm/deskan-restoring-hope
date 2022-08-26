@@ -4,7 +4,9 @@ import successHero from "../../Images/success-stories-hero.jpg"
 import successImg from "../../Images/happy.jpg"
 
 import accomplishmentHero from "../../Images/Accomplishments.jpg"
-import accomplishmentImg from "../../Images/accomplishments-img.jpg"
+// import accomplishmentImg from "../../Images/accomplishments-img.jpg"
+import accomplishmentImg from "../../Images/Deskan Receiving Citation.jpg"
+
 
 export const AboutContent = [
    {

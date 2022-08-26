@@ -1,10 +1,16 @@
 import volunteerImg from "../../Images/volunteer.jpg"
-import volunteer2Img from "../../Images/volunteer2.jpg"
+// import volunteer2Img from "../../Images/volunteer2.jpg"
+import volunteer2Img from "../../Images/Bahamas.JPG"
+
+
+
 import thankyou from "../../Images/about_us.jpg"
 import thankyouImg from "../../Images/thanks.jpg"
 import committee from "../../Images/committee.jpg"
+// import committee from "../../Images/DSC_0526.jpg"
 import sponsor from "../../Images/sponsor.jpg"
-import partner from "../../Images/partner.jpg"
+// import partner from "../../Images/partner.jpg"
+import partner from "../../Images/Harlem Historical Tour.jpg"
 
 import Pdf1 from "../../Images/Pdf/WWA Community Support Presentation.pdf"
 
