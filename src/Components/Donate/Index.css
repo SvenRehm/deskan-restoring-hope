@@ -1,15 +1,23 @@
 .donate-container {
    height: 100%;
-   /* display: grid;
-   grid-template-rows: auto; */
    max-width: 1160px;
    margin: 0 auto;
    display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-   grid-column-gap: 3em;
-
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+ grid-column-gap: 3em;
    margin-bottom: 6em;
+   justify-items: center;
 }
+.donate-desc-container {
+   max-width: 1160px;
+   margin: 0 auto;
+}
+.donate-desc-container h1{
+   font-size: 2.3em;
+   margin: 1em 1em .4em 0; 
+   color: var(--main-accent-color);
+}
+
 .donate-hero {
    height: 35vh;
    width: 100%;
@@ -48,28 +56,22 @@
    color: var(--main-accent-color);
 }
 
-.donate-container h1{
-   grid-column: 1/12;
-   font-size: 2.3em;
-   margin: 1em 1em 1em 0; 
-   color: var(--main-accent-color);
-}
-.donate-container h4{
-   grid-column: 1/8;
 
-}
 
 .donate-container .waystodonate{
-   grid-row: 3;
-   grid-column: 1/4;
+
    margin-top:3em;
+
 }
 .donate-container .donate-now{
-   grid-row: 3;
-   grid-column: 4/7;
+
+
    margin-top:3em;
 }
+.donate-container .why-donate{
 
+   margin-top:3em;
+}
 .donate-container .donate-now h3,
 .donate-container .why-donate h3{
    margin-top:0;
@@ -79,10 +81,7 @@ margin-bottom:1.4em;
 
 margin-bottom:1.4em;
 }
-.donate-container .why-donate{
-   grid-column: 7/12;
-   margin-top:3em;
-}
+
 
 
 .donate-container h3 {
@@ -137,23 +136,62 @@ color: var(--main-accent-color);
    color: var(--main-accent-color);
    cursor: pointer;
 }
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1430px) {
    .donate-container {
       max-width: 1050px;
+   }
+   .donate-desc-container{
+      max-width: 1050px;
+   }
+}
+
+
+@media only screen and (max-width: 1240px) {
+   .donate-container {
+      max-width: 900px;
+   }
+   .donate-desc-container{
+      max-width: 900px;
    }
 }
 @media only screen and (max-width: 1101px) {
    .donate-container {
-      max-width: 920px;
+      max-width: 850px;
+
+   }
+   .donate-desc-container{
+      max-width: 850px;
+   }
+}
+
+@media only screen and (max-width: 1050px) {
+   .donate-container {
+      max-width: 700px;
+      padding: 0 50px;
+   }
+   .donate-desc-container{
+      max-width: 700px;
+      padding: 0 50px;
    }
 }
 
 @media only screen and (max-width: 600px) {
+   .donate-hero h1{
+      font-size: 2em;
+   }
+   
    .donate-container {
       max-width: 570px;
       padding: 0 2em;
    }
+   .donate-desc-container h1{
+      font-size: 1.6em;
+   }
    .donate-container a {
       margin-left: 25%;
+   }
+   .donate-desc-container{
+      max-width: 570px;
+      padding: 0 2em;
    }
 }

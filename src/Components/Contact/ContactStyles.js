@@ -139,8 +139,6 @@ export const ContactFormStyles = styled.div`
    }
    span{
    display: none;
- 
-
    }
    form {
       grid-column: 2/12;
