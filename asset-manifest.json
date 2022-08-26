@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/deskan-restoring-hope/static/css/main.039d9427.css",
-    "main.js": "/deskan-restoring-hope/static/js/main.8ddf69fd.js",
+    "main.css": "/deskan-restoring-hope/static/css/main.c7a80270.css",
+    "main.js": "/deskan-restoring-hope/static/js/main.ca28714c.js",
     "static/js/787.122a7876.chunk.js": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js",
     "static/media/November Special Edit. Newsletter.pdf": "/deskan-restoring-hope/static/media/November Special Edit. Newsletter.7c1c4010741aa5282a54.pdf",
     "static/media/Newsletter Final.pdf": "/deskan-restoring-hope/static/media/Newsletter Final.0531f543b4d60fc417eb.pdf",
@@ -76,12 +76,12 @@
     "static/media/4.jpg": "/deskan-restoring-hope/static/media/4.22b51f095bd04972fda8.jpg",
     "index.html": "/deskan-restoring-hope/index.html",
     "static/media/logo.svg": "/deskan-restoring-hope/static/media/logo.82fd49b46312239e6c6b745439cf0baf.svg",
-    "main.039d9427.css.map": "/deskan-restoring-hope/static/css/main.039d9427.css.map",
-    "main.8ddf69fd.js.map": "/deskan-restoring-hope/static/js/main.8ddf69fd.js.map",
+    "main.c7a80270.css.map": "/deskan-restoring-hope/static/css/main.c7a80270.css.map",
+    "main.ca28714c.js.map": "/deskan-restoring-hope/static/js/main.ca28714c.js.map",
     "787.122a7876.chunk.js.map": "/deskan-restoring-hope/static/js/787.122a7876.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.039d9427.css",
-    "static/js/main.8ddf69fd.js"
+    "static/css/main.c7a80270.css",
+    "static/js/main.ca28714c.js"
   ]
 }
