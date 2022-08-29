@@ -85,7 +85,7 @@ function Contact() {
                   </div>
                   <div className="contact-segment">
                      <h2>EMAIL US</h2>
-                     <h3>DeskanInstitute@Gmail.com</h3>
+                     <h3>joanliverpool48@gmail.com</h3>
                      <h3>LiverpJ@Bellsouth.net</h3>
                   </div>
                </WaysToContact>
